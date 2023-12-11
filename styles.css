@@ -8,28 +8,32 @@ body {
     padding: 0px;
 }
 
-.container div {
-    background-color: black;
-    color: white;
-    min-width: 98vw;
-    min-height: 100vh;
-
-    text-align: center;
-}
-
-
 /*Coluna main*/
 .container p {
     z-index: 1;
     font-family: 'Nunito', sans-serif;
-    margin: 5px;
-    font-size: 1.5em;
+    margin: 10px;
+    font-size: 1.1em;
+    max-width: 900px;
 }
+
 .container h1, h2, h3, h4, h5, h6 {
     z-index: 1;
     font-family: 'Nova Square', sans-serif;
     margin: 5px;
-    font-size: 4em;
+}
+
+.container h1 {
+    font-size: 5em;
+}
+
+.container h2 {
+    font-size: 2em;
+}
+
+.container img {
+    margin: 10px;
+    z-index: 1;
 }
 
 .container .game {
@@ -38,6 +42,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 200px;
+
+    background-color: black;
+    color: white;
+    min-width: 98vw;
+    min-height: 100vh;
+
+    text-align: center;
 }
 
 .container .game video{
@@ -59,7 +70,7 @@ body {
 }
 
 .container .game .logo {
-    margin: 10px;
+    margin: 20px;
     width: 90%;
     max-width: 500px;
     height: auto;
@@ -67,6 +78,27 @@ body {
     display: block;
 
     filter: drop-shadow(0 0 20px black);
+    transition: 100ms linear; 
+}
+
+.container .game .logo:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 5px white) ;
+}
+
+.container .game .badges {
+    z-index: 1;
+}
+
+.container .game .badges img {
+    z-index: 1;
+    filter: drop-shadow(0 0 10px black);
+    transition: 100ms linear; 
+}
+
+.container .game .badges img:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 10px white);
 }
 
 
