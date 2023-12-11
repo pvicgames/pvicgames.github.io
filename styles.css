@@ -1,12 +1,12 @@
 body {
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    
 }
 
 .container div {
     background-color: blueviolet;
-    min-width: 100vw;
+    min-width: 98vw;
     min-height: 100vh;
 
     text-align: center;
@@ -18,12 +18,21 @@ body {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/background_main.jpg');
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    
+    background-origin: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid white;
+
 }
 
 #main img {
-    
-    max-width: 40%;
+    margin: 10px;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+
 }
