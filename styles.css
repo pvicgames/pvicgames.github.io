@@ -41,7 +41,17 @@ body {
     position: absolute;
 }
 
-/*Main*/
+.container .game .tilebackground{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0.5;
+    background-image: url("img/tile.png");
+    border:none;
+
+}
+
+/*
 .container .game#main {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/background_main.jpg');
     background-attachment: fixed;
@@ -49,4 +59,4 @@ body {
     background-size: cover;
     background-origin: border-box;
 }
-
+*/
