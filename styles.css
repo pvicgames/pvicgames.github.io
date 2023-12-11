@@ -1,11 +1,11 @@
 body {
     margin: 0px;
     padding: 0px;
-    
 }
 
 .container div {
     background-color: black;
+    color: white;
     min-width: 98vw;
     min-height: 100vh;
 
