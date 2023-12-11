@@ -1,3 +1,8 @@
+/*Import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Nunito&display=swap');
+/*---*/
+
 body {
     margin: 0px;
     padding: 0px;
@@ -14,22 +19,25 @@ body {
 
 
 /*Coluna main*/
+.container p {
+    z-index: 1;
+    font-family: 'Nunito', sans-serif;
+    margin: 5px;
+    font-size: 1.5em;
+}
+.container h1, h2, h3, h4, h5, h6 {
+    z-index: 1;
+    font-family: 'Nova Square', sans-serif;
+    margin: 5px;
+    font-size: 4em;
+}
+
 .container .game {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 200px;
-}
-
-.container .game .logo {
-    margin: 10px;
-    width: 90%;
-    max-width: 500px;
-    height: auto;
-    z-index: 1;
-    display: block;
-
-    filter: drop-shadow(0 0 20px black);
 }
 
 .container .game video{
@@ -48,7 +56,17 @@ body {
     z-index: 0.5;
     background-image: url("img/tile.png");
     border:none;
+}
 
+.container .game .logo {
+    margin: 10px;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    z-index: 1;
+    display: block;
+
+    filter: drop-shadow(0 0 20px black);
 }
 
 /*
