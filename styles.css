@@ -69,12 +69,12 @@ body {
     filter: drop-shadow(0 0 20px black);
 }
 
-/*
-.container .game#main {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/background_main.jpg');
+
+.container .game#sobre {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/background_sobre.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-origin: border-box;
 }
-*/
+
