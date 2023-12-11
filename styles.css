@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.container div {
+    background-color: blueviolet;
+    min-width: 100vw;
+    min-height: 100vh;
+
+    text-align: center;
+}
+
+
+/*Coluna main*/
+#main {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/background_main.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#main img {
+    
+    max-width: 40%;
+}
