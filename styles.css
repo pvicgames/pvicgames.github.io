@@ -89,6 +89,23 @@ body {
     filter: drop-shadow(0 0 5px white);
 }
 
+.container .game .logoMain {
+    margin: 20px;
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+    z-index: 1;
+    display: block;
+
+    filter: drop-shadow(0 0 5px white);
+    transition: 100ms linear;
+}
+
+.container .game .logoMain:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 20px white);
+}
+
 /*Badges*/
 .container .game .badges {
     z-index: 1;
