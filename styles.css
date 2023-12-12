@@ -36,6 +36,15 @@ body {
     z-index: 1;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /*Main div Config*/
 .container .game {
     display: flex;
@@ -72,7 +81,7 @@ body {
 }
 
 /* Game Logos */
-.container .game .logo {
+.container .game .logo { /* Generic Logos */
     margin: 20px;
     width: 90%;
     max-width: 500px;
@@ -89,7 +98,7 @@ body {
     filter: drop-shadow(0 0 5px white);
 }
 
-.container .game .logoMain {
+.container .game .logoMain { /* Main PVIC Logo */
     margin: 20px;
     width: 90%;
     max-width: 700px;
@@ -124,6 +133,16 @@ body {
     filter: drop-shadow(0 0 10px white);
 }
 
+/* Member Icons */
+.memberIcon {
+    margin: 0px;
+    width: 220px;
+}
+
+.memberIcon img{
+    width: 180px;
+}
+
 /*Specific parts*/
 .container .game#about {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/background_sobre.jpg');
@@ -131,6 +150,28 @@ body {
     background-position: center;
     background-size: cover;
     background-origin: border-box;
+}
+
+.container .game#members {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/background_sobre.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+    min-height: 200vh;
+}
+
+.membersBlock {
+    width: 90%;
+    margin: 20px;
+    outline: 1px solid white;
+}
+
+.memberIcon {
+    margin: 20px;
+    outline: 1px solid wheat;   
+    display: inline-block;
+    vertical-align:top;
 }
 
 #texto_conteudo {
