@@ -164,14 +164,27 @@ a:hover {
 .membersBlock {
     width: 90%;
     margin: 20px;
-    outline: 1px solid white;
+    /*outline: 1px solid white;*/
 }
 
 .memberIcon {
     margin: 20px;
-    outline: 1px solid wheat;   
+    /*outline: 1px solid wheat;*/   
     display: inline-block;
     vertical-align:top;
+}
+
+.memberIcon img{
+    filter: drop-shadow(0 0 10px black);
+    transition: 100ms linear;
+    border-radius: 50%;
+
+}
+
+.memberIcon img:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 20px black);
+    border-radius: 20%;
 }
 
 #texto_conteudo {
