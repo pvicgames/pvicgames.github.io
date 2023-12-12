@@ -8,34 +8,6 @@ body {
     padding: 0px;
 }
 
-/* Navbar */
-.navbar {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-
-    background-color: aqua;
-    outline: 1px solid black;
-    top: 0;
-    z-index: 99;
-    margin: 0px;
-
-    text-align: right;
-}
-
-.navbar ul{
-    margin: 0px;
-    list-style-type:none;
-    padding: 10px 0px 10px 0px;
-    margin: 0;
-}
-
-.navbar ul li {
-    display: inline;
-    outline: 1px solid black;
-    padding: 10px 20px;
-}
-
 /* Text */
 .container p {
     z-index: 1;
