@@ -8,6 +8,34 @@ body {
     padding: 0px;
 }
 
+/* Navbar */
+.navbar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+    background-color: aqua;
+    outline: 1px solid black;
+    top: 0;
+    z-index: 99;
+    margin: 0px;
+
+    text-align: right;
+}
+
+.navbar ul{
+    margin: 0px;
+    list-style-type:none;
+    padding: 10px 0px 10px 0px;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    outline: 1px solid black;
+    padding: 10px 20px;
+}
+
 /* Text */
 .container p {
     z-index: 1;
@@ -81,12 +109,12 @@ body {
     display: block;
 
     filter: drop-shadow(0 0 20px black);
-    transition: 100ms linear; 
+    transition: 100ms linear;
 }
 
 .container .game .logo:hover {
     transform: scale(1.05);
-    filter: drop-shadow(0 0 5px white) ;
+    filter: drop-shadow(0 0 5px white);
 }
 
 /*Badges*/
@@ -97,7 +125,9 @@ body {
 .container .game .badges img {
     z-index: 1;
     filter: drop-shadow(0 0 10px black);
-    transition: 100ms linear; 
+    transition: 100ms linear;
+    width: 90%;
+    max-width: 192px;
 }
 
 .container .game .badges img:hover {
@@ -106,7 +136,7 @@ body {
 }
 
 /*Specific parts*/
-.container .game#sobre {
+.container .game#about {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/background_sobre.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -114,3 +144,7 @@ body {
     background-origin: border-box;
 }
 
+#texto_conteudo {
+    text-align: left;
+    width: 90%;
+}
