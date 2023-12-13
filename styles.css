@@ -175,16 +175,17 @@ a:hover {
 }
 
 .memberIcon img{
-    filter: drop-shadow(0 0 10px black);
-    transition: 100ms linear;
+    transition: filter 100ms linear, transform 100ms linear, border-radius 100ms linear;
+    filter: drop-shadow(0 0 10px black) brightness(100%);
     border-radius: 50%;
-
+    transform: scale(1);
 }
 
 .memberIcon img:hover {
-    transform: scale(1.05);
-    filter: drop-shadow(0 0 20px black);
-    border-radius: 20%;
+    transition: filter 220ms linear, transform 100ms linear, border-radius 100ms linear;
+    filter: drop-shadow(0 0 20px black) brightness(50%);
+    border-radius: 20%;    
+    transform: scale(1.15);
 }
 
 #texto_conteudo {
