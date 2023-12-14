@@ -148,12 +148,12 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-origin: border-box;
-    min-height: 200vh;
+    min-height: 150vh;
 }
 
 /* Member Icons */
 .members_row {
-    /*outline: 1px solid white;*/
+    outline: 1px solid white;
     display: flex;
     width: 90%;
     max-width: 1200px;
