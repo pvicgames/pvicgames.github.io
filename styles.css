@@ -151,13 +151,18 @@ a:hover {
     min-height: 150vh;
 }
 
+#members h1 {
+    margin: 0px;
+    font-size: 3.5em;
+}
+
 /* Member Icons */
 .members_row {
-    outline: 1px solid white;
+    /*outline: 1px solid white;*/
     display: flex;
-    width: 90%;
-    max-width: 1200px;
-    margin: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 5px;
 }
 
 .member_section {
