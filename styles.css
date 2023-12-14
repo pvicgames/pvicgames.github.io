@@ -153,15 +153,15 @@ a:hover {
 
 /* Member Icons */
 .members_row {
-    outline: 1px solid white;
+    /*outline: 1px solid white;*/
     display: flex;
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
     margin: 10px;
 }
 
 .member_section {
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     margin: 5px;
     width: 100%;
 }
@@ -171,10 +171,22 @@ a:hover {
     height: auto;
     padding: 0px;
     margin: 0px;
+
+    transition: filter 100ms linear, transform 100ms linear, border-radius 100ms linear;
+    filter: drop-shadow(0 0 10px black) brightness(100%);
+    transform: scale(1);
+    border-radius: 50%;
+}
+
+.member_section img:hover {
+    transition: filter 220ms linear, transform 100ms linear, border-radius 100ms linear;
+    filter: drop-shadow(0 0 20px black) brightness(50%);
+    border-radius: 20%;    
+    transform: scale(1.05);
 }
 
 .member_section h2 {
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     font-size:2.7vw;
     margin: 0px;
 }
