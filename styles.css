@@ -133,16 +133,6 @@ a:hover {
     filter: drop-shadow(0 0 10px white);
 }
 
-/* Member Icons */
-.memberIcon {
-    margin: 0px;
-    width: 220px;
-}
-
-.memberIcon img{
-    width: 180px;
-}
-
 /*Specific parts*/
 .container .game#about {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/background_sobre.jpg');
@@ -161,20 +151,24 @@ a:hover {
     min-height: 200vh;
 }
 
+/* Member Icons */
+
 .membersBlock {
     width: 90%;
     margin: 20px;
-    /*outline: 1px solid white;*/
+    outline: 1px solid white;
 }
 
 .memberIcon {
+    width: 220px;
     margin: 20px;
-    /*outline: 1px solid wheat;*/   
+    outline: 1px solid blue;
     display: inline-block;
     vertical-align:top;
 }
 
 .memberIcon img{
+    width: 180px;
     transition: filter 100ms linear, transform 100ms linear, border-radius 100ms linear;
     filter: drop-shadow(0 0 10px black) brightness(100%);
     border-radius: 50%;
