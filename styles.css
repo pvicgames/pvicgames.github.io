@@ -152,35 +152,38 @@ a:hover {
 }
 
 /* Member Icons */
-
-.membersBlock {
-    width: 90%;
-    margin: 20px;
+.members_row {
     outline: 1px solid white;
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 10px;
 }
 
-.memberIcon {
-    width: 220px;
-    margin: 20px;
-    outline: 1px solid blue;
-    display: inline-block;
-    vertical-align:top;
+.member_section {
+    outline: 1px solid black;
+    margin: 5px;
+    width: 100%;
 }
 
-.memberIcon img{
-    width: 180px;
-    transition: filter 100ms linear, transform 100ms linear, border-radius 100ms linear;
-    filter: drop-shadow(0 0 10px black) brightness(100%);
-    border-radius: 50%;
-    transform: scale(1);
+.member_section img {
+    width: 90%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
 }
 
-.memberIcon img:hover {
-    transition: filter 220ms linear, transform 100ms linear, border-radius 100ms linear;
-    filter: drop-shadow(0 0 20px black) brightness(50%);
-    border-radius: 20%;    
-    transform: scale(1.15);
+.member_section h2 {
+    outline: 1px solid black;
+    font-size:2.7vw;
+    margin: 0px;
 }
+
+.member_section p {
+    font-size:1.3vw;
+    margin: 0px;
+}
+        
 
 #texto_conteudo {
     text-align: left;
