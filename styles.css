@@ -205,4 +205,5 @@ a:hover {
 #texto_conteudo {
     text-align: left;
     width: 90%;
+    z-index: 1;
 }
