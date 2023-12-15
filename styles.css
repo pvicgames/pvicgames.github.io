@@ -158,7 +158,7 @@ a:hover {
 
 /* Member Icons */
 .members_row {
-    /*outline: 1px solid white;*/
+    outline: 1px solid white;
     display: flex;
     width: 100%;
     max-width: 600px;
@@ -166,7 +166,7 @@ a:hover {
 }
 
 .member_section {
-    /*outline: 1px solid black;*/
+    outline: 1px solid black;
     margin: 5px;
     width: 100%;
 }
@@ -191,13 +191,13 @@ a:hover {
 }
 
 .member_section h2 {
-    /*outline: 1px solid black;*/
-    font-size:2.7vw;
+    outline: 1px solid black;
+    font-size:30px;
     margin: 0px;
 }
 
 .member_section p {
-    font-size:1.3vw;
+    font-size:12px;
     margin: 0px;
 }
         
