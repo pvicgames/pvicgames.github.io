@@ -133,13 +133,33 @@ a:hover {
     filter: drop-shadow(0 0 10px white);
 }
 
-/*Specific parts*/
+/*About Section*/
 .container .game#about {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('media/img/background_sobre.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-origin: border-box;
+}
+
+.container .game#contact {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('media/img/backgrounds/contact.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+}
+
+/* Member Section */
+#texto_conteudo {
+    text-align: left;
+    width: 90%;
+    z-index: 1;
+}
+
+#members h1 {
+    margin: 0px;
+    font-size: 3.5em;
 }
 
 .container .game#members {
@@ -151,12 +171,6 @@ a:hover {
     min-height: 150vh;
 }
 
-#members h1 {
-    margin: 0px;
-    font-size: 3.5em;
-}
-
-/* Member Icons */
 .members_row {
     /*outline: 1px solid white;*/
     display: flex;
@@ -200,10 +214,36 @@ a:hover {
     font-size:12px;
     margin: 0px;
 }
-        
 
-#texto_conteudo {
-    text-align: left;
-    width: 90%;
-    z-index: 1;
+/*Contact section*/
+.follow_section {
+    display: flex;
+    /*outline: 1px solid black;*/
+    width: 100%;
+    max-width: 600px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.follow_section a{
+    margin: 10px;
+}
+
+.follow_section img {
+    /*outline: 1px solid black;*/
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    transition: filter 100ms linear, transform 100ms linear, border-radius 100ms linear;
+    filter: drop-shadow(0 0 10px black) brightness(100%) invert(0%);
+    transform: scale(1);
+    border-radius: 30%;
+}
+
+.follow_section img:hover {
+    transition: filter 220ms linear, transform 100ms linear, border-radius 100ms linear;
+    filter: drop-shadow(0 0 20px black) brightness(50%) invert(100%);
+    border-radius: 20%;    
+    transform: scale(1.05);
 }
