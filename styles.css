@@ -251,6 +251,32 @@ a:hover {
     border-radius: 20%;    
     transform: scale(1.05);
 }
+/*Contact section*/
+.follow_section_small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.follow_section_small a {
+    margin: 0 10px; /* Adjust margin between icons */
+}
+
+.follow_section_small img {
+    width: 40px; /* Set a fixed width for icons */
+    height: 40px; /* Set a fixed height for icons */
+    border-radius: 45%; /* Make icons circular */
+}
+
+
+.follow_section_small img:hover {
+    transition: filter 220ms linear, transform 100ms linear, border-radius 100ms linear;
+    filter: drop-shadow(0 0 20px black) brightness(50%) invert(100%);
+    border-radius: 35%;    
+    transform: scale(1.05);
+}
 
 .marquee {
     height: 50px;
@@ -351,4 +377,10 @@ nav ul li a:hover {
     nav ul li a {
         font-size: 0.8em;
     }
+}
+
+#foot {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
 }
