@@ -21,16 +21,20 @@
             </nav>
             <script>
                 var prevScrollpos = window.pageYOffset;
+                const threshold = 400;
                 window.onscroll = function() {
                     var currentScrollPos = window.pageYOffset;
-                    if (prevScrollpos > currentScrollPos) {
-                        // Scrolling up, show navbar
-                        document.getElementById("navigationbar").style.top = "0";
-                    } else {
-                        // Scrolling down, hide navbar
-                        document.getElementById("navigationbar").style.top = "-120px";
+                    if (Math.abs(prevScrollpos - currentScrollPos) > threshold) {
+                        // Scroll distance exceeds the threshold
+                        if (prevScrollpos > currentScrollPos) {
+                            // Scrolling up, show navbar
+                            document.getElementById("navigationbar").style.top = "0";
+                        } else {
+                            // Scrolling down, hide navbar
+                            document.getElementById("navigationbar").style.top = "-120px";
+                        }
+                        prevScrollpos = currentScrollPos;
                     }
-                    prevScrollpos = currentScrollPos;
                 }
             </script>
         </div>
