@@ -71,6 +71,10 @@ a:hover {
     position: absolute;
 }
 
+#mainVideo {
+    transition: opacity 0.5s ease-in-out;
+}
+
 .container .game .tilebackground{
     position: absolute;
     width: 100%;
