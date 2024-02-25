@@ -247,3 +247,104 @@ a:hover {
     border-radius: 20%;    
     transform: scale(1.05);
 }
+
+.marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: #fefefe;
+    color: #333;
+    border: 1px solid #4a4a4a;
+}
+
+.marquee p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroll-left 2s linear infinite;
+    -webkit-animation: scroll-left 2s linear infinite;
+    animation: scroll-left 10s linear infinite;
+}
+
+@-moz-keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes scroll-left {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+/* Styling the navigation menu */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff; 
+    padding: 10px 0;
+    margin: 0;
+    z-index: 1000;
+    backdrop-filter: blur(25px); 
+    background-color: rgba(81, 81, 81, 0.3);
+    transition: top 0.3s ease; /* Add transition effect */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    font-family: 'Nunito', sans-serif;
+    margin: 10px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    filter: drop-shadow(0 0 20px black) brightness(0%) invert(100%);
+}
+
+@media (max-width: 768px) {
+    /* Reduce font size in small screens */
+    nav ul li a {
+        font-size: 0.8em;
+    }
+}
