@@ -12,6 +12,8 @@
         <title>PVic</title>
 
         <link rel="stylesheet" href="styles.css">
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     </head>
 
     <body>
@@ -47,6 +49,68 @@
         </div>
 
         <div class="container">
+            //FIXME: Breaks navbar on mobile
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="game" id="edmesc">
+                            <video playsinline autoplay muted loop><source src="media/vid/edmesc.mp4" type="video/mp4"></video>
+                            <img class="tilebackground" src="media/img/trans.png">
+                            <img class="logo" style="max-width:430px;" src="media/img/logos/edmesc_logo.png" alt="Logotipo da Pvic Games">
+                            <p><b>Welcome to Ednaldo Pereira: Mescladasso!</b></p>
+                            <p><b>Ednaldo Pereira: Mescladasso</b> is a video game based on Ednaldo Pereira's audiovisual experience and all the stories and cultures that are encompassed involving such a person. The game presents an original story in which Ednaldo Pereira and his friend Fleig The BassPlayer defend the universe from a robot invasion created by The Dark Elite.</p>
+                            <div class="badges">
+                                <a href="https://gamejolt.com/games/ednaldopereira/513510">
+                                    <img src="media/img/badges/badge_gamejolt.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="game" id="artius">
+                            <video playsinline autoplay muted loop><source src="media/vid/artius.mp4" type="video/mp4"></video>
+                            <img class="tilebackground" src="media/img/trans.png">
+                            <img class="logo" src="media/img/logos/artius_logo.png" alt="Logotipo do Artius">
+                            <h2>more info coming soon...</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="game" id="edmobile">
+                            <video playsinline autoplay muted loop><source src="media/vid/edmobile.mp4" type="video/mp4"></video>
+                            <img class="tilebackground" src="media/img/trans.png">
+                            <img class="logo" src="media/img/logos/edmobile_logo.png" style="max-width:700px;" alt="Logotipo do Ednaldo Pereira Mobile">
+                            <p><b>🌟 Welcome to the exciting world of Ednaldo Pereira: Mobile! Get ready to embark on a unique and fun-filled adventure in this amazing game. 🌟</b></p>
+                            <p><b>Ednaldo Mobile</b> is a captivating platform game inspired by platforming classics that offers an engaging and challenging gaming experience. Explore different stages filled with obstacles, enemies, and treasures to unlock. Overcome thrilling challenges, collect golden notes, and improve your skills while enjoying vibrant graphics and an exciting soundtrack with remixes of Ednaldo's classics.</p>
+                            <h2>play it now:</h2>
+                            <div class="badges">
+                                <a href="https://play.google.com/store/apps/details?id=com.pvic.ednaldogame&hl=en_US&pli=1">
+                                    <img src="media/img/badges/badge_gplay.png">
+                                </a>
+                                <a href="https://gamejolt.com/games/ednaldomobile/857249">
+                                    <img src="media/img/badges/badge_gamejolt.png">
+                                </a>
+                                <a href="https://gx.games/pt-br/games/s63wx3/ednaldo-pereira-mobile-2d-platformer/">
+                                    <img src="media/img/badges/badge_gxgames.png"> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    autoplay: {
+                        delay: 5000, // 5 seconds delay between slides
+                    },
+                });
+            </script>
             <div class="game" id="main" >
                 <video id="mainVideo" playsinline autoplay muted loop>
                     <source src="media/vid/main.mp4" type="video/mp4">
@@ -83,45 +147,6 @@
             </div>
 
             <div id="games"></div>
-            <div class="game" id="edmobile">
-                <video playsinline autoplay muted loop><source src="media/vid/edmobile.mp4" type="video/mp4"></video>
-                <img class="tilebackground" src="media/img/trans.png">
-                <img class="logo" src="media/img/logos/edmobile_logo.png" style="max-width:700px;" alt="Logotipo do Ednaldo Pereira Mobile">
-                <p><b>🌟 Welcome to the exciting world of Ednaldo Pereira: Mobile! Get ready to embark on a unique and fun-filled adventure in this amazing game. 🌟</b></p>
-                <p><b>Ednaldo Mobile</b> is a captivating platform game inspired by platforming classics that offers an engaging and challenging gaming experience. Explore different stages filled with obstacles, enemies, and treasures to unlock. Overcome thrilling challenges, collect golden notes, and improve your skills while enjoying vibrant graphics and an exciting soundtrack with remixes of Ednaldo's classics.</p>
-                <h2>play it now:</h2>
-                <div class="badges">
-                    <a href="https://play.google.com/store/apps/details?id=com.pvic.ednaldogame&hl=en_US&pli=1">
-                        <img src="media/img/badges/badge_gplay.png">
-                    </a>
-                    <a href="https://gamejolt.com/games/ednaldomobile/857249">
-                        <img src="media/img/badges/badge_gamejolt.png">
-                    </a>
-                    <a href="https://gx.games/pt-br/games/s63wx3/ednaldo-pereira-mobile-2d-platformer/">
-                        <img src="media/img/badges/badge_gxgames.png"> 
-                    </a>
-                </div>
-            </div>
-
-            <div class="game" id="artius">
-                <video playsinline autoplay muted loop><source src="media/vid/artius.mp4" type="video/mp4"></video>
-                <img class="tilebackground" src="media/img/trans.png">
-                <img class="logo" src="media/img/logos/artius_logo.png" alt="Logotipo do Artius">
-                <h2>more info coming soon...</h2>
-            </div>
-
-            <div class="game" id="edmesc">
-                <video playsinline autoplay muted loop><source src="media/vid/edmesc.mp4" type="video/mp4"></video>
-                <img class="tilebackground" src="media/img/trans.png">
-                <img class="logo" style="max-width:430px;" src="media/img/logos/edmesc_logo.png" alt="Logotipo da Pvic Games">
-                <p><b>Welcome to Ednaldo Pereira: Mescladasso!</b></p>
-                <p><b>Ednaldo Pereira: Mescladasso</b> is a video game based on Ednaldo Pereira's audiovisual experience and all the stories and cultures that are encompassed involving such a person. The game presents an original story in which Ednaldo Pereira and his friend Fleig The BassPlayer defend the universe from a robot invasion created by The Dark Elite.</p>
-                <div class="badges">
-                    <a href="https://gamejolt.com/games/ednaldopereira/513510">
-                        <img src="media/img/badges/badge_gamejolt.png">
-                    </a>
-                </div>
-            </div>
 
             <!--
             <div class="game" id="contact">
