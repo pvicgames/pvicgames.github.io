@@ -1,53 +1,10 @@
+---
+layout: default
+title: PVic
+---
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://pvicgames.github.io/">
-        <meta property="og:title" content="PVicGames">
-        <meta property="og:description" content="PVic Games is a game studio founded in late 2023. Based in Brazil, with additional members from all around the world, the team strives to develop fun and fresh games that stand the test of time.">
-        <meta property="og:image" content="https://pvicgames.github.io/media/img/logos/pvic_logo.png">
-
-        <title>PVic</title>
-
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    </head>
-
     <body>
-        <!--TODO: Move navbar and footer to own html file-->
-        <!-- NavigationMenu -->
-        <div id="navbar">
-            <nav id="navigationbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="index.html">Games</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <script>
-                var prevScrollpos = window.pageYOffset;
-                const threshold = 400;
-                window.onscroll = function() {
-                    var currentScrollPos = window.pageYOffset;
-                    if (Math.abs(prevScrollpos - currentScrollPos) > threshold) {
-                        // Scroll distance exceeds the threshold
-                        if (prevScrollpos > currentScrollPos) {
-                            // Scrolling up, show navbar
-                            document.getElementById("navigationbar").style.top = "0";
-                        } else {
-                            // Scrolling down, hide navbar
-                            document.getElementById("navigationbar").style.top = "-120px";
-                        }
-                        prevScrollpos = currentScrollPos;
-                    }
-                }
-            </script>
-        </div>
-
         <div class="container">
             //FIXME: Breaks navbar on mobile
             <div class="swiper-container">
@@ -147,52 +104,6 @@
             </div>
 
             <div id="games"></div>
-
-            <!--
-            <div class="game" id="contact">
-                <h1>get in touch!!</h1>
-				<p>just contact us over at <b>contact.pvicvg@gmail.com</b></p>
-				<p>we're always open!</p>
-
-                <h2 style="margin-top: 50px;">follow us at:</h2>
-                <div class="follow_section">
-                    <a href="https://twitter.com/pvicvg">
-                        <img src="media/img/badges/twitter.png" alt="Twitter">
-                    </a>
-                    <a href="https://instagram.com/pvicvg/">
-                        <img src="media/img/badges/insta.png" alt="Instagram">
-                    </a>
-                    <a href="https://discord.gg/ttzA6uXr">
-                        <img src="media/img/badges/discord.png" alt="Discord">
-                    </a>
-                    <a href="https://gamejolt.com/@ebPedroVG">
-                        <img src="media/img/badges/gamejolt.png" alt="GameJolt">
-                    </a>
-                </div>
-            
-            </div>
-            -->
         </div>    
     </body>
-
-    <footer>
-        <div class="row">
-            <div id="foot">
-                <div class="follow_section_small">
-                    <a href="https://twitter.com/pvicvg">
-                        <img src="media/img/badges/twitter.png" alt="Twitter">
-                    </a>
-                    <a href="https://instagram.com/pvicvg/">
-                        <img src="media/img/badges/insta.png" alt="Instagram">
-                    </a>
-                    <a href="https://discord.gg/ttzA6uXr">
-                        <img src="media/img/badges/discord.png" alt="Discord">
-                    </a>
-                    <a href="https://gamejolt.com/@ebPedroVG">
-                        <img src="media/img/badges/gamejolt.png" alt="GameJolt">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
 </html>

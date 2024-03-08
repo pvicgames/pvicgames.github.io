@@ -1,0 +1,29 @@
+<div id="navbar">
+    <nav id="navigationbar">
+      <ul>
+        <li><a href="{{"/" | relative_url }}">Home</a></li>
+        <li><a href="{{"/about.html" | relative_url }}">About</a></li>
+        <li><a href="/index">Games</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav> 
+     
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        const threshold = 400;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (Math.abs(prevScrollpos - currentScrollPos) > threshold) {
+                // Scroll distance exceeds the threshold
+                if (prevScrollpos > currentScrollPos) {
+                    // Scrolling up, show navbar
+                    document.getElementById("navigationbar").style.top = "0";
+                } else {
+                    // Scrolling down, hide navbar
+                    document.getElementById("navigationbar").style.top = "-120px";
+                }
+                prevScrollpos = currentScrollPos;
+            }
+        }
+    </script>
+</div>
