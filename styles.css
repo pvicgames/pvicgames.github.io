@@ -147,7 +147,7 @@ a:hover {
 }
 
 .container .game#contact {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('media/img/backgrounds/contact.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('media/img/backgrounds/contact.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
