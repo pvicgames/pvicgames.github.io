@@ -384,3 +384,22 @@ nav ul li a:hover {
     bottom: 0;
     z-index: 1000;
 }
+
+.swiper-button-next {
+    padding-left: 6%;
+    padding-right: 6%;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.75rem white)
+}
+
+.swiper-button-prev {
+    padding-left: 6%;
+    padding-right: 6%;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.75rem white);
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    /* glow */
+    filter: drop-shadow(0 0 40px black) brightness(0%) invert(100%);
+}
