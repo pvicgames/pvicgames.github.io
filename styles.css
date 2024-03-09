@@ -403,3 +403,10 @@ nav ul li a:hover {
     /* glow */
     filter: drop-shadow(0 0 40px black) brightness(0%) invert(100%);
 }
+@media (max-width: 768px) {
+    .swiper-button-next,
+    .swiper-button-prev,
+    .swiper-pagination {
+        display: none !important;
+    }
+}

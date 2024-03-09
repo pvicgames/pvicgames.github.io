@@ -6,6 +6,40 @@ title: PVic
 <html lang="en">
     <body>
         <div class="container">
+            <div class="game" id="main" >
+                <video id="mainVideo" playsinline autoplay muted loop>
+                    <source src="media/vid/main.mp4" type="video/mp4">
+                </video>
+                <img class="tilebackground" src="media/img/trans.png">
+                <img class="logoMain" src="media/img/logos/pvic_logo.png" alt="Pvic Games Team Logo">
+                <script>
+                    // Videos
+                    var videoSources = [
+                        "media/vid/main.mp4",
+                        "media/vid/edmobile.mp4",
+                        "media/vid/artius.mp4",
+                        "media/vid/edmesc.mp4"
+                    ];
+                
+                    var currentIndex = 0; 
+                    
+                    function changeVideo() {
+                        var video = document.getElementById("mainVideo");
+                        currentIndex = (currentIndex + 1) % videoSources.length;
+                        video.style.opacity = 0;
+                        // After 800ms, fadein
+                        setTimeout(function() {
+                            video.src = videoSources[currentIndex];
+                            video.load();
+                            video.play();
+                            video.style.opacity = 1;
+                        }, 800);
+                    }
+
+                    // Change video on a delay
+                    setInterval(changeVideo, 10000);
+                </script>
+            </div>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -55,11 +89,10 @@ title: PVic
                     </div>
                     
                 </div>
-                <div class="swiper-pagination"></div>
-            </div>
-            <div class="swiper-navigation">
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <!--FIXME: hardcoded-->
+                <div class="swiper-button-next" style="top: 150%;"></div>
+                <div class="swiper-button-prev" style="top: 150%;"></div>
+                <div class="swiper-pagination" style="top: 190%;"></div>
             </div>
             <!-- Initialize Swiper -->
             <script>
@@ -82,42 +115,6 @@ title: PVic
                     cssMode: true,
                 });
             </script>
-            <div class="game" id="main" >
-                <video id="mainVideo" playsinline autoplay muted loop>
-                    <source src="media/vid/main.mp4" type="video/mp4">
-                </video>
-                <img class="tilebackground" src="media/img/trans.png">
-                <img class="logoMain" src="media/img/logos/pvic_logo.png" alt="Pvic Games Team Logo">
-                <script>
-                    // Videos
-                    var videoSources = [
-                        "media/vid/main.mp4",
-                        "media/vid/edmobile.mp4",
-                        "media/vid/artius.mp4",
-                        "media/vid/edmesc.mp4"
-                    ];
-                
-                    var currentIndex = 0; 
-                    
-                    function changeVideo() {
-                        var video = document.getElementById("mainVideo");
-                        currentIndex = (currentIndex + 1) % videoSources.length;
-                        video.style.opacity = 0;
-                        // After 800ms, fadein
-                        setTimeout(function() {
-                            video.src = videoSources[currentIndex];
-                            video.load();
-                            video.play();
-                            video.style.opacity = 1;
-                        }, 800);
-                    }
-
-                    // Change video on a delay
-                    setInterval(changeVideo, 10000);
-                </script>
-            </div>
-
-            <div id="games"></div>
         </div>    
     </body>
 </html>
