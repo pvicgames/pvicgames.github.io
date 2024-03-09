@@ -336,12 +336,12 @@ a:hover {
 nav {
     position: fixed;
     top: 0;
-    left: 0;
+    overflow: hidden;
     width: 100%;
     color: #fff; 
     padding: 10px 0;
     margin: 0;
-    z-index: 1000;
+    z-index: 1001;
     backdrop-filter: blur(25px); 
     background-color: rgba(81, 81, 81, 0.3);
     transition: top 0.3s ease; /* Add transition effect */
