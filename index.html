@@ -52,7 +52,10 @@ title: PVic
                             </div>
                         </div>
                     </div>
+                    
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
             </div>
             
@@ -65,6 +68,10 @@ title: PVic
                     },
                     autoplay: {
                         delay: 5000, // 5 seconds delay between slides
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
                     },
                 });
             </script>
