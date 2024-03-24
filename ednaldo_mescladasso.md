@@ -11,3 +11,6 @@ logo: media/img/logos/edmesc_logo.png
         <img src="media/img/badges/badge_gamejolt.png">
     </a>
 </div>
+
+#### Platforms:
+Windows PC
