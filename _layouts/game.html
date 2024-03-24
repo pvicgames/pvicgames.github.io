@@ -21,7 +21,14 @@
     {% include navbar.html %}
   </header>
   <body>
-    {{ content }}
+    <div class="container">
+      <div class="game">
+        <video playsinline autoplay muted loop><source src="{{ page.bgvideo }}" type="video/mp4"></video>
+        <img class="tilebackground" src="media/img/trans.png">
+        <img class="logo" style="max-width:430px;" src="{{ page.logo }}">
+        {{ content }}
+      </div>
+    </div>
   </body>
   <footer>
     <!--{% include contact_bottom.html %}-->
