@@ -390,6 +390,7 @@ font-size: 1.1em;
 text-decoration: none;
 color: inherit;
 font-weight: bold;
+cursor: pointer;
 }
 @keyframes subnav-color-transition {
     from {background-color: rgba(81, 81, 81, 0.3);}
@@ -433,10 +434,24 @@ display: block;
     }
 }
 
-#foot {
-    position: fixed;
-    bottom: 0;
-    z-index: 1000;
+.horizontal-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.horizontal-list li {
+    display: inline;
+    margin-right: 20px; /* Adjust this value to your preference */
+}
+
+.horizontal-list li:last-child {
+    margin-right: 0;
+}
+.foot a {
+    color:white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1em;
+    padding: 0;
 }
 
 .swiper-button-next {
