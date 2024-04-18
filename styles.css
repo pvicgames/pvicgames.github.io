@@ -335,11 +335,8 @@ nav ul li a:hover {
 }
 
 .subnav-content a img {
-    width: 4%;
-    height: 4%;
     max-height: 40px;
     float: left;
-    margin: 5px;
     overflow: hidden;
 }
 
@@ -350,9 +347,7 @@ nav ul li a:hover {
 .subnav:hover .subnav-content {
     display: block;
 }
-.subnav:hover + nav {
-    padding: 100%;
-}
+
 
 @media (max-width: 768px) {
     /* Reduce font size in small screens */
