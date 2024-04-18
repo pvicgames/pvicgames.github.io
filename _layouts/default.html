@@ -9,7 +9,6 @@
     <meta property="og:description" content="PVic Games is a game studio founded in late 2023. Based in Brazil, with additional members from all around the world, the team strives to develop fun and fresh games that stand the test of time.">
     <meta property="og:image" content="https://pvicgames.github.io/media/img/logos/pvic_logo.png">
     
-
     <title>PVic</title>
     
     <link rel="stylesheet" href="styles.css">
@@ -21,10 +20,11 @@
     {% include navbar.html %}
   </header>
   <body>
-    {{ content }}
+    <div class="container">
+      {{ content }}
+    </div>
   </body>
   <footer>
-    <!--{% include contact_bottom.html %}-->
     {% include footer_info.html %}
     </div>
   </footer>
