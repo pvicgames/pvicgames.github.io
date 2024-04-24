@@ -84,8 +84,9 @@ a:hover {
 
 /* Game Logos */
 .container .game .logo { /* Generic Logos */
-    margin: 20px;
-    width: 90%;
+
+    margin-top: 50px;
+    width: 80%;
     max-width: 500px;
     height: auto;
     z-index: 1;
