@@ -49,6 +49,46 @@ title: PVic
     <h2>more info coming soon...</h2>
 </div>
 
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="game" id="ednaldo_ost">
+                <video playsinline autoplay muted loop><source src="media/vid/artius.mp4" type="video/mp4"></video>
+                <a href="/artius">
+                    <img class="logo" src="media/img/logos/ed_album_cover.png" alt="Ednaldo Pereira: Mescladasso DX OST" href="/artius">
+                </a>
+                <h2>more info coming soon...</h2>
+            </div>
+        </div>
+
+    </div>
+    <!--FIXME: hardcoded-->
+    <div class="swiper-button-next" style="top: 150%;"></div>
+    <div class="swiper-button-prev" style="top: 150%;"></div>
+    <div class="swiper-pagination" style="top: 190%;"></div>
+</div>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 8000, // 8 seconds delay between slides
+        },
+        loop: true,
+        grabCursor: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        cssMode: true,
+    });
+</script>
+
 <div class="game" id="members">
     <h1>members</h1>
 
