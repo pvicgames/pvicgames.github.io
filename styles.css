@@ -313,7 +313,7 @@ nav ul li a:hover {
 }
 
 .subnav .subnavbtn {
-    padding: 24px;
+    padding: 14px;
     font-family: 'Nunito', sans-serif;
     font-size: 1.1em;
     color: inherit;
@@ -327,7 +327,7 @@ nav ul li a:hover {
 .subnav-content {
     display: none;
     position: absolute;
-    left: 0;
+    left: 50%;
     width: 100%;
     background-color: rgba(124, 124, 124, 0.3);
     animation-name: subnav-color-transition;
