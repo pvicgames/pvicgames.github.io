@@ -1,4 +1,0 @@
-title: "PVic"
-name: PVic
-
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
