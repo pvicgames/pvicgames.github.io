@@ -336,7 +336,7 @@ nav ul li a:hover {
 }
 
 .subnav-content a img {
-    max-height: 96px;
+    max-height: 128px;
     float: left;
     overflow: hidden;
 }
