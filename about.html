@@ -2,90 +2,115 @@
 layout: default
 title: PVic
 ---
-<!DOCTYPE html>
-<html lang="en">
-    <body>
-        <div class="container">
-            <div class="game" id="about">
-                <video playsinline autoplay muted loop><source src="media/vid/about.mp4" type="video/mp4"></video> 
-                <div id="texto_conteudo">
-                    <h1>about</h1>
-                    <p>Established in 2023, PVic Games is a team striving to kick ass and chew bubblegum.</p>
+<div class="game" id="main" >
+    <video id="mainVideo" playsinline autoplay muted loop>
+        <source src="media/vid/main.mp4" type="video/mp4">
+    </video>
+    <img class="tilebackground" src="media/img/trans.png">
+    <img class="logoMain" src="media/img/logos/pvic_logo.png" alt="Pvic Games Team Logo">
+    <script>
+        // Videos
+        var videoSources = [
+            "media/vid/main.mp4",
+            "media/vid/edmobile.mp4",
+            "media/vid/artius.mp4",
+            "media/vid/edmesc.mp4"
+        ];
+
+        var currentIndex = 0;
+
+        function changeVideo() {
+            var video = document.getElementById("mainVideo");
+            currentIndex = (currentIndex + 1) % videoSources.length;
+            video.style.opacity = 0;
+            // After 800ms, fadein
+            setTimeout(function() {
+                video.src = videoSources[currentIndex];
+                video.load();
+                video.play();
+                video.style.opacity = 1;
+            }, 800);
+        }
+
+        // Change video on a delay
+        setInterval(changeVideo, 10000);
+    </script>
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="game" id="edmesc">
+                <video playsinline autoplay muted loop><source src="media/vid/edmesc.mp4" type="video/mp4"></video>
+                <img class="tilebackground" src="media/img/trans.png">
+                <a href="/ednaldo_mescladasso">
+                    <img class="logo" style="max-width:430px;" src="media/img/logos/edmesc_logo.png" alt="PVic Games Logo">
+                </a>
+                <p>A video game based on Ednaldo Pereira's audiovisual experience and all the stories and cultures that are encompassed involving such a person. Defend the universe from a robot invasion created by The Dark Elite</p>
+                <div class="badges">
+                    <a href="https://gamejolt.com/games/ednaldopereira/513510">
+                        <img src="media/img/badges/badge_gamejolt.png">
+                    </a>
                 </div>
             </div>
-            <div class="game" id="members">
-                <h1>members</h1>
-                
-                <!-- first row -->
-                <div class="members_row">
-                    <div class="member_section">
-                        <a href="https://pedrovictorvg.notion.site/pedrovictorvg/Pedro-Gon-alves-PVic-0336b91fd2b04903b2be65e8b339660f">
-                            <img src="media/img/team/pvic.webp" alt="PVic's picture">
-                        </a>
-                        <h2>PVic</h2>
-                        <p>Game Designer, Director & Programmer</p>
-                    </div>
-                    <div class="member_section">
-                        <a href="https://bittoart.carrd.co/">
-                            <img src="media/img/team/bitto.webp" alt="Bitto's picture">
-                        </a>
-                        <h2>Bitto</h2>
-                        <p>Pixel Artist</p>
-                    </div>
-                    <div class="member_section">
-                        <a href="https://twitter.com/TroopaKoopa3">
-                            <img src="media/img/team/pablo.webp" alt="Pablo's picture">
-                        </a>
-                        <h2>Pablo</h2>
-                        <p>Key Artist</p>
-                    </div>
-                </div>
-                <div class="members_row">
-                    <div class="member_section">
-                        <a href="https://gbcasanova.github.io/">
-                            <img src="media/img/team/casanova.webp" alt="Casanova's picture">
-                        </a>
-                        <h2>Casanova</h2>
-                        <p>Programmer, Web Designer & Team Manager</p>
-                    </div>
-                    <div class="member_section">
-                        <img src="media/img/team/prancha.webp" alt="Kevin's picture">
-                        <h2>Kevin Macedo</h2>
-                        <p>Lead Programmer</p>
-                    </div>
-                    <div class="member_section">
-                        <img src="media/img/team/zazon.webp" alt="Zazon's picture">
-                        <h2>Zazon</h2>
-                        <p>Programmer</p>
-                    </div>
-                </div>
-                <!-- second row -->
-                <div class="members_row">
-                    <div class="member_section">
-                        <a href="https://youtube.com/@glacesue?si=Qfz8t8BbtlQgfEYt">
-                            <img src="media/img/team/glace.webp" alt="Glace's picture">
-                        </a>
-                        <h2>Glace Sue</h2>
-                        <p>Musician & Level Designer</p>
-                    </div>
-                    <div class="member_section">
-                        <a href="https://speedvgm.carrd.co/">
-                            <img src="media/img/team/speed.webp" alt="Speed's picture">
-                        </a>
-                        <h2>Speed</h2>
-                        <p>Lead Musician & Sound Designer</p>
-                    </div>
-                    <div class="member_section">
-                        <a href="https://soundcloud.com/luan-maziero/sets/original-videogame-music-demos">
-                            <img src="media/img/team/luan_maziero.webp" alt="Luan's picture">
-                        </a>
-                        <h2>Luan Maziero</h2>
-                        <p>Musician</p>
-                    </div>
-                </div>
-                
+        </div>
+
+        <div class="swiper-slide">
+            <div class="game" id="artius">
+                <video playsinline autoplay muted loop><source src="media/vid/artius.mp4" type="video/mp4"></video>
+                <img class="tilebackground" src="media/img/trans.png">
+                <a href="/artius">
+                    <img class="logo" src="media/img/logos/artius_logo.png" alt="Artius Logo" href="/artius">
+                </a>
+                <h2>more info coming soon...</h2>
             </div>
-        </div>    
-        
-    </body>
-</html>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="game" id="edmobile">
+                <video playsinline autoplay muted loop><source src="media/vid/edmobile.mp4" type="video/mp4"></video>
+                <img class="tilebackground" src="media/img/trans.png">
+                <a href="/ednaldo_mobile">
+                    <img class="logo" src="media/img/logos/edmobile_logo.png" style="max-width:700px;" alt="Ednaldo MOBILE logo" href="/ednaldo_mobile">
+                </a>
+                <p>A video game inspired by platforming classics that offers an engaging and challenging gaming experience. Explore stages filled with obstacles, enemies, and treasures. Overcome challenges, collect golden notes, and enhance your skills with vibrant graphics and an exciting soundtrack featuring remixes of Ednaldo's classics.</p>
+                <div class="badges">
+                    <a href="https://play.google.com/store/apps/details?id=com.pvic.ednaldogame&hl=en_US&pli=1">
+                        <img src="media/img/badges/badge_gplay.png">
+                    </a>
+                    <a href="https://gamejolt.com/games/ednaldomobile/857249">
+                        <img src="media/img/badges/badge_gamejolt.png">
+                    </a>
+                    <a href="https://gx.games/pt-br/games/s63wx3/ednaldo-pereira-mobile-2d-platformer/">
+                        <img src="media/img/badges/badge_gxgames.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--FIXME: hardcoded-->
+    <div class="swiper-button-next" style="top: 150%;"></div>
+    <div class="swiper-button-prev" style="top: 150%;"></div>
+    <div class="swiper-pagination" style="top: 190%;"></div>
+</div>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 99999999999999999, // 8 seconds delay between slides
+        },
+        loop: true,
+        grabCursor: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        cssMode: true,
+    });
+</script>
