@@ -274,7 +274,7 @@ a:hover {
 /* Styling the navigation menu */
 nav {
     position: fixed;
-    left:-15;
+    left:-10;
     top: 0;
     overflow: hidden;
     width: 100%;
