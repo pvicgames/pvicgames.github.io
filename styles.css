@@ -274,6 +274,7 @@ a:hover {
 /* Styling the navigation menu */
 nav {
     position: fixed;
+    left:-15;
     top: 0;
     overflow: hidden;
     width: 100%;
@@ -295,7 +296,7 @@ nav ul {
 
 nav ul li a {
     font-family: 'Nunito', sans-serif;
-    margin: 0px;
+    margin: 10px;
     font-size: 1.1em;
     font-weight: bold;
 }
@@ -313,7 +314,7 @@ nav ul li a:hover {
 }
 
 .subnav .subnavbtn {
-    padding: 14px;
+    padding: 0px;
     font-family: 'Nunito', sans-serif;
     font-size: 1.1em;
     color: inherit;
