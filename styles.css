@@ -170,7 +170,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-origin: border-box;
-    min-height: 150vh;
+    min-height: 250vh;
 }
 
 .members_row {
@@ -200,7 +200,7 @@ a:hover {
 .member_section img:hover {
     transition: filter 220ms linear, transform 100ms linear, border-radius 100ms linear;
     filter: drop-shadow(0 0 20px black) brightness(50%);
-    border-radius: 20%;    
+    border-radius: 20%;
     transform: scale(1.05);
 }
 
@@ -241,7 +241,7 @@ a:hover {
 .follow_section img:hover {
     transition: filter 220ms linear, transform 100ms linear, border-radius 100ms linear;
     filter: drop-shadow(0 0 20px black) brightness(50%) invert(100%);
-    border-radius: 20%;    
+    border-radius: 20%;
     transform: scale(1.05);
 }
 /*Contact section*/
@@ -267,7 +267,7 @@ a:hover {
 .follow_section_small img:hover {
     transition: filter 220ms linear, transform 100ms linear, border-radius 100ms linear;
     filter: drop-shadow(0 0 20px black) brightness(50%) invert(100%);
-    border-radius: 35%;    
+    border-radius: 35%;
     transform: scale(1.05);
 }
 
@@ -277,10 +277,10 @@ nav {
     top: 0;
     overflow: hidden;
     width: 100%;
-    color: #fff; 
+    color: #fff;
     padding: 1.6%;
     z-index: 1001;
-    backdrop-filter: blur(25px); 
+    backdrop-filter: blur(25px);
     background-color: rgba(81, 81, 81, 0.3);
     transition: top 0.3s ease;
 }
