@@ -16,6 +16,15 @@ body {
     max-width: 900px;
 }
 
+.container pSmall {
+  color: gray;
+    z-index: 1;
+    font-family: 'Nunito', sans-serif;
+    margin: 10px;
+    font-size: 1.1em;
+    max-width: 900px;
+}
+
 .container h1, h2, h3, h4, h5, h6 {
     z-index: 1;
     font-family: 'Nova Square', sans-serif;
