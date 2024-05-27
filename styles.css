@@ -270,11 +270,9 @@ a:hover {
     border-radius: 35%;
     transform: scale(1.05);
 }
-
 /* Styling the navigation menu */
 nav {
     position: fixed;
-    left:-10;
     top: 0;
     overflow: hidden;
     width: 100%;
@@ -289,9 +287,9 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center the content */
     align-items: center;
-    padding: 0;
+    padding: 0 20px; /* Add padding to the left and right */
 }
 
 nav ul li a {
@@ -304,9 +302,11 @@ nav ul li a {
 nav ul li a:hover {
     filter: drop-shadow(0 0 20px black) brightness(0%) invert(100%);
 }
+
 .navbar a:hover, .subnav:hover .subnavbtn {
     filter: drop-shadow(0 0 20px black) brightness(0%) invert(100%);
 }
+
 .subnav {
     float: left;
     overflow: hidden;
@@ -321,6 +321,7 @@ nav ul li a:hover {
     font-weight: bold;
     cursor: pointer;
 }
+
 @keyframes subnav-color-transition {
     from {background-color: rgba(81, 81, 81, 0.3);}
     to {background-color: rgba(124, 124, 124, 0.3);}
