@@ -10,9 +10,9 @@ body {
 }
 
 hr {
-    height: 3px; 
-    border: none; 
-    background-color: white; 
+    height: 3px;
+    border: none;
+    background-color: white;
     width: 30%;
 }
 
@@ -116,6 +116,23 @@ a:hover {
 .container .game .logo:hover {
     transform: scale(1.05);
     filter: drop-shadow(0 0 5px white);
+}
+
+.container .game .logoOst { /* OST cover, no margin. */
+    margin: 0px;
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    z-index: 1;
+    display: block;
+
+    filter: drop-shadow(0 0 5px white);
+    transition: 100ms linear;
+}
+
+.container .game .logoOst:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 10px white);
 }
 
 .container .game .logoMain { /* Main PVIC Logo */
