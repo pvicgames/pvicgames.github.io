@@ -214,12 +214,12 @@ a:hover {
 }
 
 .member_section h2 {
-    font-size:30px;
+    font-size: min(5vw, 30px);
     margin: 0px;
 }
 
 .member_section p {
-    font-size:12px;
+    font-size: min(4vw, 12px);
     margin: 0px;
 }
 
