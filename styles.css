@@ -166,6 +166,10 @@ a:hover {
     z-index: 1;
 }
 
+.badges a:link {
+    text-decoration: none;
+}
+
 .container .game .badges img {
     z-index: 1;
     filter: drop-shadow(0 0 10px black);
