@@ -110,7 +110,8 @@ a:hover {
 
 /* Game Logos */
 .container .game .logo { /* Generic Logos */
-
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     width: 80%;
     max-width: 500px;
@@ -128,7 +129,7 @@ a:hover {
 }
 
 .container .game .logoOst { /* OST cover, no margin. */
-    margin: 0px;
+    margin: auto;
     width: 80%;
     max-width: 500px;
     height: auto;
@@ -164,6 +165,10 @@ a:hover {
 /*Badges*/
 .container .game .badges {
     z-index: 1;
+}
+
+.badges a:link {
+    text-decoration: none;
 }
 
 .container .game .badges img {
@@ -325,6 +330,7 @@ nav {
     backdrop-filter: blur(25px);
     background-color: rgba(81, 81, 81, 0.3);
     transition: top 0.3s ease;
+    text-align: center;
 }
 
 nav ul {
@@ -333,6 +339,8 @@ nav ul {
     justify-content: center; /* Center the content */
     align-items: center;
     /*padding: 0 20px; /* Add padding to the left and right */
+    text-align: center;
+    margin-left: -5%;
 }
 
 nav ul li a {
