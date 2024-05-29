@@ -99,6 +99,15 @@ a:hover {
     border:none;
 }
 
+#instagram_gallery {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('media/img/backgrounds/instagram.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+}
+
+
 /* Game Logos */
 .container .game .logo { /* Generic Logos */
 
