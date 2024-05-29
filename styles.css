@@ -9,6 +9,13 @@ body {
     overflow-x: hidden;
 }
 
+hr {
+    height: 3px; 
+    border: none; 
+    background-color: white; 
+    width: 30%;
+}
+
 .container p {
     z-index: 1;
     font-family: 'Nunito', sans-serif;
