@@ -110,7 +110,8 @@ a:hover {
 
 /* Game Logos */
 .container .game .logo { /* Generic Logos */
-
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     width: 80%;
     max-width: 500px;
@@ -128,7 +129,7 @@ a:hover {
 }
 
 .container .game .logoOst { /* OST cover, no margin. */
-    margin: 0px;
+    margin: auto;
     width: 80%;
     max-width: 500px;
     height: auto;
