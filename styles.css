@@ -330,6 +330,7 @@ nav {
     backdrop-filter: blur(25px);
     background-color: rgba(81, 81, 81, 0.3);
     transition: top 0.3s ease;
+    text-align: center;
 }
 
 nav ul {
@@ -338,6 +339,8 @@ nav ul {
     justify-content: center; /* Center the content */
     align-items: center;
     /*padding: 0 20px; /* Add padding to the left and right */
+    text-align: center;
+    margin-left: -5%;
 }
 
 nav ul li a {
