@@ -4,7 +4,15 @@
 function translatePage(lang) {
     // Use English as the default language if no language is provided
     if (!lang) {
-        lang = 'en'; // Set default language to English
+        const userLang = navigator.language || navigator.userLanguage;
+        const langCode = userLang.split('-')[0].toLowerCase(); // Extract the language code
+
+        // Check if the language is Portuguese (Brazil) or Portuguese (Portugal)
+        if (langCode === 'pt' || langCode === 'pt-br') {
+            lang = 'br'; // Set language to 'br' for Portuguese
+        } else {
+            lang = 'en'; // Otherwise, default to English
+        }
     }
 
     // Get the translations for the selected language
@@ -46,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (preferredLang) {
         translatePage(preferredLang);
     } else {
-        // Otherwise, use the default language (English)
+        // Otherwise, use the default behavior (detecting browser language)
         translatePage();
     }
 });
