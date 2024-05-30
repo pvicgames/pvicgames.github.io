@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Nunito&display=swap');
 /*---*/
 
+html {
+    scroll-behavior: smooth; /* Add this line for smooth scrolling */
+}
+
 body {
     margin: 0px;
     padding: 0px;
