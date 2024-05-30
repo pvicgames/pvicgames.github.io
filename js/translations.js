@@ -2,10 +2,9 @@
 
 // Function to translate the page content based on the selected language
 function translatePage(lang) {
-    // Use navigator language if no language is provided
+    // Use English as the default language if no language is provided
     if (!lang) {
-        const userLang = navigator.language || navigator.userLanguage;
-        lang = userLang.split('-')[0]; // Extract the language code
+        lang = 'en'; // Set default language to English
     }
 
     // Get the translations for the selected language
@@ -47,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (preferredLang) {
         translatePage(preferredLang);
     } else {
-        // Otherwise, use the default behavior (detecting browser language)
+        // Otherwise, use the default language (English)
         translatePage();
     }
 });
