@@ -422,6 +422,7 @@ nav ul li a:hover {
 
 .horizontal-list li {
     display: inline;
+    margin-left: 20px;
     margin-right: 20px;
 }
 
