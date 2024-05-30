@@ -8,7 +8,7 @@ function translatePage(lang) {
         const langCode = userLang.split('-')[0].toLowerCase(); // Extract the language code
 
         // Check if the language is Portuguese (Brazil) or Portuguese (Portugal)
-        if (langCode === 'pt' || langCode === 'pt-br') {
+        if (langCode === 'pt' || langCode === 'pt-br' || langCode === 'br') {
             lang = 'br'; // Set language to 'br' for Portuguese
         } else {
             lang = 'en'; // Otherwise, default to English
@@ -23,7 +23,6 @@ function translatePage(lang) {
         br: {
             'ED_OST_INTRODUCTION': 'A trilha sonora dos nossos jogos do Ednaldo, em um único álbum.'
         }
-        // Add more translations as needed
     };
 
     // Update the content of elements with a data-translate attribute
@@ -35,7 +34,7 @@ function translatePage(lang) {
         }
     });
 
-    // Save the selected language in localStorage for persistence
+    // Save
     localStorage.setItem('preferredLang', lang);
 }
 
@@ -54,7 +53,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (preferredLang) {
         translatePage(preferredLang);
     } else {
-        // Otherwise, use the default behavior (detecting browser language)
         translatePage();
     }
 });
