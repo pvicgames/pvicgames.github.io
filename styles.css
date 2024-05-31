@@ -195,7 +195,6 @@ a:hover {
   background-position: center;
   background-size: cover;
   background-origin: border-box;
-  min-height: 250vh;
 }
 
 .container .game#contact {
