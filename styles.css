@@ -190,10 +190,12 @@ a:hover {
 
 /*About Section*/
 .container .game#about {
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-origin: border-box;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('media/img/background_sobre2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-origin: border-box;
+  min-height: 250vh;
 }
 
 .container .game#contact {
@@ -430,7 +432,7 @@ nav ul li a:hover {
     margin-right: 0;
 }
 .foot a {
-    color:white;
+    color:gray;
     font-family: 'Nunito', sans-serif;
     font-size: 1.1em;
     padding: 0;
