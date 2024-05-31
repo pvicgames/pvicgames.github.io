@@ -17,17 +17,18 @@ function translatePage(lang) {
 
     // Get the translations for the selected language
     const translations = {
-        en: {
-            'ABOUT_INFO': 'PVic Games is a game studio founded in late 2023. Based in Brazil, with additional members from all around the world, the team strives to develop fun and fresh games that stand the test of time.',
+      en: {
+'ABOUT_INFO': 'PVic Games is a game studio founded in late 2023. Based in Brazil, with additional members from all around the world, the team strives to develop fun and fresh games that stand the test of time.',
+'ED_INTRO': 'Welcome to Ednaldo Pereira: Mescladasso DX!',
+'ED_DESC': "Ednaldo Pereira: Mescladasso is a video game based on Ednaldo Pereira's audiovisual experience and all the stories and cultures that are encompassed involving such a person. The game presents an original story in which Ednaldo Pereira and his friend Fleig The BassPlayer defend the universe from a robot invasion created by The Dark Elite.",
+'ED_OST_INTRODUCTION': 'The soundtrack to our Ednaldo Titles, all in one great album!'
 
-            'ED_OST_INTRODUCTION': 'The soundtrack to our Ednaldo Titles, all in one great album!'
+      },
+      br: {
+          'ABOUT_INFO': 'PVic Games é um estúdio de jogos fundado no final de 2023. Com base no Brasil, e com membros adicionais de todo o mundo, a equipe se esforça para desenvolver jogos divertidos e inovadores que resistem ao teste do tempo.',
 
-        },
-        br: {
-            'ABOUT_INFO': 'PVic Games é um estúdio de jogos fundado no final de 2023. Com base no Brasil, e com membros adicionais de todo o mundo, a equipe se esforça para desenvolver jogos divertidos e inovadores que resistem ao teste do tempo.',
-
-            'ED_OST_INTRODUCTION': 'A trilha sonora dos nossos jogos do Ednaldo, em um único álbum.'
-        }
+          'ED_OST_INTRODUCTION': 'A trilha sonora dos nossos jogos do Ednaldo, em um único álbum.'
+      }
     };
 
     // Update the content of elements with a data-translate attribute
