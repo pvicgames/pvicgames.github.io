@@ -190,7 +190,7 @@ a:hover {
 
 /*About Section*/
 .container .game#about {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('media/img/background_sobre2.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url('media/img/background_sobre2.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

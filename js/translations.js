@@ -18,9 +18,14 @@ function translatePage(lang) {
     // Get the translations for the selected language
     const translations = {
         en: {
+            'ABOUT_INFO': '<p><b>PVic Games</b> is a game studio founded in late 2023. Based in Brazil, with additional members from all around the world, the team strives to develop fun and fresh games that stand the test of time.</p>',
+
             'ED_OST_INTRODUCTION': 'The soundtrack to our Ednaldo Titles, all in one great album!'
+
         },
         br: {
+            'ABOUT_INFO': '<p><b>PVic Games</b> é um estúdio de jogos fundado no final de 2023. Com base no Brasil, e com membros adicionais de todo o mundo, a equipe se esforça para desenvolver jogos divertidos e inovadores que resistem ao teste do tempo.</p>',
+
             'ED_OST_INTRODUCTION': 'A trilha sonora dos nossos jogos do Ednaldo, em um único álbum.'
         }
     };
