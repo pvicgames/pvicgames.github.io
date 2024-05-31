@@ -31,7 +31,7 @@ function translatePage(lang) {
             'EDMOB_DESC': "Ednaldo Mobile is a captivating platform game inspired by platforming classics that offers an engaging and challenging gaming experience. Explore different stages filled with obstacles, enemies, and treasures to unlock. Overcome thrilling challenges, collect golden notes, and improve your skills while enjoying vibrant graphics and an exciting soundtrack with remixes of Ednaldo's classics.",
             'COMING_SOON': "more info coming soon...",
             'INSTA_GALLERY': "Check out our Instagram Gallery!",
-            'MEMBERS': 'members',
+            'MEMBERS_lowercase': 'members',
             'DIRECTOR_TITLE': 'Director',
             'DIRECTOR_1_NAME': 'Pizza Tower',
             'DIRECTOR_1_DESC': "The Director's Dog",
@@ -64,7 +64,8 @@ function translatePage(lang) {
             'CONTACT_EMAIL': 'contact us over at ',
             'CONTACT_OPEN': "we're always open!",
             'FOLLOW_US': 'follow us at:',
-            'FOOTER': 'website designed by gabriel casanova, zasus & pedro victor.'
+            'FOOTER': 'website designed by gabriel casanova, zasus & pedro victor.',
+            'PLAY_NOW': 'play it now:'
         },
         br: {
             "ABOUT": "sobre",
@@ -81,7 +82,7 @@ function translatePage(lang) {
             'EDMOB_DESC': "Ednaldo Mobile é um cativante jogo de plataforma inspirado nos clássicos do gênero que oferece uma experiência de jogo envolvente e desafiadora. Explore diferentes estágios cheios de obstáculos, inimigos e tesouros para desbloquear. Supere desafios emocionantes, colete notas douradas e melhore suas habilidades enquanto desfruta de gráficos vibrantes e uma trilha sonora empolgante com remixes dos clássicos de Ednaldo.",
             'COMING_SOON': "mais informações em breve...",
             'INSTA_GALLERY': "Confira nossa galeria do Instagram!",
-            'MEMBERS': 'membros',
+            'MEMBERS_lowercase': 'membros',
             'DIRECTOR_TITLE': 'Diretor',
             'DIRECTOR_1_NAME': 'Pizza Tower',
             'DIRECTOR_1_DESC': 'O cachorro do diretor',
@@ -110,11 +111,12 @@ function translatePage(lang) {
             'MUSICIAN_2_DESC': 'Líder de Músicos & Designer de Som',
             'MUSICIAN_3_NAME': 'Luan Maziero',
             'MUSICIAN_3_DESC': 'Músico',
-            'CONTACT_TITLE': 'Entre em contato!!',
-            'CONTACT_EMAIL': 'Contate-nos em ',
-            'CONTACT_OPEN': 'Estamos sempre abertos!',
-            'FOLLOW_US': 'Siga-nos em:',
-            'FOOTER': 'site feito por gabriel casanova, zasus & pedro victor.'
+            'CONTACT_TITLE': 'entre em contato!!',
+            'CONTACT_EMAIL': 'contate-nos em ',
+            'CONTACT_OPEN': 'estamos sempre abertos!',
+            'FOLLOW_US': 'siga-nos em:',
+            'FOOTER': 'site feito por gabriel casanova, zasus & pedro victor.',
+            'PLAY_NOW': 'jogue agora:'
         }
     };
     // Update the content of elements with a data-translate attribute
