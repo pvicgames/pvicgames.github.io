@@ -9,8 +9,12 @@ function translatePage(lang) {
 
         // Check if the language is Portuguese (Brazil) or Portuguese (Portugal)
         if (langCode === 'pt' || langCode === 'pt-br' || langCode === 'br') {
-            lang = 'br'; // Set language to 'br' for Portuguese
-        } else {
+            lang = 'br';
+        }
+        else if (langCode === "jp" || langCode === "ja") {
+          lang = 'jp';
+        }
+        else {
             lang = 'en'; // Otherwise, default to English
         }
     }
@@ -117,6 +121,57 @@ function translatePage(lang) {
             'FOLLOW_US': 'siga-nos em:',
             'FOOTER': 'site feito por gabriel casanova, zasus & pedro victor.',
             'PLAY_NOW': 'jogue agora:'
+        },
+        jp:{
+              "ABOUT": "アバウト",
+              "HOME": "ホーム",
+              "GAMES": "ゲーム",
+              "RELEASES": "リリース",
+              "MEMBERS": "メンバー",
+              "CONTACT": "コンタクト",
+              "ABOUT_INFO": "PVic Gamesは2023年末に設立されたゲームスタジオです。ブラジルに拠点を置き、世界中からメンバーを集めたチームは、時代を超えて楽しめる新鮮で楽しいゲームの開発に努めています。",
+              "ED_INTRO": "ようこそ、エドナルド・ペレイラ：メスクラダッソ DXへ！",
+              "ED_DESC": "エドナルド・ペレイラ：メスクラダッソは、エドナルド・ペレイラの視聴覚体験と彼に関わるすべての物語や文化に基づいたビデオゲームです。このゲームは、エドナルド・ペレイラと彼の友人フレイグ・ザ・ベースプレイヤーがダークエリートによって作られたロボットの侵略から宇宙を守るオリジナルの物語を紹介します。",
+              "ED_OST_INTRODUCTION": "エドナルド・タイトルのサウンドトラック、素晴らしいアルバムで一挙に！",
+              "EDMOB_INTRO": "🌟 エドナルド・ペレイラ：モバイルの興奮の世界へようこそ！この素晴らしいゲームでユニークで楽しい冒険に出かける準備をしてください。🌟",
+              "EDMOB_DESC": "エドナルド・モバイルは、クラシックなプラットフォームゲームにインスパイアされた魅力的なプラットフォームゲームで、魅力的で挑戦的なゲーム体験を提供します。障害物、敵、宝物でいっぱいのさまざまなステージを探索し、スリリングなチャレンジを克服し、黄金のノートを収集し、スキルを向上させながら、エドナルドのクラシック曲のリミックスが楽しめる鮮やかなグラフィックとエキサイティングなサウンドトラックを楽しんでください。",
+              "COMING_SOON": "詳細は近日公開...",
+              "INSTA_GALLERY": "Instagramギャラリーをチェックしてください！",
+              "MEMBERS_lowercase": "メンバー",
+              "DIRECTOR_TITLE": "ディレクター",
+              "DIRECTOR_1_NAME": "ピザタワー",
+              "DIRECTOR_1_DESC": "ディレクターの犬",
+              "DIRECTOR_2_NAME": "PVic",
+              "DIRECTOR_2_DESC": "ゲームデザイナー、ディレクター & プログラマー",
+              "DIRECTOR_3_NAME": "ブラックタワー",
+              "DIRECTOR_3_DESC": "ディレクターの犬の兄弟",
+              "ARTISTS_TITLE": "アーティスト",
+              "ARTIST_1_NAME": "NekuuShin",
+              "ARTIST_1_DESC": "ピクセルアーティスト",
+              "ARTIST_2_NAME": "Bitto",
+              "ARTIST_2_DESC": "ピクセルアーティスト",
+              "ARTIST_3_NAME": "Pablo",
+              "ARTIST_3_DESC": "キーアーティスト",
+              "CODERS_TITLE": "プログラマー",
+              "CODER_1_NAME": "カサノバ",
+              "CODER_1_DESC": "プログラマー、ウェブデザイナー & チームマネージャー",
+              "CODER_2_NAME": "ケビン・マセド",
+              "CODER_2_DESC": "リードプログラマー",
+              "CODER_3_NAME": "ザゾン",
+              "CODER_3_DESC": "プログラマー、ウェブデザイナー",
+              "MUSICIANS_TITLE": "ミュージシャン",
+              "MUSICIAN_1_NAME": "グレース・スー",
+              "MUSICIAN_1_DESC": "ミュージシャン & レベルデザイナー",
+              "MUSICIAN_2_NAME": "スピード",
+              "MUSICIAN_2_DESC": "リードミュージシャン & サウンドデザイナー",
+              "MUSICIAN_3_NAME": "ルアン・マジエロ",
+              "MUSICIAN_3_DESC": "ミュージシャン",
+              "CONTACT_TITLE": "お問い合わせ！！",
+              "CONTACT_EMAIL": "こちらでお問い合わせください ",
+              "CONTACT_OPEN": "いつでも開いています！",
+              "FOLLOW_US": "フォローはこちら:",
+              "FOOTER": "ウェブサイトはガブリエル・カサノバ、ザスス & ペドロ・ビクターによってデザインされました。",
+              "PLAY_NOW": "今すぐプレイ:"
         }
     };
     // Update the content of elements with a data-translate attribute
