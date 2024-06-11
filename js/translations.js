@@ -21,6 +21,8 @@ function translatePage(lang) {
     // Get the translations for the selected language
     const translations = {
         en: {
+          "MAIN_INTRO":"Indie game development team full of love to share. Sometimes our games are about a specific middle aged brazillian man called Ednaldo Pereira. Now moving onto other things!!",
+          "MAIN_NEWSLETTER":"Make sure to subscribe to our newsletter!",
             "ABOUT": "about",
             "HOME": "Home",
             "GAMES": "Games",
@@ -72,6 +74,9 @@ function translatePage(lang) {
             'PLAY_NOW': 'play it now:'
         },
         br: {
+          "MAIN_INTRO": "Equipe de desenvolvimento de jogos indie cheia de amor para compartilhar. Às vezes, nossos jogos são sobre um homem brasileiro de meia-idade chamado Ednaldo Pereira. Agora estamos avançando para outras coisas!!",
+"MAIN_NEWSLETTER": "Não deixe de assinar nossa newsletter!",
+
             "ABOUT": "sobre",
             "HOME": "Início",
             "GAMES": "Jogos",
