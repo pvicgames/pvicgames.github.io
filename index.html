@@ -6,11 +6,27 @@ title: PVic
     <video playsinline autoplay muted loop><source src="media/vid/main.mp4" type="video/mp4"></video>
     <img class="tilebackground" src="media/img/trans.png">
     <img class="logoMain" src="media/img/logos/pvic_logo.png" alt="PVic Games Team Logo">
-    <div style="margin: 30px;" class="badges">
-        <a href="https://groups.google.com/g/pvicvg" target="_blank">
-            <img src="media/img/badges/badge_newsletter.png">
-        </a>
-    </div>
+    <div id="custom-substack-embed"></div>
+
+
+    <script>
+      window.CustomSubstackWidget = {
+        substackUrl: "pvicvg.substack.com",
+        placeholder: "example@gmail.com",
+        buttonText: "Subscribe",
+        theme: "custom",
+        colors: {
+          primary: "#FFFFFF",
+          input: "#000000",
+          email: "#FFFFFF",
+          text: "#000000",
+        },
+
+        // Go to substackapi.com to unlock custom redirect
+
+      };
+    </script>
+    <script src="https://substackapi.com/widget.js" async></script>
 </div>
 
 <div class="game" id="about">
