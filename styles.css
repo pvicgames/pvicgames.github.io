@@ -1,6 +1,9 @@
 /*Import fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Nunito&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galindo&display=swap');
 /*---*/
 
 html {
@@ -22,7 +25,7 @@ hr {
 
 .container p {
     z-index: 1;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 10px;
     font-size: 1.1em;
     max-width: 900px;
@@ -31,7 +34,7 @@ hr {
 .container pSmall {
   color: gray;
     z-index: 1;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 10px;
     font-size: 1.1em;
     max-width: 900px;
@@ -39,7 +42,7 @@ hr {
 
 .container h1, h2, h3, h4, h5, h6 {
     z-index: 1;
-    font-family: 'Nova Square', sans-serif;
+    font-family: 'Galindo', sans-serif;
     margin: 5px;
 }
 
@@ -358,7 +361,7 @@ nav ul {
 }
 
 nav ul li a {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 10px;
     font-size: 1.1em;
     font-weight: bold;
@@ -380,7 +383,7 @@ nav ul li a:hover {
 
 .subnav .subnavbtn {
     padding: 0px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.1em;
     color: inherit;
     font-weight: bold;
@@ -441,7 +444,7 @@ nav ul li a:hover {
 }
 .foot a {
     color:gray;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.1em;
     padding: 0;
 }
