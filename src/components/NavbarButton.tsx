@@ -1,13 +1,15 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 
 interface Props {
   text: string;
   link: string;
-  active: boolean;
 }
 
-const NavbarButton: React.FC<Props> = ({ text, link, active }) => {
+const NavbarButton: React.FC<Props> = ({ text, link }) => {
+  const currentLocation = useLocation();
+  const active = currentLocation.pathname === link;
+
   return (
     <Link to={link}>
       <div

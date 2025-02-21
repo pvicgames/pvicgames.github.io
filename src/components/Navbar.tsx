@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import NavbarButton from "./NavbarButton";
 
 const Navbar = () => {
@@ -8,9 +8,9 @@ const Navbar = () => {
         <div className="absolute w-screen bottom-0 bg-pvic-pink h-[40px]" />
 
         <div className="relative pointer-events-auto flex items-end ">
-          <NavbarButton text="🏠 Home" link="/" active={true} />
-          <NavbarButton text="💭 About" link="/" active={false} />
-          <NavbarButton text="📧 Contact" link="/" active={false} />
+          <NavbarButton text="🏠 Home" link="/" />
+          <NavbarButton text="💭 About" link="/about" />
+          <NavbarButton text="📧 Contact" link="/contact" />
         </div>
       </div>
     </div>
