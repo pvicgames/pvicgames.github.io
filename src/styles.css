@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: AdLib;
+  src: url(assets/fonts/adlib.ttf)
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url(assets/fonts/helvetica.ttf)
+}
+
+@theme {
+  --font-adlib: "AdLib", "sans-serif";
+  --font-helvetica: "Helvetica", "sans-serif";
+
+  --color-pvic-pink: #e44c78;
+  --color-pvic-yellow: #ffd343;
+  --color-pvic-green: #94dc52;
+  --color-pvic-blue: #3c89d7;
+}
