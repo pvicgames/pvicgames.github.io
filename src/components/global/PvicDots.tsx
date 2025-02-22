@@ -1,5 +1,5 @@
 //import React from 'react'
-import pvicDotsImg from "../assets/img/dots.png";
+import pvicDotsImg from "../../assets/img/dots.png";
 
 const PvicDots = () => {
   return (
