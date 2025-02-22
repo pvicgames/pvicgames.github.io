@@ -9,9 +9,9 @@ const Contact = () => {
         <PierreModel />
       </div>
 
-      <div className="xl:min-h-screen flex flex-col content-center justify-center">
+      <div className="mt-20 xl:mt-0 xl:min-h-screen flex flex-col content-center justify-center">
         <div>
-          <h1 className="text-7xl text-pvic-blue font-adlib">Contact Us.</h1>
+          <h1 className="text-6xl xl:text-7xl text-pvic-blue font-adlib">Contact Us.</h1>
           <p className="font-helvetica text-justify pt-3 pb-5">
             reach out — let’s turn imagination into reality
           </p>

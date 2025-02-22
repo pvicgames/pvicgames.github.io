@@ -14,7 +14,7 @@ const Home = () => {
       </div>
 
       <div className="xl:min-h-screen flex items-center">
-        <div className="ml-10 mr-10 xl:ml-3 xl:mr-10 ">
+        <div className="xl:ml-3 xl:mr-10 ">
           <AnimatedHomeTitle />
 
           <p className="font-helvetica text-justify pt-3 pb-5">

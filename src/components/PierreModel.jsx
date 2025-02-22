@@ -127,7 +127,14 @@ const ThreeDModelViewer = () => {
         };
     }, []);
 
-    return <div ref={containerRef} style={{ width: '500px', height: '500px' }} />;
+    return <div ref={containerRef} className='' style={{
+        maxWidth: '500px',
+        maxHeight: '500px',
+        width: '100%',
+        height: 'auto',
+        aspectRatio: '1 / 1',
+        position: 'relative',
+    }} />;
 };
 
 export default ThreeDModelViewer;

@@ -61,7 +61,7 @@ const AnimatedHomeTitle = () => {
   }, [text, isDeleting, currentWord, words.length]);
 
   return (
-    <h1 className="text-5xl text-pvic-blue font-adlib">Pure {text}</h1>
+    <h1 className="text-4xl xl:text-5xl text-pvic-blue font-adlib">Pure {text}</h1>
   );
 };
 
