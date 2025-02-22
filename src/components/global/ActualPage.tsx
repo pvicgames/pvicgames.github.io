@@ -10,7 +10,7 @@ const ActualPage = (props: React.PropsWithChildren) => {
       <PvicDots />
       <Navbar />
 
-      <div className="relative xl:columns-2 sm:columns-1 xl:min-h-screen ml-3 mr-3 mt-15 xl:mt-0   ">
+      <div className="relative xl:columns-2 sm:columns-1 xl:min-h-screen ml-7 mr-7 mt-25 xl:mt-0 mb-25 xl:mb-0  ">
         {props.children}
       </div>
     </div>
