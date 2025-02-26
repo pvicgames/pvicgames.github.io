@@ -1,4 +1,10 @@
 {
+  "navbar": {
+    "home": "🏠 Home",
+    "about": "💭 Sobre",
+    "contact": "📧 Contato"
+  },
+
   "home": {
     "text1": "em tempos de ruído constante, escolhemos oferecer o silêncio criativo: mundos únicos projetados para inspirar, conectar e despertar sonhos.",
 

@@ -1,4 +1,10 @@
 {
+  "navbar": {
+    "home": "🏠 Home",
+    "about": "💭 About",
+    "contact": "📧 Contact"
+  },
+
   "home": {
     "text1": "in times of constant noise, we choose to offer creative silence: unique worlds designed to inspire, connect, and spark dreams.",
 
