@@ -1,9 +1,12 @@
 //import React from 'react'
+import { useTranslation } from "react-i18next";
 import pvicLogo from "../assets/img/pvic_logo_blue.png";
 import AnimatedHomeTitle from "../components/AnimatedHomeTitle";
 import ActualPage from "../components/global/ActualPage";
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <ActualPage>
       <div className="p-2 xl:p-10 xl:min-h-screen flex justify-center items-center">
@@ -18,10 +21,9 @@ const Home = () => {
           <AnimatedHomeTitle />
 
           <p className="font-helvetica text-justify pt-3 pb-5">
-            in times of constant noise, we choose to offer creative silence:
-            unique worlds designed to inspire, connect, and spark dreams.
+            {t("home.text1")}
             <br />
-            imagination is the ultimate refuge of freedom.
+            {t("home.text2")}
           </p>
 
           <p className="font-helvetica font-bold">

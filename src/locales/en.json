@@ -1,9 +1,31 @@
 {
+  "home": {
+    "text1": "in times of constant noise, we choose to offer creative silence: unique worlds designed to inspire, connect, and spark dreams.",
+
+    "text2": "imagination is the ultimate refuge of freedom.",
+
+    "typewriter_static": "Pure",
+    "typewriter": [
+      "Imagination.",
+      "Creativity.",
+      "Inspiration.",
+      "Liberty.",
+      "Dreams.",
+      "Awesome."
+    ]
+  },
+
   "about": {
     "title": "About.",
 
     "description": "PVic Games was founded in July, 2023 with the release of Ednaldo Pereira: Mobile. Created by art school dropout Pedro Victor 'Pvic' Gonçalves, a veteran in the Sonic community and later, the key gameplay programmer for Antonblast -- one of the most widely celebrated indie games in recent times -- PVic Games' founding ideals are simple: make high quality, artistic games that transcend our simplistic ideals of imagination and creativity and take us to another place. 'Pure Imagination' is more than a tagline, it's where our hearts are.",
-    
+
     "description2": "The journey has just begun, and we invite you to step into our world of creative silence -- where imagination is the ultimate refuge of freedom."
+  },
+
+  "contact": {
+    "title": "Contact Us.",
+
+    "text": "reach out — let’s turn imagination into reality"
   }
 }

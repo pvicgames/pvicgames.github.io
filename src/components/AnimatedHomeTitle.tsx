@@ -1,23 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const AnimatedHomeTitle = () => {
-  const words_en = [
-    "Imagination.",
-    "Creativity.",
-    "Inspiration.",
-    "Liberty.",
-    "Dreams.",
-    "Awesome.",
-  ];
-
-  /*const words_pt = [
-    "Imaginação.",
-    "Criatividade.",
-    "Inspiração.",
-    "Liberdade.",
-    "Magia.",
-    "Maravilha.",
-  ];*/
+  const { t } = useTranslation();
 
   const typingSpeed = 150;
   const deletingSpeed = 75;
@@ -27,10 +12,7 @@ const AnimatedHomeTitle = () => {
   const [currentWordIndex, setCurrentWordIndex] = React.useState<number>(0);
   const [isDeleting, setIsDeleting] = React.useState<boolean>(false);
 
-  const userPreferredLanguage = navigator.language.startsWith("pt")
-    ? "pt"
-    : "en";
-  const words = userPreferredLanguage === "en" ? words_en : words_en;
+  const words = t("home.typewriter", { returnObjects: true }) as string[];
   const currentWord = words[currentWordIndex];
 
   React.useEffect(() => {
@@ -61,7 +43,9 @@ const AnimatedHomeTitle = () => {
   }, [text, isDeleting, currentWord, words.length]);
 
   return (
-    <h1 className="text-4xl xl:text-5xl text-pvic-blue font-adlib">Pure {text}</h1>
+    <h1 className="text-4xl xl:text-5xl text-pvic-blue font-adlib">
+      {t("home.typewriter_static")} {text}
+    </h1>
   );
 };
 
