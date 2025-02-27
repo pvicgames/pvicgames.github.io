@@ -4,7 +4,7 @@ const VideoBackground = () => {
   return (
     <video
       className="fixed min-w-screen min-h-screen bottom-0 left-0 object-cover overflow-hidden
-                 grayscale opacity-8 blur-[2px]"
+                 grayscale opacity-8 z-[-10] blur-[2px]"
       autoPlay
       loop
       muted
