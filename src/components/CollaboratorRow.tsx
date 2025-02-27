@@ -38,7 +38,7 @@ const CollaboratorRow = (props: Props) => {
 
       <p
         className="relative font-adlib text-5xl pointer-events-none
-                      drop-shadow-[3px_3px_2px_rgba(0,0,0,0.5)]"
+                   drop-shadow-[3px_3px_2px_rgba(0,0,0,0.5)]"
       >
         {props.text}
       </p>
