@@ -23,7 +23,7 @@ const CollaboratorRow = (props: Props) => {
       onClick={() => props.onClick()}
     >
       <div
-        className={`absolute inset-0 bg-cover md:bg-contain bg-no-repeat ${
+        className={`absolute inset-0 bg-cover md:bg-contain bg-no-repeat bg-${props.color} ${
           props.position === "right"
             ? "bg-left"
             : props.position === "left"
