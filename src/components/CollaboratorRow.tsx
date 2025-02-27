@@ -18,7 +18,7 @@ const CollaboratorRow = (props: Props) => {
           ? "justify-end"
           : props.position === "left"
           ? "justify-start"
-          : "justify-start"
+          : ""
       } bg-${props.color} cursor-pointer`}
       onClick={() => props.onClick()}
     >
