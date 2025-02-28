@@ -1,7 +1,8 @@
 {
   "navbar": {
     "home": "🏠 Home",
-    "edmescdx": "🎮 Ednaldo",
+    "artius": "🎨 ARTIUS",
+    "edmescdx": "💥 Ednaldo",
     "about": "💭 About",
     "contact": "📧 Contact"
   },
@@ -48,6 +49,28 @@
       "gplay": "https://play.google.com/store/apps/details?id=com.pvic.ednaldogame&hl=en_ZA",
       
       "string3": "The game is currently undergoing maintenance @ Google Play. Please play at GX.Games at the moment! "
+    },
+
+    "artius": {
+      "title": "ARTIUS",
+
+      "string1": "ARTIUS is a momentum-driven 2D platformer bursting with vibrant creativity. When the envious Pivolo seizes control of the mystical ARTIUS book and imposes an oppressive art dictatorship, it’s up to you to restore freedom. Take charge of four unique artists, each wielding their own creative powers, and fight to save a world on the brink of losing its art forever!",
+
+      "string2": "The world of ARTIUS is full of colourful characters, which all have their own personal tales to tell and contribute to the game world.",
+
+      "string3": "Meet Pivolo",
+
+      "string4": "Pivolo, envious of the protagonists’ artistic mastery, seizes control of the mystical ARTIUS book and enforces an art dictatorship, reshaping the world according to his rigid and oppressive vision. Under his rule, creativity is stifled, self-expression is outlawed, and once-vibrant landscapes become dull and lifeless. As the influence of Pivolo’s tyranny spreads, society begins to question the value of art itself, forgetting its power to inspire, heal, and bring people together. It falls upon the four heroes—each wielding their own unique creative abilities—to challenge this bleak new reality.",
+
+      "string5": "Inspired by Sonic Frontiers' Open Zone and Bomb Rush Cyberfunk’s world, the hub world is more interactive and immersive than typical platformers, allowing players to explore, customize structures, and engage creatively in this dynamic environment. Levels are linear and divided into acts, with character-exclusive stages to teach specific mechanics. These mechanics are later combined in “final acts’, where players seamlessly chain actions across characters for exhilarating gameplay sequences.",
+
+      "string6": "Coming Soon!",
+
+      "string7": "ARTIUS is currently seeking funding and publishing opportunities to reach its full potential. If you believe in the power of art and creativity in gaming, now is the time to help make ARTIUS a reality. Stay tuned—this adventure is coming soon, and with your support, it can shine even brighter!",
+
+      "string8": "Email us at:",
+
+      "string9": "for more information."
     }
   },
 

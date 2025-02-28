@@ -33,10 +33,11 @@ const Navbar = () => {
         <div className="absolute w-screen bottom-0 bg-pvic-pink h-[40px]" />
 
         <div className="relative pointer-events-auto flex items-end ">
-          <NavbarButton text={t("navbar.home")} link="/" />
+          <NavbarButton text={t("navbar.home")}     link="/" />
+          <NavbarButton text={t("navbar.artius")}   link="/artius" />
           <NavbarButton text={t("navbar.edmescdx")} link="/edmescdx" />
-          <NavbarButton text={t("navbar.about")} link="/about" />
-          <NavbarButton text={t("navbar.contact")} link="/contact" />
+          <NavbarButton text={t("navbar.about")}    link="/about" />
+          <NavbarButton text={t("navbar.contact")}  link="/contact" />
         </div>
       </div>
     </div>

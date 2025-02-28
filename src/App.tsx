@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import EdMescDX from "./pages/EdMescDX";
+import Artius from "./pages/Artius";
 
 function App() {
   useEffect(() => {
@@ -18,9 +19,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/"         element={<Home />} />
+        <Route path="/about"    element={<About />} />
+        <Route path="/contact"  element={<Contact />} />
+        <Route path="/artius"   element={<Artius />} />
         <Route path="/edmescdx" element={<EdMescDX />} />
       </Routes>
     </Router>
