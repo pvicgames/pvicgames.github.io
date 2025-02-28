@@ -29,7 +29,7 @@ const Home = () => {
           <p className="font-helvetica font-bold">
             <a
               className="hover:underline"
-              href="https://x.com/pvicvg"
+              href="https://x.com/PVicGames"
               target="_blank"
             >
               x/twitter
@@ -37,7 +37,7 @@ const Home = () => {
             &bull;{" "}
             <a
               className="hover:underline"
-              href="https://www.instagram.com/pvicvg/"
+              href="https://www.instagram.com/pvicgames/"
               target="_blank"
             >
               instagram
@@ -45,10 +45,18 @@ const Home = () => {
             &bull;{" "}
             <a
               className="hover:underline"
-              href="https://www.instagram.com/pvicvg/"
+              href="https://discord.gg/VkzaYmNvVd/"
               target="_blank"
             >
               discord
+            </a>{" "}
+            &bull;{" "}
+            <a
+              className="hover:underline"
+              href="https://www.youtube.com/@PVicVG"
+              target="_blank"
+            >
+              youtube
             </a>
           </p>
         </div>
