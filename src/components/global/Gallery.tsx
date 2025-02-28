@@ -29,7 +29,7 @@ const Gallery = (props: Props) => {
 
       {/* Show selected picture */}
       {index !== -1 && (
-        <div className="bg-[rgba(0,0,0,0.9)] w-screen h-screen fixed z-20 top-0 left-0 flex items-center justify-center">
+        <div className="bg-[rgba(0,0,0,0.9)] w-screen h-screen fixed z-30 top-0 left-0 flex items-center justify-center touch-none">
           <button
             className="absolute top-5 right-10 cursor-pointer text-white"
             onClick={handleClose}
