@@ -85,6 +85,8 @@ const EdMescDX = () => {
                         target="_blank" href={t("games.ednaldomobile.gplay")}>
             <img src={badge_gplay} />
           </a>
+
+          <p className="pt-15 font-helvetica">{t("games.ednaldomobile.string3")}</p>
           
         </div>
       </div>
