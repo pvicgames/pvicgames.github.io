@@ -13,7 +13,7 @@ const CollaboratorRow = (props: Props) => {
 
   return (
     <div
-      className={`relative p-3 flex items-center ${
+      className={`relative p-3 flex items-center w-full ${
         props.position === "right"
           ? "justify-end"
           : props.position === "left"
@@ -37,7 +37,7 @@ const CollaboratorRow = (props: Props) => {
       ></div>
 
       <p
-        className="relative font-adlib text-5xl pointer-events-none
+        className="relative font-adlib text-3xl xl:text-5xl pointer-events-none
                    drop-shadow-[3px_3px_2px_rgba(0,0,0,0.5)]"
       >
         {props.text}
