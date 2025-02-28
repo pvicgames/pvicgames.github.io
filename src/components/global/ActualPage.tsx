@@ -2,6 +2,7 @@ import React from "react";
 import VideoBackground from "./VideoBackground";
 import PvicDots from "./PvicDots";
 import Navbar from "./Navbar";
+import NavbarMobile from "./NavbarMobile";
 
 interface Props {
   singleColumn?: boolean;
@@ -13,6 +14,7 @@ const ActualPage = (props: Props & React.PropsWithChildren) => {
       <VideoBackground />
       <PvicDots />
       <Navbar />
+      <NavbarMobile />
 
       <div
         className={`grid ${

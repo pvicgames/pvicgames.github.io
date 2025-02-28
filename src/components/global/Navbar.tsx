@@ -39,8 +39,10 @@ const Navbar = () => {
           <NavbarButton text={t("navbar.edmescdx")} link="/edmescdx" />
           <NavbarButton text={t("navbar.about")} link="/about" />
           <NavbarButton text={t("navbar.contact")} link="/contact" />
-
-          <LanguageSelector />
+          
+          <div className="ml-auto pr-30">
+            <LanguageSelector />
+          </div>
         </div>
       </div>
     </div>
