@@ -1,12 +1,17 @@
 {
   "navbar": {
     "home": "🏠 Home",
+    "artius": "🎨 ARTIUS",
+    "edmescdx": "💥 Ednaldo",
     "about": "💭 Sobre",
-    "contact": "📧 Contato"
+    "contact": "📧 Contato",
+
+    "english": "[inglês]",
+    "portuguese": "[português]"
   },
 
   "home": {
-    "text1": "em tempos de ruído constante, escolhemos oferecer o silêncio criativo: mundos únicos projetados para inspirar, conectar e despertar sonhos.",
+    "text1": "em tempos de barulho constante, oferecemos silêncio criativo: mundos únicos projetados para inspirar, conectar e despertar sonhos.",
 
     "text2": "a imaginação é o refúgio da liberdade.",
 
@@ -16,22 +21,92 @@
       "Criatividade.",
       "Inspiração.",
       "Liberdade.",
-      "Magia.",
-      "Maravilha."
+      "Maravilha.",
+      "Magia."
     ]
+  },
+
+  "games": {
+    "ednaldo": {
+      "title": "Ednaldo Pereira Mescladasso DX",
+
+      "string1": "Remasterização do jogo de plataforma Ednaldo Pereira: MESCLADASSO. Jogue com Ednaldo e Fleig, passando por uma variedade de diferentes estágios coletando notas douradas!",
+      "string2": "Neste jogo, você será apresentado ao grandioso mestre EDNALDO PEREIRA. Um ser humano tão poderoso que poucos são capazes de compreender completamente. O universo está em ruínas devido às maldades da Elite Preta e você deve detê-los usando seus poderes de músico!",
+      "string3": "Esta coleção também apresenta uma versão para PC do EDNALDO PEREIRA: MOBILE! Originalmente lançado para celulares, adaptado para funcionar com Teclado e Controle! Este é um jogo completamente diferente e uma experiência única e nova que foi adaptada à perfeição nesta versão para PC.",
+      "string4": "A duplinha do balaco-baco Ednaldo & Fleig está sempre pronta para salvar o mundo das maldades da Elite Preta! Ednaldo é um mestre poderoso e onisciente, enquanto Fleig é seu companheiro inteligente e rápido! Juntos, eles são imparáveis.",
+
+      "string5": "Chegando no verão de 2025! Adicione à sua lista de desejos em:",
+
+      "steam": "https://store.steampowered.com/app/2879870/Ednaldo_Pereira_MESCLADASSO_DX"
+    },
+
+    "ednaldomobile": {
+      "title": "Ednaldo Pereira Mobile",
+
+      "string1": "Ednaldo Mobile é um jogo de plataforma GRATUITO inspirado nos clássicos, oferecendo uma experiência envolvente e desafiadora. Explore diferentes fases repletas de obstáculos, inimigos e tesouros para desbloquear. Supere desafios emocionantes, colete notas douradas e melhore suas habilidades enquanto aprecia gráficos vibrantes e uma trilha sonora empolgante com remixes dos clássicos de Ednaldo.",
+
+      "string2": "Jogue gratuitamente em:",
+
+      "operagx": "https://gx.games/pt-br/games/s63wx3/ednaldo-pereira-mobile-2d-platformer/",
+
+      "gplay": "https://play.google.com/store/apps/details?id=com.pvic.ednaldogame&hl=en_ZA",
+
+      "string3": "O jogo está atualmente em manutenção na Google Play. Por favor, jogue no GX.Games por enquanto!"
+    },
+
+    "artius": {
+      "title": "ARTIUS",
+
+      "string1": "ARTIUS é um jogo de plataforma 2D baseado em momentum, repleto de criatividade vibrante. Quando o invejoso Pivolo toma posse do místico livro ARTIUS e impõe uma ditadura artística opressiva, cabe a você restaurar a liberdade. Assuma o controle de quatro artistas únicos, cada um com poderes criativos distintos, e lute para salvar um mundo à beira de perder sua arte para sempre!",
+
+      "string2": "O mundo de ARTIUS está cheio de personagens coloridos, cada um com sua própria história para contar e contribuir para o universo do jogo.",
+
+      "string3": "Conheça Pivolo",
+
+      "string4": "Pivolo, invejoso do domínio artístico dos protagonistas, toma posse do místico livro ARTIUS e impõe uma ditadura artística, remodelando o mundo segundo sua visão rígida e opressiva. Sob seu governo, a criatividade é sufocada, a autoexpressão é proibida e paisagens antes vibrantes se tornam monótonas e sem vida. À medida que a influência da tirania de Pivolo se espalha, a sociedade começa a questionar o valor da arte, esquecendo seu poder de inspirar, curar e unir as pessoas. Cabe aos quatro heróis—cada um com habilidades criativas únicas—desafiar essa nova realidade sombria.",
+
+      "string5": "Inspirado pelo Open Zone de Sonic Frontiers e pelo mundo de Bomb Rush Cyberfunk, o hub world de ARTIUS é mais interativo e imersivo do que nos jogos de plataforma tradicionais, permitindo que os jogadores explorem, personalizem estruturas e interajam criativamente com esse ambiente dinâmico. As fases são lineares e divididas em atos, com estágios exclusivos para cada personagem, ensinando mecânicas específicas. Essas mecânicas são depois combinadas nos 'atos finais', onde os jogadores encadeiam ações entre personagens para sequências de jogo eletrizantes.",
+
+      "string6": "Em breve!",
+
+      "string7": "ARTIUS está atualmente em busca de financiamento e oportunidades de publicação para atingir seu potencial máximo. Se você acredita no poder da arte e da criatividade nos jogos, agora é a hora de ajudar a tornar ARTIUS uma realidade. Fique ligado—esta aventura está chegando em breve, e com o seu apoio, ela pode brilhar ainda mais!",
+
+      "string8": "Envie um e-mail para:",
+
+      "string9": " para mais informações."
+    }
   },
 
   "about": {
     "title": "Sobre.",
 
-    "description": "A PVic Games foi fundada em julho de 2023 com o lançamento de Ednaldo Pereira: Mobile. Criada pelo ex-estudante de artes Pedro Victor 'Pvic' Gonçalves, um veterano da comunidade Sonic e, mais tarde, o principal programador de gameplay de Antonblast — um dos jogos indie mais aclamados dos últimos tempos — os ideais fundadores da PVic Games são simples: criar jogos artísticos e de alta qualidade que transcendam nossas noções simplistas de imaginação e criatividade, levando-nos a outro lugar. 'Pura Imaginação' é mais do que um slogan, é onde nossos corações estão.",
+    "description": "A PVic Games foi fundada em julho de 2023 com o lançamento de Ednaldo Pereira: Mobile. Criada pelo ex-estudante de arte Pedro Victor 'Pvic' Gonçalves, um veterano da comunidade Sonic e, posteriormente, programador-chave da gameplay de Antonblast — um dos jogos indie mais aclamados dos últimos tempos — a PVic Games tem um ideal simples: criar jogos artísticos de alta qualidade que transcendam nossa visão simplista de imaginação e criatividade, nos levando para outro lugar. 'Pura Imaginação' é mais do que um slogan, é onde nossos corações estão.",
 
-    "description2": "A jornada está apenas começando, e convidamos você a entrar em nosso mundo de silêncio criativo — onde a imaginação é o refúgio supremo da liberdade."
+    "description2": "A jornada está apenas começando, e convidamos você a entrar em nosso mundo de silêncio criativo — onde a imaginação é o refúgio supremo da liberdade.",
+
+    "collabs": {
+      "developers": {
+        "title": "Desenvolvedores.",
+        "text": "Os desenvolvedores da PVic Games são responsáveis por construir a base técnica dos nossos projetos. Seja em jogos, ferramentas ou sistemas interativos, eles garantem que tudo funcione com fluidez e eficiência. Pedro Victor ‘PVic’ Gonçalves, além de programador, é também o diretor e produtor do estúdio, liderando a equipe e garantindo que cada projeto siga a visão criativa da empresa. Trabalhando com diferentes tecnologias e linguagens, John-Kun e Gabriel Casanova trazem vida às ideias por meio da programação."
+      },
+
+      "artists": {
+        "title": "Artistas.",
+        "text": "A parte visual dos nossos jogos ganha vida graças ao talento dos nossos artistas, que são responsáveis por ilustrações, sprites, animações e todo o estilo gráfico que define nossa identidade. Shin, Bitto, Pablo e Bredi contribuem com traços únicos e uma direção artística envolvente, garantindo que cada mundo tenha personalidade e profundidade visual."
+      },
+
+      "musics": {
+        "title": "Músicos.",
+        "text": "A trilha sonora é um dos pilares da experiência imersiva que buscamos oferecer. Cada jogo da PVic Games conta com composições originais que ampliam a narrativa e a atmosfera do mundo criado. Glace, Speed e SaGa trazem criatividade e impacto sonoro às nossas produções, enquanto Luan Maziero também teve um papel importante em projetos anteriores."
+      },
+
+      "return": "Voltar."
+    }
   },
 
   "contact": {
-    "title": "Contato.",
+    "title": "Entre em Contato.",
 
-    "text": "fale conosco — bora transformar imaginação em realidade"
+    "text": "entre em contato — bora transformar imaginação em realidade"
   }
 }

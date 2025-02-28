@@ -36,7 +36,7 @@ const Artius = () => {
 
           <p className="pt-10 font-helvetica">{t("games.artius.string1")}</p>
 
-          <p className="pt-10 font-helvetica">
+          <p className="pt-10 text-center font-helvetica">
             <b>{t("games.artius.string2")}</b>
           </p>
 

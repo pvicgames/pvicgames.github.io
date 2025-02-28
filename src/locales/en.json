@@ -40,17 +40,17 @@
       "steam": "https://store.steampowered.com/app/2879870/Ednaldo_Pereira_MESCLADASSO_DX"
     },
 
-    "ednaldomobile" : {
+    "ednaldomobile": {
       "title": "Ednaldo Pereira Mobile",
 
       "string1": "Ednaldo Mobile is a FREE captivating platform game inspired by platforming classics that offers an engaging and challenging gaming experience. Explore different stages filled with obstacles, enemies, and treasures to unlock. Overcome thrilling challenges, collect golden notes, and improve your skills while enjoying vibrant graphics and an exciting soundtrack with remixes of Ednaldo's classics.",
 
       "string2": "Play for free on:",
-      
+
       "operagx": "https://gx.games/pt-br/games/s63wx3/ednaldo-pereira-mobile-2d-platformer/",
 
       "gplay": "https://play.google.com/store/apps/details?id=com.pvic.ednaldogame&hl=en_ZA",
-      
+
       "string3": "The game is currently undergoing maintenance @ Google Play. Please play at GX.Games at the moment! "
     },
 
@@ -87,17 +87,17 @@
     "collabs": {
       "developers": {
         "title": "Developers.",
-        "text": "Developers Text"
+        "text": "The developers at PVic Games are responsible for building the technical foundation of our projects. Whether it's games, tools, or interactive systems, they ensure everything runs smoothly and efficiently. Pedro Victor 'PVic' Gonçalves, in addition to being a programmer, is also the director and producer of the studio, leading the team and ensuring each project follows the company's creative vision. Working with different technologies and languages, John-Kun and Gabriel Casanova bring ideas to life through programming."
       },
 
       "artists": {
         "title": "Artists.",
-        "text": "Artists Text"
+        "text": "The visual aspect of our games comes to life thanks to the talent of our artists, who are responsible for illustrations, sprites, animations, and the overall graphic style that defines our identity. Shin, Bitto, Pablo, and Bredi contribute unique styles and engaging artistic direction, ensuring that each world has personality and visual depth."
       },
 
       "musics": {
         "title": "Musicians.",
-        "text": "Musicians Text"
+        "text": "The soundtrack is one of the pillars of the immersive experience we aim to offer. Each PVic Games project features original compositions that enhance the narrative and atmosphere of the created world. Glace, Speed, and SaGa bring creativity and impact to our productions, while Luan Maziero also played an important role in previous projects."
       },
 
       "return": "Return."

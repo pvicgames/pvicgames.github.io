@@ -67,7 +67,7 @@ const Collaborators = () => {
       >
         <p className="relative font-adlib text-5xl mb-10">{currentTitle}</p>
 
-        <p className="font-helvetica">{currentText}</p>
+        <p className="font-helvetica text-justify">{currentText}</p>
 
         <p
           className="text-white text-xl font-helvetica mt-6 hover:underline cursor-pointer"
