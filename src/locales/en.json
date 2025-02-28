@@ -1,6 +1,7 @@
 {
   "navbar": {
     "home": "🏠 Home",
+    "edmescdx": "🎮 Ednaldo",
     "about": "💭 About",
     "contact": "📧 Contact"
   },
@@ -19,6 +20,32 @@
       "Dreams.",
       "Awesome."
     ]
+  },
+
+  "games": {
+    "ednaldo": {
+      "title": "Ednaldo Pereira Mescladasso DX",
+
+      "string1": "Remaster of the original collectathon Ednaldo Pereira: MESCLADASSO. Play as Ednaldo and Fleig, going through a plethra of different stages.",
+      "string2": "In this game you'll be introduced to the successful EDNALDO PEREIRA. A human being so powerful few are able to fully grasp. The universe is in shambles due to the evildoings of the Dark Elite and you must stop them by using your powers!",
+      "string3": "This collection also features a PC Port of the original EDNALDO PEREIRA: MOBILE! Adapted to be played with Keyboard and Controller! This is a completely different game and unique experience that has been adapted to perfection in this PC port.",
+      "string4": "The friendly duo Ednaldo & Fleig are always up to saving the world with the evil doings of the Dark Elite! Ednaldo is a powerful all-knowing beast, while Fleig is his smart and fast companium! Together, they are unstoppable.",
+
+      "string5": "Comming Summer 2025! Wishlist on:",
+
+      "steam": "https://store.steampowered.com/app/2879870/Ednaldo_Pereira_MESCLADASSO_DX"
+    },
+
+    "ednaldomobile" : {
+      "title": "Ednaldo Pereira Mobile",
+
+      "string1": "Ednaldo Mobile is a FREE captivating platform game inspired by platforming classics that offers an engaging and challenging gaming experience. Explore different stages filled with obstacles, enemies, and treasures to unlock. Overcome thrilling challenges, collect golden notes, and improve your skills while enjoying vibrant graphics and an exciting soundtrack with remixes of Ednaldo's classics.",
+
+      "string2": "Play for free on:",
+      
+      "gplay": "https://play.google.com/store/apps/details?id=com.pvic.ednaldogame&hl=en_ZA",
+      "operagx": "https://gx.games/pt-br/games/s63wx3/ednaldo-pereira-mobile-2d-platformer/"
+    }
   },
 
   "about": {
