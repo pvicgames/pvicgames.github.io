@@ -26,7 +26,7 @@ const Navbar = () => {
             ? pierrejog
           : randomNumber === 2
             ? pierrewalk
-          : null
+          : undefined
         }
       />
       <div className="sticky h-[50px] w-screen">
