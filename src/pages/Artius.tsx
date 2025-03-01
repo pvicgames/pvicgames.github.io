@@ -40,7 +40,7 @@ const Artius = () => {
             <b>{t("games.artius.string2")}</b>
           </p>
 
-          <img className="mt-10 w-full max-w-[500px]" src={chars_cartoon} />
+          <img className="mt-10 w-full max-w-[800px]" src={chars_cartoon} />
 
           <h1 className="text-6xl pt-10 font-adlib text-pvic-pink text-center">
             {t("games.artius.string3")}
