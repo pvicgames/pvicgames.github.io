@@ -76,7 +76,7 @@ const Home = () => {
             &bull;{" "}
             <a
               className="hover:underline"
-              href="https://discord.gg/VkzaYmNvVd/"
+              href="https://discord.gg/3T8fbXq9Jf"
               target="_blank"
             >
               discord
@@ -95,6 +95,7 @@ const Home = () => {
     } else {
       return (
         <p className="font-helvetica font-bold">
+          {/* ENGLISH */}
           <a
             className="hover:underline"
             href="https://x.com/PVicGames"
@@ -113,7 +114,7 @@ const Home = () => {
           &bull;{" "}
           <a
             className="hover:underline"
-            href="https://discord.gg/VkzaYmNvVd/"
+            href="https://discord.gg/3T8fbXq9Jf"
             target="_blank"
           >
             discord
