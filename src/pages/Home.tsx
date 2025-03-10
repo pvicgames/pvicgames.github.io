@@ -143,6 +143,23 @@ const Home = () => {
 
       <div className="xl:min-h-screen flex items-center">
         <div className="xl:ml-3 xl:mr-10 ">
+        <div className=" text-center">
+            <div className="w-full flex justify-center mt-2">
+              <iframe
+                width="350"
+                height="200"
+                src="https://www.youtube.com/embed/UkiiOdgDdO8?si=-tVvM-0oUFcIPMQb"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <hr className="w-full mt-8 mb-8 border-pvic-blue border-2 border-dashed opacity-100"/>
+
           <AnimatedHomeTitle />
 
           <p className="font-helvetica text-justify pt-3 pb-5">
@@ -152,6 +169,10 @@ const Home = () => {
           </p>
 
           {createLinks()}
+
+          
+
+          
         </div>
       </div>
     </ActualPage>
