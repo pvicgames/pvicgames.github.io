@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import pvicLogo from "../assets/img/pvic_logo_blue.png";
 import AnimatedHomeTitle from "../components/AnimatedHomeTitle";
 import ActualPage from "../components/global/ActualPage";
+import YouTube from "react-youtube";
 
 const Home = () => {
   const { t, i18n } = useTranslation();
@@ -145,16 +146,7 @@ const Home = () => {
         <div className="xl:ml-3 xl:mr-10 ">
         <div className=" text-center">
             <div className="w-full flex justify-center mt-2">
-              <iframe
-                width="350"
-                height="200"
-                src="https://www.youtube.com/embed/UkiiOdgDdO8?si=-tVvM-0oUFcIPMQb"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
+              <YouTube videoId="UkiiOdgDdO8" opts={{height: "200", width: "350"}} />
             </div>
           </div>
 
