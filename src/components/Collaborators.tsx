@@ -65,7 +65,7 @@ const Collaborators = () => {
           collabTextVisible ? "block" : "hidden"
         }`}
       >
-        <p className="relative font-adlib text-5xl mb-10">{currentTitle}</p>
+        <p className="relative font-adlib text-3xl xl:text-5xl mb-10">{currentTitle}</p>
 
         <p className="font-helvetica text-justify">{currentText}</p>
 
