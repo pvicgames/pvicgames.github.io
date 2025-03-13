@@ -45,14 +45,14 @@ const NewArtius = () => {
   return (
     <ActualPage singleColumn={true}>
       <div
-        className="bg-[url(img/bg_type1.png)] bg-center bg-contain"
+        className="bg-[url(/img/bg_type1.png)] bg-center bg-contain"
         style={{ backgroundSize: `100% auto;` }}
       >
         {/* Links */}
         <div
           className="min-h-screen bg-cover bg-center bg-fixed
                    grid xl:grid-cols-2 sm:grid-cols-1
-                   bg-[url(img/ArtiusMain.png)] mb-[450px]"
+                   bg-[url(/img/ArtiusMain.png)] mb-[450px]"
         >
           <div className="flex flex-col flex-wrap items-center content-center justify-center">
             <img
