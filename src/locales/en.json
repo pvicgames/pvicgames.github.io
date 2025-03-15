@@ -91,17 +91,17 @@
 
         "links": [
           {
-            "name": "Pedro 'Victor' Gonçalves", 
+            "name": "Pedro 'Victor' Gonçalves",
             "img": "/img/members/pedro.png",
             "url": "https://x.com/pvicvg"
           },
           {
-            "name": "Gabriel Casanova", 
+            "name": "Gabriel Casanova",
             "img": "/img/members/casanova.png",
             "url": "http://gabrielcasanova.com.br"
           },
           {
-            "name": "Kevin 'John-Kun'", 
+            "name": "Kevin 'John-Kun'",
             "img": "/img/members/prancha.webp",
             "url": ""
           }
@@ -114,22 +114,22 @@
 
         "links": [
           {
-            "name": "Bredi", 
+            "name": "Bredi",
             "img": "/img/members/bredi.png",
             "url": ""
           },
           {
-            "name": "Bitto", 
+            "name": "Bitto",
             "img": "/img/members/bitto.webp",
             "url": ""
           },
           {
-            "name": "Pablo", 
+            "name": "Pablo",
             "img": "/img/members/pablo.webp",
             "url": ""
           },
           {
-            "name": "Shin", 
+            "name": "Shin",
             "img": "/img/members/shin.png",
             "url": ""
           }
@@ -138,26 +138,26 @@
 
       "musics": {
         "title": "Musicians.",
-        "text": "Games aren't anything special without some good and jammin' tracks. Each PVic Games project features original bops that are appropriate to their respective worlds while still being in-line with what we like. Glace Sue, SpeedVGM, and SaGaMIX bring creativity and impact to our productions, while Luan Maziero also played an important role in previous projects.",
+        "text": "Games aren't anything special without some good and jammin' tracks. Each PVic Games project features original bops that are appropriate to their respective worlds while still being in-line with what we like. Glace Sue, SpeedVGM, and SaGa! bring creativity and impact to our productions, while Luan Maziero also played an important role in previous projects.",
 
         "links": [
           {
-            "name": "Luan Maziero", 
+            "name": "Luan Maziero",
             "img": "/img/members/luan.png",
             "url": ""
           },
           {
-            "name": "Glace", 
+            "name": "Glace",
             "img": "/img/members/glace.webp",
             "url": ""
           },
           {
-            "name": "Speed", 
+            "name": "Speed",
             "img": "/img/members/speed.png",
             "url": ""
           },
           {
-            "name": "SaGa", 
+            "name": "SaGa",
             "img": "/img/members/saga.png",
             "url": ""
           }
@@ -166,21 +166,21 @@
 
       "communication": {
         "title": "Social.",
-        "text": "",
+        "text": "Our connection with the community is shaped by the voices behind our social presence. Lucia, Vitor, and StarCaster handle public relations, community engagement, and social media interactions, ensuring that our message is clear, authentic, and engaging. Whether through announcements, updates, or direct conversations with players, they bring our vision to the world and keep the dialogue alive.",
 
         "links": [
           {
-            "name": "Lucia", 
+            "name": "Lucia",
             "img": "/img/members/lucia.jpg",
             "url": ""
           },
           {
-            "name": "Victor", 
+            "name": "Victor",
             "img": "/img/members/victor.png",
             "url": ""
           },
           {
-            "name": "Starcaster", 
+            "name": "Starcaster",
             "img": "/img/members/starcaster.png",
             "url": ""
           }
