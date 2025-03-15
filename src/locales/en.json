@@ -74,6 +74,15 @@
       "string8": "Email us at: ",
 
       "string9": " for more information."
+    },
+
+    "newArtius": {
+      "title": "ARTIUS",
+
+      "text1": "ARTIUS is a momentum-based 2D platformer brimming with creative expression.",
+      "text2": "Players take control of four unique artists, as they fight to save the world from the extinction of art!",
+      "comparison1": "ARTIUS draws inspiration from real-life settings, reinterpreting them into a grounded yet fantastical game world.",
+      "comparison2": "The evil art creatures offer interesting depictions of famous art pieces & day-to-day elements."
     }
   },
 
@@ -116,7 +125,7 @@
           {
             "name": "Bredi",
             "img": "/img/members/bredi.png",
-            "url": ""
+            "url": "https://x.com/brediamai"
           },
           {
             "name": "Bitto",

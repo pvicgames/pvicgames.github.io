@@ -74,6 +74,15 @@
       "string8": "Envie um e-mail para:",
 
       "string9": " para mais informações."
+    },
+
+    "newArtius": {
+      "title": "ARTIUS",
+      
+      "text1": "ARTIUS é um jogo de plataforma 2D baseado em momentum, repleto de expressão criativa.",
+      "text2": "Os jogadores assumem o controle de quatro artistas únicos, enquanto lutam para salvar o mundo da extinção da arte!",
+      "comparison1": "ARTIUS se inspira em ambientes da vida real, reinterpretando-os em um mundo de jogo realista, porém fantástico.",
+      "comparison2": "As criaturas malignas da arte oferecem representações interessantes de obras de arte famosas e elementos do cotidiano."
     }
   },
 

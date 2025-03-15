@@ -30,11 +30,11 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Parallax } from "react-scroll-parallax";
+import { useTranslation } from "react-i18next";
 
 const NewArtius = () => {
   useEffect(() => {
     AOS.init({
-      disable: "phone",
       duration: 900,
       easing: "ease-out-cubic",
     });
@@ -42,6 +42,8 @@ const NewArtius = () => {
 
   const slides = [pic1, pic2, pic3];
   const slides2 = [pic4, pic6, pic5];
+
+  const { t } = useTranslation();
 
   return (
     <ActualPage singleColumn={true}>
@@ -99,8 +101,7 @@ const NewArtius = () => {
                   className="font-adlib text-3xl xl:text-5xl m-5 mt-10 xl:mt-0 xl:ml-20 xl:mr-0 text-left text-pvic-pink 
                             drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] max-w-[800px]"
                 >
-                  ARTIUS is a momentum-based 2D platformer brimming with
-                  creative expression.
+                  {t("games.newArtius.text1")}
                 </p>
               </div>
 
@@ -128,8 +129,7 @@ const NewArtius = () => {
                 className="flex items-center justify-center"
               >
                 <p className="font-adlib text-pvic-blue drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] text-3xl xl:text-5xl p-5 xl:mr-20 xl:p-0 text-right max-w-[800px]">
-                  Players take control of four unique artists, as they fight to
-                  save the world from the extinction of art!
+                {t("games.newArtius.text2")}
                 </p>
               </div>
             </div>
@@ -156,14 +156,11 @@ const NewArtius = () => {
               <div className="w-full max-w-[1300px] flex flex-col justify-center content-center items-center">
                 <div className="max-w-[800px] mb-5">
                   <p className="font-helvetica text-2xl text-left mb-10">
-                    ARTIUS draws inspiration from real-life settings,
-                    reinterpreting them into a grounded yet fantastical game
-                    world.
+                    {t("games.newArtius.comparison1")}
                   </p>
 
                   <p className="font-helvetica text-2xl text-right mb-10">
-                    The evil art creatures offer interesting depictions of
-                    famous art pieces & day-to-day elements.
+                    {t("games.newArtius.comparison2")}
                   </p>
                 </div>
 
