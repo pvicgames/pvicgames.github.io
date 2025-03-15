@@ -9,6 +9,7 @@ import BrunnaTheo from "../assets/img/artius/brunnatheo.png";
 import Chars3D from "../assets/img/artius/chars_3d.png";
 import CharsCartoon from "../assets/img/artius/chars_cartoon.png";
 import Tailored from "../assets/img/artius/tailored.png";
+import TailoredMobile from "../assets/img/artius/tailored_mobile.png";
 import Comparison1 from "../assets/img/artius/comparison1.png";
 import Comparison2 from "../assets/img/artius/comparison2.png";
 import PvicLogo from "../assets/img/pvic_logo_blue.png";
@@ -45,18 +46,18 @@ const NewArtius = () => {
   return (
     <ActualPage singleColumn={true}>
       <div
-        className="bg-[url(/img/bg_type1.png)] bg-center bg-contain"
+        className="bg-[url(/img/bg_type1.png)] bg-center bg-contain -mt-12 xl:mt-0"
         style={{ backgroundSize: `100% auto;` }}
       >
         {/* Links */}
         <div
           className="min-h-screen bg-cover bg-center bg-fixed
-                   grid xl:grid-cols-2 sm:grid-cols-1
+                   grid xl:grid-cols-2 sm:grid-cols-1 p-5 xl:p-0
                    bg-[url(/img/ArtiusMain.png)] mb-[450px]"
         >
           <div className="flex flex-col flex-wrap items-center content-center justify-center">
             <img
-              className="animate__animated animate__bounceInDown pl-20 max-w-[870px] h-fit"
+              className="animate__animated animate__bounceInDown w-full max-w-[870px] h-fit xl:pl-20"
               src={Logo}
             />
 
@@ -70,113 +71,137 @@ const NewArtius = () => {
         </div>
 
         <Parallax speed={-50}>
-          {/* Video */}
-          <div
-            data-aos="fade-up"
-            className="flex flex-col justify-center items-center"
-          >
-            <YouTube
-              className="mt-20"
-              videoId="UkiiOdgDdO8"
-              opts={{ height: "550", width: "1000" }}
-            />
-          </div>
-          <Gallery picSize="325px" slides={slides2} />
-
-          {/* Text 1 */}
-          <div className="xl:min-h-screen grid xl:grid-cols-2 sm:grid-cols-1">
-            <div
-              data-aos="fade-right"
-              className="flex items-center justify-center"
-            >
-              <p className="font-adlib text-5xl ml-20 text-left text-pvic-pink drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] max-w-[800px]">
-                ARTIUS is a momentum-based 2D platformer brimming with creative
-                expression.
-              </p>
-            </div>
-
+          <div>
+            {/* Video */}
             <div
               data-aos="fade-up"
-              className="flex items-center justify-center"
+              className="flex flex-col justify-center items-center p-5 xl:p-0"
             >
-              <img className="w-full max-w-[600px]" src={BrunnaTheo} />
+              <YouTube
+                className="mt-20 w-full h-screen max-h-[300px] xl:max-h-[550px] max-w-[1000px]"
+                videoId="UkiiOdgDdO8"
+                opts={{ height: "100%", width: "100%" }}
+              />
             </div>
-          </div>
 
-          {/* Text 2 */}
-          <div className="xl:min-h-screen grid xl:grid-cols-2 sm:grid-cols-1">
-            <div
-              data-aos="fade-right"
-              className="flex items-center justify-center"
-            >
-              <img className="w-full max-w-[900px]" src={Chars3D} />
+            {/* Gallery 1 */}
+            <div data-aos="fade-up">
+              <Gallery picSize="325px" slides={slides2} />
             </div>
-            <div
-              data-aos="fade-up"
-              className="flex items-center justify-center"
-            >
-              <p className="font-adlib  text-pvic-blue drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] text-5xl mr-20 text-right max-w-[800px]">
-                Players take control of four unique artists, as they fight to
-                save the world from the extinction of art!
-              </p>
-            </div>
-          </div>
 
-          {/* Tailored */}
-          <div className="xl:min-h-screen mt-20 mb-20 flex items-center justify-center">
-            <img
-              data-aos="fade-up"
-              className="w-full max-w-[1250px] h-fit"
-              src={Tailored}
-            />
-          </div>
-
-          {/* Comparisons */}
-          <div className="flex items-center justify-center content-center mb-20">
-            <div className="w-full max-w-[1300px] flex flex-col justify-center content-center items-center">
-              <div className="max-w-[800px] mb-5">
-                <p className="font-helvetica text-2xl text-left mb-10">
-                  ARTIUS draws inspiration from real-life settings,
-                  reinterpreting them into a grounded yet fantastical game
-                  world.
-                </p>
-
-                <p className="font-helvetica text-2xl text-right mb-10">
-                  The evil art creatures offer interesting depictions of famous
-                  art pieces & day-to-day elements.
+            {/* Text 1 */}
+            <div className="xl:min-h-screen grid xl:grid-cols-2 sm:grid-cols-1">
+              <div
+                data-aos="fade-right"
+                className="flex items-center justify-center"
+              >
+                <p
+                  className="font-adlib text-3xl xl:text-5xl m-5 mt-10 xl:mt-0 xl:ml-20 xl:mr-0 text-left text-pvic-pink 
+                            drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] max-w-[800px]"
+                >
+                  ARTIUS is a momentum-based 2D platformer brimming with
+                  creative expression.
                 </p>
               </div>
 
-              <img
+              <div
+                data-aos="fade-up"
+                className="flex items-center justify-center"
+              >
+                <img
+                  className="w-full max-w-[600px] p-5 xl:p-0"
+                  src={BrunnaTheo}
+                />
+              </div>
+            </div>
+
+            {/* Text 2 */}
+            <div className="xl:min-h-screen grid xl:grid-cols-2 sm:grid-cols-1">
+              <div
                 data-aos="fade-right"
-                className="w-full h-fit max-w-[800px] self-start"
-                src={Comparison2}
+                className="flex items-center justify-center"
+              >
+                <img className="w-full max-w-[900px]" src={Chars3D} />
+              </div>
+              <div
+                data-aos="fade-up"
+                className="flex items-center justify-center"
+              >
+                <p className="font-adlib text-pvic-blue drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] text-3xl xl:text-5xl p-5 xl:mr-20 xl:p-0 text-right max-w-[800px]">
+                  Players take control of four unique artists, as they fight to
+                  save the world from the extinction of art!
+                </p>
+              </div>
+            </div>
+
+            {/* Tailored */}
+            <div className="xl:min-h-screen flex items-center justify-center">
+              {/* Desktop */}
+              <img
+                data-aos="fade-up"
+                className="mt-20 mb-20 w-full max-w-[1250px] h-fit hidden xl:inline"
+                src={Tailored}
               />
+
+              {/* Mobile */}
               <img
-                data-aos="fade-right"
-                className="w-full h-fit max-w-[800px] self-end mt-4"
-                src={Comparison1}
+                data-aos="fade-up"
+                className="mt-10 mb-10 w-full max-w-[600px] h-fit xl:hidden"
+                src={TailoredMobile}
               />
             </div>
-          </div>
 
-          {/* Final */}
-          <Gallery picSize="325px" slides={slides} />
-          <div className="mt-30 flex flex-col items-center justify-center">
-            <img
-              data-aos="fade-up"
-              className="w-full max-w-[1250px] h-fit"
-              src={CharsCartoon}
-            />
-          </div>
+            {/* Comparisons */}
+            <div className="flex items-center justify-center content-center mb-20 p-5 xl:p-0">
+              <div className="w-full max-w-[1300px] flex flex-col justify-center content-center items-center">
+                <div className="max-w-[800px] mb-5">
+                  <p className="font-helvetica text-2xl text-left mb-10">
+                    ARTIUS draws inspiration from real-life settings,
+                    reinterpreting them into a grounded yet fantastical game
+                    world.
+                  </p>
 
-          {/* Pvic Logo */}
-          <div className="flex items-center justify-center content-center mb-10">
-            <img
-              data-aos="flip-left"
-              className="max-w-[300px] mb-25 mt-10"
-              src={PvicLogo}
-            />
+                  <p className="font-helvetica text-2xl text-right mb-10">
+                    The evil art creatures offer interesting depictions of
+                    famous art pieces & day-to-day elements.
+                  </p>
+                </div>
+
+                <img
+                  data-aos="fade-right"
+                  className="w-full h-fit max-w-[800px] self-start"
+                  src={Comparison2}
+                />
+                <img
+                  data-aos="fade-right"
+                  className="w-full h-fit max-w-[800px] self-end mt-4"
+                  src={Comparison1}
+                />
+              </div>
+            </div>
+
+            {/* Gallery 2 */}
+            <div data-aos="fade-up">
+              <Gallery picSize="325px" slides={slides} />
+            </div>
+
+            {/* Final */}
+            <div className="mt-30 p-5 xl:p-0 flex flex-col items-center justify-center">
+              <img
+                data-aos="fade-up"
+                className="w-full max-w-[1250px] h-fit"
+                src={CharsCartoon}
+              />
+            </div>
+
+            {/* Pvic Logo */}
+            <div className="flex items-center justify-center content-center xl:mb-10">
+              <img
+                data-aos="flip-left"
+                className="max-w-[300px] mb-25 mt-10"
+                src={PvicLogo}
+              />
+            </div>
           </div>
         </Parallax>
       </div>
