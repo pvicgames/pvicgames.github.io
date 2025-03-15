@@ -9,8 +9,6 @@ interface Props {
 }
 
 const CollaboratorRow = (props: Props) => {
-  // onClick={() => setCollabTextVisible(true)}
-
   return (
     <div
       className={`relative p-3 flex items-center w-full ${
@@ -19,20 +17,20 @@ const CollaboratorRow = (props: Props) => {
           : props.position === "left"
           ? "justify-start"
           : ""
-      } bg-${props.color} cursor-pointer`}
+      } cursor-pointer`}
+      style={{ backgroundColor: props.color }} // Inline style for background color
       onClick={() => props.onClick()}
     >
       <div
-        className={`absolute inset-0 bg-cover md:bg-contain bg-no-repeat bg-${props.color} ${
+        className={`absolute inset-0 bg-cover md:bg-contain bg-no-repeat ${
           props.position === "right"
             ? "bg-left"
             : props.position === "left"
             ? "bg-right"
             : "bg-left"
-        } opacity-50 
-             hover:opacity-100 transform ease-linear duration-100`}
+        } opacity-50 hover:opacity-100 transform ease-linear duration-100`}
         style={{
-          backgroundImage: `linear-gradient(to ${props.position}, transparent, var(--color-${props.color})), url(${props.img})`,
+          backgroundImage: `linear-gradient(to ${props.position}, transparent, ${props.color}), url(${props.img})`,
         }}
       ></div>
 

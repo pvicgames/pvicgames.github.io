@@ -86,18 +86,105 @@
 
     "collabs": {
       "developers": {
-        "title": "Developers.",
-        "text": "The developers at PVic Games are responsible for building the technical foundation of our projects. Whether it's games, tools, or any form of interactive systems -- they ensure everything works the best it can. Pedro Victor 'PVic' Gonçalves, in addition to being a programmer, is also the director and producer of the studio, leading the team and ensuring each project follows our creative vision. Gabriel Casanova, computer science nerd, is the one behind this webpage you are reading RIGHT NOW; and Kevin 'John-Kun' is our additional gameplay programmer which has made a plethra of Sonic fangames throughout their lifetime."
+        "title": "Devs.",
+        "text": "The developers at PVic Games are responsible for building the technical foundation of our projects. Whether it's games, tools, or any form of interactive systems -- they ensure everything works the best it can. Pedro Victor 'PVic' Gonçalves, in addition to being a programmer, is also the director and producer of the studio, leading the team and ensuring each project follows our creative vision. Gabriel Casanova, computer science nerd, is the one behind this webpage you are reading RIGHT NOW; and Kevin 'John-Kun' is our additional gameplay programmer which has made a plethra of Sonic fangames throughout their lifetime.",
+
+        "links": [
+          {
+            "name": "Pedro 'Victor' Gonçalves", 
+            "img": "/img/members/pedro.png",
+            "url": "https://x.com/pvicvg"
+          },
+          {
+            "name": "Gabriel Casanova", 
+            "img": "/img/members/casanova.png",
+            "url": "http://gabrielcasanova.com.br"
+          },
+          {
+            "name": "Kevin 'John-Kun'", 
+            "img": "/img/members/prancha.webp",
+            "url": ""
+          }
+        ]
       },
 
       "artists": {
         "title": "Artists.",
-        "text": "The visual aspect of our games comes to life thanks to the talent of our artists, who are responsible for illustrations, sprites, animations, and the overall graphic style that defines our identity. Shin, Bitto, Pablo, and Brediamai contribute unique styles and engaging artistic direction, ensuring that each world has personality and visual depth."
+        "text": "The visual aspect of our games comes to life thanks to the talent of our artists, who are responsible for illustrations, sprites, animations, and the overall graphic style that defines our identity. Shin, Bitto, Pablo, and Brediamai contribute unique styles and engaging artistic direction, ensuring that each world has personality and visual depth.",
+
+        "links": [
+          {
+            "name": "Bredi", 
+            "img": "/img/members/bredi.png",
+            "url": ""
+          },
+          {
+            "name": "Bitto", 
+            "img": "/img/members/bitto.webp",
+            "url": ""
+          },
+          {
+            "name": "Pablo", 
+            "img": "/img/members/pablo.webp",
+            "url": ""
+          },
+          {
+            "name": "Shin", 
+            "img": "/img/members/shin.png",
+            "url": ""
+          }
+        ]
       },
 
       "musics": {
         "title": "Musicians.",
-        "text": "Games aren't anything special without some good and jammin' tracks. Each PVic Games project features original bops that are appropriate to their respective worlds while still being in-line with what we like. Glace Sue, SpeedVGM, and SaGaMIX bring creativity and impact to our productions, while Luan Maziero also played an important role in previous projects."
+        "text": "Games aren't anything special without some good and jammin' tracks. Each PVic Games project features original bops that are appropriate to their respective worlds while still being in-line with what we like. Glace Sue, SpeedVGM, and SaGaMIX bring creativity and impact to our productions, while Luan Maziero also played an important role in previous projects.",
+
+        "links": [
+          {
+            "name": "Luan Maziero", 
+            "img": "/img/members/luan.png",
+            "url": ""
+          },
+          {
+            "name": "Glace", 
+            "img": "/img/members/glace.webp",
+            "url": ""
+          },
+          {
+            "name": "Speed", 
+            "img": "/img/members/speed.png",
+            "url": ""
+          },
+          {
+            "name": "SaGa", 
+            "img": "/img/members/saga.png",
+            "url": ""
+          }
+        ]
+      },
+
+      "communication": {
+        "title": "Social.",
+        "text": "",
+
+        "links": [
+          {
+            "name": "Lucia", 
+            "img": "/img/members/lucia.jpg",
+            "url": ""
+          },
+          {
+            "name": "Victor", 
+            "img": "/img/members/victor.png",
+            "url": ""
+          },
+          {
+            "name": "Starcaster", 
+            "img": "/img/members/starcaster.png",
+            "url": ""
+          }
+        ]
       },
 
       "return": "Return."
