@@ -8,8 +8,6 @@ import IconInstagram from "../assets/img/artius/social/instagram.png";
 import BrunnaTheo from "../assets/img/artius/brunnatheo.png";
 import Chars3D from "../assets/img/artius/chars_3d.png";
 import CharsCartoon from "../assets/img/artius/chars_cartoon.png";
-import Tailored from "../assets/img/artius/tailored.png";
-import TailoredMobile from "../assets/img/artius/tailored_mobile.png";
 import Comparison1 from "../assets/img/artius/comparison1.png";
 import Comparison2 from "../assets/img/artius/comparison2.png";
 import PvicLogo from "../assets/img/pvic_logo_blue.png";
@@ -40,10 +38,10 @@ const NewArtius = () => {
     });
   }, []);
 
+  const { t } = useTranslation();
+
   const slides = [pic1, pic2, pic3];
   const slides2 = [pic4, pic6, pic5];
-
-  const { t } = useTranslation();
 
   return (
     <ActualPage singleColumn={true}>
@@ -137,17 +135,17 @@ const NewArtius = () => {
             {/* Tailored */}
             <div className="xl:min-h-screen flex items-center justify-center">
               {/* Desktop */}
-              <img
+              <div
                 data-aos="fade-up"
-                className="mt-20 mb-20 w-full max-w-[1250px] h-fit hidden xl:inline"
-                src={Tailored}
+                className={`mt-20 mb-20 w-full max-w-[1400px] h-screen hidden xl:inline`}
+                style={{ backgroundImage: `url(${t("games.newArtius.tailored")})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat"}}
               />
 
               {/* Mobile */}
-              <img
+              <div
                 data-aos="fade-up"
-                className="mt-10 mb-10 w-full max-w-[600px] h-fit xl:hidden"
-                src={TailoredMobile}
+                className={`mt-10 mb-10 w-full max-w-[600px] h-screen xl:hidden`}
+                style={{ backgroundImage: `url(${t("games.newArtius.tailoredMobile")})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat"}}
               />
             </div>
 
