@@ -79,6 +79,7 @@
     "newArtius": {
       "title": "ARTIUS",
 
+      "wishlist": "WISHLIST NOW!",
       "text1": "ARTIUS is a momentum-based 2D platformer brimming with creative expression.",
       "text2": "Players take control of four unique artists, as they fight to save the world from the extinction of art!",
       "comparison1": "ARTIUS draws inspiration from real-life settings, reinterpreting them into a grounded yet fantastical game world.",
@@ -90,15 +91,46 @@
       "characters": {
         "pivolo": {
           "title": "Pivolo",
-          "subtitle": "Evil",
-          "desc": "aaaaa",
-          "img": "/img/characters/pivolo.png"
+          "subtitle": "Evil. Envious. Bitter!",
+          "img": "/img/characters/pivolo.png",
+          "desc": "Pivolo was a student at the EdAN art school—a highly talented artist who felt increasingly neglected by his classmates due to his controversial opinions on art. He believed that some forms of art were objectively superior to others, putting him at odds with the other students. Over time, he grew jealous of the popularity of Pierre and his friends. Obsessed with power and success, he seized control of the mystical ARTIUS book—''the heart of EdAN''—and imposed an artistic dictatorship over the city of Rupestrina, reshaping it according to his rigid and oppressive vision. Under his rule, creativity is stifled, self-expression is outlawed, and once-vibrant landscapes become dull and lifeless. As Pivolo’s tyranny spreads, society begins to question the value of art itself, forgetting its power to inspire, heal, and bring people together. It falls upon four heroes—each wielding their own unique creative abilities—to challenge this bleak new reality."
+          
         },
         "pierre": {
           "title": "Pierre",
+          "subtitle": "Painter. Determined. Perseverant!",
+          "desc": "Often teased by his friends for being too serious, Pierre is a painter who has no time for “playing around.” Not a man of words but of actions, he believes in the fundamental goodness of humanity and nature. His art is a reflection of love, freedom, and optimism for the future. When he’s not painting or going on adventures with his friends, he enjoys making pasta for himself and, believe it or not, listening to electronic music. His favorite painters are Salvador Dalí and Van Gogh, but he has a special love for the optimism of Norman Rockwell. He joined the prestigious EdAN art school as a child, and thanks to his unwavering artistic professionalism and virtuosity, has gained both fans – and haters. Being Pierre’s friend may not be the easiest thing in the world, but it is certainly one of the best!",
+          "img": "/img/characters/pierre.png"
+        },
+        "walter": {
+          "title": "Walter",
           "subtitle": "Good",
           "desc": "aaaaa",
-          "img": "/img/characters/pierre.png"
+          "img": "/img/characters/walter.png"
+        },
+        "guga": {
+          "title": "Guga",
+          "subtitle": "Good",
+          "desc": "aaaaa",
+          "img": "/img/characters/guga.png"
+        },
+        "rene": {
+          "title": "René",
+          "subtitle": "Good",
+          "desc": "aaaaa",
+          "img": "/img/characters/rene.png"
+        },
+        "brunna": {
+          "title": "Brunna",
+          "subtitle": "Good",
+          "desc": "aaaaa",
+          "img": "/img/characters/brunna.png"
+        },
+        "theo": {
+          "title": "Theo",
+          "subtitle": "Good",
+          "desc": "aaaaa",
+          "img": "/img/characters/theo.png"
         }
       }
     }

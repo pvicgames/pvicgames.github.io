@@ -19,6 +19,8 @@ import pic4 from "../assets/img/artius/pic4.png";
 import pic5 from "../assets/img/artius/pic5.png";
 import pic6 from "../assets/img/artius/pic6.png";
 
+import steamIcon from "../assets/img/badges/steam_icon.png"
+
 // Components
 import SocialIcon from "../components/SocialIcon";
 import ActualPage from "../components/global/ActualPage";
@@ -29,7 +31,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Parallax } from "react-scroll-parallax";
 import { useTranslation } from "react-i18next";
-//import ArtiusCharButton from "../components/ArtiusCharButton";
 
 const NewArtius = () => {
   useEffect(() => {
@@ -39,24 +40,30 @@ const NewArtius = () => {
     });
   }, []);
 
-  const { t } = useTranslation();
+  const { t , i18n } = useTranslation();
 
   const slides = [pic1, pic2, pic3];
   const slides2 = [pic4, pic6, pic5];
 
-  /*const [currentCharTitle, setCurrentCharTitle] = useState(t("games.newArtius.characters.pivolo.title"))
-  const [currentCharSubtitle, setCurrentCharSubtitle] = useState("Current char title.")
-  const [currentCharDesc, setCurrentCharDesc] = useState("Current char description.")
-  const [currentCharImg, setCurrentCharImg] = useState("/")
+  const currentLanguage = i18n.language;
 
-  function setCharacter(characterName: string) {
-    const path = `games.newArtius.characters.${characterName}`
-
-    setCurrentCharTitle(t(`${path}.title`))
-    setCurrentCharSubtitle(t(`${path}.subtitle`))
-    setCurrentCharDesc(t(`${path}.desc`))
-    setCurrentCharImg(t(`${path}.img`))
-  }*/
+  function createLinks() {
+    if (currentLanguage === "pt" || currentLanguage === "pt-BR") {
+      return (<div className="mt-6 flex">
+        <SocialIcon Link="https://x.com/ednaldo_game" Icon={IconTwitter} />
+        <SocialIcon Link="https://discord.gg/MKr3eyn" Icon={IconDiscord} />
+        <SocialIcon Link="https://www.youtube.com/channel/UCXrinAaMhfNehiK37hGrYtg" Icon={IconYoutube} />
+        <SocialIcon Link="https://www.instagram.com/pvicgamesbr/" Icon={IconInstagram} />
+      </div>)
+    } else {
+      return (<div className="mt-6 flex">
+        <SocialIcon Link="https://x.com/PVicGames" Icon={IconTwitter} />
+        <SocialIcon Link="https://discord.gg/3T8fbXq9Jf" Icon={IconDiscord} />
+        <SocialIcon Link="https://www.youtube.com/@PVicVG" Icon={IconYoutube} />
+        <SocialIcon Link="https://www.instagram.com/pvicgames/" Icon={IconInstagram} />
+      </div>)
+    }
+  }
 
   return (
     <ActualPage singleColumn={true}>
@@ -76,12 +83,19 @@ const NewArtius = () => {
               src={Logo}
             />
 
-            <div className="mt-6 flex">
-              <SocialIcon Link="#" Icon={IconTwitter} />
-              <SocialIcon Link="#" Icon={IconDiscord} />
-              <SocialIcon Link="#" Icon={IconYoutube} />
-              <SocialIcon Link="#" Icon={IconInstagram} />
-            </div>
+            <a className="text-2xl xl:text-5xl text-center font-adlib xl:ml-10 mt-5 mb-2 
+                          bg-black text-white p-3 rounded-2xl
+                          drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
+                          hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
+                          cursor-pointer duration-100 transform hover:rounded-3xl
+                          flex items-center gap-2 hover:scale-105"
+                href="https://store.steampowered.com/app/3599920/ARTIUS_Pure_Imagination/" target="_blank"
+            >
+              <img className="w-[50px] mr-3" src={steamIcon}/> 
+              {t("games.newArtius.wishlist")}
+            </a>
+
+            {createLinks()}
           </div>
         </div>
 
@@ -206,8 +220,6 @@ const NewArtius = () => {
             <div data-aos="fade-up">
               <Gallery picSize="325px" slides={slides} />
             </div>
-
-            
 
             {/* Final */}
             <div className="mt-20 p-5 xl:p-0 flex flex-col items-center justify-center">
