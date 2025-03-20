@@ -9,7 +9,7 @@ import pic6 from "../assets/img/artius/pic6.png";
 import logo from "../assets/img/artius/logo.png";
 import chars_cartoon from "../assets/img/artius/chars_cartoon.png";
 import chars_3d from "../assets/img/artius/chars_3d.png";
-import pivolo from "../assets/img/artius/pivolo.png";
+import pivolo from "../assets/img/artius/pivolo2.png";
 
 // Modules
 import ActualPage from "../components/global/ActualPage";
