@@ -24,11 +24,12 @@ import SocialIcon from "../components/SocialIcon";
 import ActualPage from "../components/global/ActualPage";
 import YouTube from "react-youtube";
 import Gallery from "../components/global/Gallery";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Parallax } from "react-scroll-parallax";
 import { useTranslation } from "react-i18next";
+import ArtiusCharButton from "../components/ArtiusCharButton";
 
 const NewArtius = () => {
   useEffect(() => {
@@ -42,6 +43,20 @@ const NewArtius = () => {
 
   const slides = [pic1, pic2, pic3];
   const slides2 = [pic4, pic6, pic5];
+
+  const [currentCharTitle, setCurrentCharTitle] = useState(t("games.newArtius.characters.pivolo.title"))
+  const [currentCharSubtitle, setCurrentCharSubtitle] = useState("Current char title.")
+  const [currentCharDesc, setCurrentCharDesc] = useState("Current char description.")
+  const [currentCharImg, setCurrentCharImg] = useState("/")
+
+  function setCharacter(characterName: string) {
+    const path = `games.newArtius.characters.${characterName}`
+
+    setCurrentCharTitle(t(`${path}.title`))
+    setCurrentCharSubtitle(t(`${path}.subtitle`))
+    setCurrentCharDesc(t(`${path}.desc`))
+    setCurrentCharImg(t(`${path}.img`))
+  }
 
   return (
     <ActualPage singleColumn={true}>
@@ -127,7 +142,7 @@ const NewArtius = () => {
                 className="flex items-center justify-center"
               >
                 <p className="font-adlib text-pvic-blue drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] text-3xl xl:text-5xl p-5 xl:mr-20 xl:p-0 text-right max-w-[800px]">
-                {t("games.newArtius.text2")}
+                  {t("games.newArtius.text2")}
                 </p>
               </div>
             </div>
@@ -137,15 +152,27 @@ const NewArtius = () => {
               {/* Desktop */}
               <div
                 data-aos="fade-up"
-                className={`mt-20 mb-20 w-full max-w-[1400px] h-screen hidden xl:inline`}
-                style={{ backgroundImage: `url(${t("games.newArtius.tailored")})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat"}}
+                className={`mt-20 mb-20 w-full max-w-[1250px] h-screen hidden xl:inline`}
+                style={{
+                  backgroundImage: `url(${t("games.newArtius.tailored")})`,
+                  backgroundSize: "contain",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                }}
               />
 
               {/* Mobile */}
               <div
                 data-aos="fade-up"
                 className={`mt-10 mb-10 w-full max-w-[600px] h-screen xl:hidden`}
-                style={{ backgroundImage: `url(${t("games.newArtius.tailoredMobile")})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat"}}
+                style={{
+                  backgroundImage: `url(${t(
+                    "games.newArtius.tailoredMobile"
+                  )})`,
+                  backgroundSize: "contain",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                }}
               />
             </div>
 
@@ -180,8 +207,10 @@ const NewArtius = () => {
               <Gallery picSize="325px" slides={slides} />
             </div>
 
+            
+
             {/* Final */}
-            <div className="mt-30 p-5 xl:p-0 flex flex-col items-center justify-center">
+            <div className="mt-20 p-5 xl:p-0 flex flex-col items-center justify-center">
               <img
                 data-aos="fade-up"
                 className="w-full max-w-[1250px] h-fit"
@@ -205,3 +234,4 @@ const NewArtius = () => {
 };
 
 export default NewArtius;
+

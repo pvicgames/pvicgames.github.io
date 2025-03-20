@@ -9,14 +9,14 @@ import pic6 from "../assets/img/artius/pic6.png";
 import logo from "../assets/img/artius/logo.png";
 import chars_cartoon from "../assets/img/artius/chars_cartoon.png";
 import chars_3d from "../assets/img/artius/chars_3d.png";
-import pivolo from "../assets/img/artius/PIVOLO.png";
+import pivolo from "../assets/img/artius/pivolo.png";
 
 // Modules
 import ActualPage from "../components/global/ActualPage";
 import Gallery from "../components/global/Gallery";
 import { useTranslation } from "react-i18next";
 
-const Artius = () => {
+const OldArtius = () => {
   const slides = [pic1, pic2, pic3];
   const slides2 = [pic4, pic6, pic5];
 
@@ -84,4 +84,4 @@ const Artius = () => {
   );
 };
 
-export default Artius;
+export default OldArtius;

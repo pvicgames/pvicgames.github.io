@@ -11,7 +11,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import EdMescDX from "./pages/EdMescDX";
 import NewArtius from "./pages/NewArtius";
-import Artius from "./pages/Artius";
+import OldArtius from "./pages/OldArtius";
 import { ParallaxProvider } from "react-scroll-parallax";
 
 function App() {
@@ -26,8 +26,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/artius" element={<Artius />} />
-          <Route path="/newartius" element={<NewArtius />} />
+          <Route path="/oldartius" element={<OldArtius />} />
+          <Route path="/artius" element={<NewArtius />} />
           <Route path="/edmescdx" element={<EdMescDX />} />
         </Routes>
       </Router>

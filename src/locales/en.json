@@ -84,7 +84,23 @@
       "comparison1": "ARTIUS draws inspiration from real-life settings, reinterpreting them into a grounded yet fantastical game world.",
       "comparison2": "The evil art creatures offer interesting depictions of famous art pieces & day-to-day elements.",
       "tailored": "/img/tailored.png",
-      "tailoredMobile": "/img/tailored_mobile.png"
+      "tailoredMobile": "/img/tailored_mobile.png",
+      "meet": "Meet the Cast!",
+
+      "characters": {
+        "pivolo": {
+          "title": "Pivolo",
+          "subtitle": "Evil",
+          "desc": "aaaaa",
+          "img": "/img/characters/pivolo.png"
+        },
+        "pierre": {
+          "title": "Pierre",
+          "subtitle": "Good",
+          "desc": "aaaaa",
+          "img": "/img/characters/pierre.png"
+        }
+      }
     }
   },
 
