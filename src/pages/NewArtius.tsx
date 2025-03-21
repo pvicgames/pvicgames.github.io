@@ -18,6 +18,9 @@ import pic3 from "../assets/img/artius/pic3.png";
 import pic4 from "../assets/img/artius/pic4.png";
 import pic5 from "../assets/img/artius/pic5.png";
 import pic6 from "../assets/img/artius/pic6.png";
+import pic7 from "../assets/img/artius/pic7.png";
+import pic8 from "../assets/img/artius/pic8.png";
+import pic9 from "../assets/img/artius/pic9.png";
 
 import steamIcon from "../assets/img/badges/steam_icon.png"
 
@@ -42,8 +45,11 @@ const NewArtius = () => {
 
   const { t , i18n } = useTranslation();
 
-  const slides = [pic1, pic2, pic3];
-  const slides2 = [pic4, pic6, pic5];
+  
+  const slides2 = [pic4, pic6, pic7];
+  const slides3 = [pic9, pic8, pic5];
+  const slides  = [pic1, pic2, pic3];
+  
 
   const currentLanguage = i18n.language;
 
@@ -159,6 +165,11 @@ const NewArtius = () => {
                   {t("games.newArtius.text2")}
                 </p>
               </div>
+            </div>
+
+            {/* Gallery 1 */}
+            <div data-aos="fade-up">
+              <Gallery picSize="325px" slides={slides3} />
             </div>
 
             {/* Tailored */}
