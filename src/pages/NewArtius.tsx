@@ -4,6 +4,7 @@ import IconTwitter from "../assets/img/artius/social/x-twitter.png";
 import IconYoutube from "../assets/img/artius/social/youtube.png";
 import IconDiscord from "../assets/img/artius/social/discord.png";
 import IconInstagram from "../assets/img/artius/social/instagram.png";
+import IconPatreon from "../assets/img/artius/social/patreon.png";
 
 import BrunnaTheo from "../assets/img/artius/brunnatheo.png";
 import Chars3D from "../assets/img/artius/chars_3d.png";
@@ -55,14 +56,16 @@ const NewArtius = () => {
 
   function createLinks() {
     if (currentLanguage === "pt" || currentLanguage === "pt-BR") {
-      return (<div className="mt-6 flex">
+      return (<div className="mt-6 xl:ml-13 flex">
+        <SocialIcon Link="https://www.patreon.com/PVicGames" Icon={IconPatreon} />
         <SocialIcon Link="https://x.com/ednaldo_game" Icon={IconTwitter} />
         <SocialIcon Link="https://discord.gg/MKr3eyn" Icon={IconDiscord} />
         <SocialIcon Link="https://www.youtube.com/channel/UCXrinAaMhfNehiK37hGrYtg" Icon={IconYoutube} />
         <SocialIcon Link="https://www.instagram.com/pvicgamesbr/" Icon={IconInstagram} />
       </div>)
     } else {
-      return (<div className="mt-6 flex">
+      return (<div className="mt-6 xl:ml-13 flex">
+        <SocialIcon Link="https://www.patreon.com/PVicGames" Icon={IconPatreon} />
         <SocialIcon Link="https://x.com/PVicGames" Icon={IconTwitter} />
         <SocialIcon Link="https://discord.gg/3T8fbXq9Jf" Icon={IconDiscord} />
         <SocialIcon Link="https://www.youtube.com/@PVicVG" Icon={IconYoutube} />
