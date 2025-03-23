@@ -50,6 +50,14 @@ const Home = () => {
               target="_blank"
             >
               youtube
+            </a>{" "}
+            &bull;{" "}
+            <a
+              className="hover:underline text-pvic-blue"
+              href="https://www.patreon.com/PVicGames"
+              target="_blank"
+            >
+              nos apoie
             </a>
           </div>
 
@@ -89,6 +97,14 @@ const Home = () => {
               target="_blank"
             >
               youtube
+            </a>{" "}
+            &bull;{" "}
+            <a
+              className="hover:underline text-pvic-blue"
+              href="https://www.patreon.com/PVicGames"
+              target="_blank"
+            >
+              nos apoie
             </a>
           </div>
         </div>
@@ -127,6 +143,14 @@ const Home = () => {
             target="_blank"
           >
             youtube
+          </a>{" "}
+          &bull;{" "}
+          <a
+            className="hover:underline text-pvic-blue"
+            href="https://www.patreon.com/PVicGames"
+            target="_blank"
+          >
+            support us
           </a>
         </p>
       );
@@ -144,13 +168,16 @@ const Home = () => {
 
       <div className="xl:min-h-screen flex items-center">
         <div className="xl:ml-3 xl:mr-10 ">
-        <div className=" text-center">
+          <div className=" text-center">
             <div className="w-full flex justify-center mt-2">
-              <YouTube videoId="UkiiOdgDdO8" opts={{height: "200", width: "350"}} />
+              <YouTube
+                videoId="UkiiOdgDdO8"
+                opts={{ height: "200", width: "350" }}
+              />
             </div>
           </div>
 
-          <hr className="w-full mt-8 mb-8 border-pvic-blue border-2 border-dashed opacity-100"/>
+          <hr className="w-full mt-8 mb-8 border-pvic-blue border-2 border-dashed opacity-100" />
 
           <AnimatedHomeTitle />
 
@@ -161,10 +188,6 @@ const Home = () => {
           </p>
 
           {createLinks()}
-
-          
-
-          
         </div>
       </div>
     </ActualPage>
