@@ -48,8 +48,8 @@ const NewArtius = () => {
   const currentLanguage = i18n.language;
   
   const slides2 = [pic4, pic6, pic7];
-  const slides3 = [pic9, pic8, pic5];
-  const slides  = [pic1, pic2, pic3];
+  const slides3 = [pic9, pic8, pic2];
+  const slides  = [pic5, pic1, pic3];
 
   function createLinks() {
     if (currentLanguage === "pt" || currentLanguage === "pt-BR") {
