@@ -13,6 +13,7 @@ import EdMescDX from "./pages/EdMescDX";
 import NewArtius from "./pages/NewArtius";
 import OldArtius from "./pages/OldArtius";
 import { ParallaxProvider } from "react-scroll-parallax";
+import ScrollToTop from "./components/global/ScrollToTop";
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
   return (
     <ParallaxProvider>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

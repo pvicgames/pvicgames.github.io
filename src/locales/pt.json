@@ -78,13 +78,60 @@
 
     "newArtius": {
       "title": "ARTIUS",
-      
+
+      "wishlist": "NOSSA STEAM!",
       "text1": "ARTIUS é um jogo de plataforma 2D baseado em momentum, repleto de expressão criativa.",
       "text2": "Os jogadores assumem o controle de quatro artistas únicos, enquanto lutam para salvar o mundo da extinção da arte!",
       "comparison1": "ARTIUS se inspira em ambientes da vida real, reinterpretando-os em um mundo de jogo realista, porém fantástico.",
       "comparison2": "As criaturas malignas da arte oferecem representações interessantes de obras de arte famosas e elementos do cotidiano.",
       "tailored": "/img/tailored_pt.png",
-      "tailoredMobile": "/img/tailored_mobile_pt.png"
+      "tailoredMobile": "/img/tailored_mobile_pt.png",
+      "artiuspedia": "A Artiuspédia!",
+      "artiuspedia2": "Leia tudo sobre o universo mágico de ARTIUS.",
+      "return": "Voltar!",
+
+      "characters": {
+        "meet": "Os Personagens!",
+        "pivolo": {
+          "title": "Pivolo",
+          "subtitle": "Malvado. Invejoso. Amargo!",
+          "desc": "Pivolo era um aluno da escola de arte EdAN—um artista altamente talentoso que se sentia cada vez mais negligenciado por seus colegas devido às suas opiniões controversas sobre arte. Ele acreditava que algumas formas de arte eram objetivamente superiores a outras, o que o colocava em conflito com os outros estudantes. Com o tempo, ele ficou com inveja da popularidade de Pierre e seus amigos. Obcecado por poder e sucesso, ele tomou controle do livro místico ARTIUS—'o coração de EdAN'—e impôs uma ditadura artística sobre a cidade de Rupestrina, remodelando-a de acordo com sua visão rígida e opressiva. Sob seu comando, a criatividade foi sufocada, a autoexpressão foi proibida, e o papel da arte na sociedade foi reduzido a se adequar à sua própria visão artística. À medida que a tirania de Pivolo se espalhou, a sociedade começou a questionar o valor da própria arte, esquecendo seu poder de inspirar, curar e unir as pessoas. Cabe a quatro heróis—cada um com suas próprias habilidades criativas únicas—desafiar essa nova realidade sombria."
+        },
+        "pierre": {
+          "title": "Pierre",
+          "subtitle": "Pintor. Determinado. Perseverante!",
+          "desc": "Frequentemente provocado por seus amigos por ser muito sério, Pierre é um pintor que não tem tempo para ‘’brincadeiras’’. Não é um homem de palavras, mas de ações, e acredita na bondade fundamental da humanidade e da natureza. Sua arte é um reflexo de amor, liberdade e otimismo para o futuro. Quando não está pintando ou indo em aventuras com seus amigos, ele gosta de fazer macarrão para si mesmo e, acredite ou não, ouvir música eletrônica. Seus pintores favoritos são Salvador Dalí e Van Gogh, mas ele tem um amor especial pela nostalgia de Norman Rockwell. Entrou na prestigiada escola de arte EdAN quando criança e, graças ao seu profissionalismo artístico e virtuosismo inabaláveis, conquistou tanto fãs quanto haters. Ser amigo de Pierre pode não ser a coisa mais fácil do mundo, mas certamente é uma das melhores!"
+        },
+        "walter": {
+          "title": "Walter",
+          "subtitle": "Adorável. Fotogênico. Encantador!",
+          "desc": "Encontrar alguém que não ame Walter, o gigante adorável de EdAN, é mais difícil do que encontrar uma agulha em um palheiro. Altruísta até demais, ele está sempre pronto para ajudar qualquer pessoa que possa, independentemente de ser amigo ou não. Apaixonado por fotografia, Walter se enfiou em todos os lugares que uma câmera pode alcançar, capturando momentos de seus amigos, paisagens e eventos. Cinéfilo de coração, adora assistir filmes e, se deixar, ficará falando sobre todos os 'fun facts' que você puder imaginar. Entre seus amigos, ele é a voz da razão, mantendo suas ideias mais doidas sob controle. Ele também gosta de assistir partidas de tênis—preferencialmente enquanto se delicia com uma generosa tigela de salada!"
+        },
+        "guga": {
+          "title": "Guga",
+          "subtitle": "Energético. Brincalhão. Aventureiro!",
+          "desc": "Hiperativo e sempre pronto para uma pegadinha, Guga é o bailarino super atlético de EdAN. Uma pequena bola de energia, ele não consegue parar de se mover e adora pregar peças em seus amigos, especialmente Pierre, que fuca constantemente irritado com ele. Apesar disso, Pierre o tolera (ou pelo menos tenta). Ele adora conversar—até demais—embora na maioria das vezes suas palavras não façam muito sentido. Sempre pronto para ajudar e dar uma mão, Guga é um verdadeiro amigo. Filho das isoladas regiões do norte de Rupestrina, ele não tem medo de explorar o imprevisível e o estranho, para o divertimento de seus amigos e colegas. Seja quebrando barreiras ou fazendo piadas, ele torna a vida mais divertida e imprevisível para todos ao seu redor."
+        },
+        "rene": {
+          "title": "René",
+          "subtitle": "Elegante. Melodioso. Sofisticado!",
+          "desc": "René é o mais jovem de quatro filhos de uma família aristocrática. Introduzido à música desde cedo, ele já tocava Mozart no piano quando tinha cinco anos. Tímido e sincero, René veio para Rupestrine para estudar música e entrou em EdAN mais tarde do que seus amigos, tornando-se o mais novo membro do grupo. Ainda incerto sobre seu futuro e procurando seu lugar na sociedade, uma coisa permanece clara: sua vida sempre girará em torno da música. Amante da elegância, René tem uma profunda apreciação por perfumes franceses, carros antigos e alta gastronomia, muitas vezes assumindo a responsabilidade de ensinar aos seus amigos os pontos mais finos de etiqueta e sofisticação. No entanto, sua desajeitada e desengonçada postura frequentemente atrapalham suas tentativas de causar uma boa impressão, levando-o a tropeçar nas palavras e ações, se constrangendo no processo. Ele ama gatos, atraído pela suas graças e pela companhias silenciosas, vendo-os como a perfeita personificação de refinamento—muito parecido com as toalhas de mesa perfeitamente dobradas dos restaurante cinco estrelas."
+        }
+      },
+
+      "places": {
+        "meet": "Os lugares!",
+        "rupestrine": {
+          "title": "Rupestrina",
+          "subtitle": "A Princezinha Artes",
+          "desc": "Rupestrina é uma cidade renomada por sua rica história artística. Oficialmente chamada União Rupestrina, a cidade recebeu esse título graças à descoberta de alguns dos mais antigos sítios arqueológicos, repletos de pinturas rupestres, petróglifos e outras formas de arte rupestre. Com o tempo, esse profundo patrimônio artístico transformou a cidade em um polo cultural, atraindo músicos, pintores, escultores, dançarinos e todos aqueles envolvidos nas belas-artes. Esse florescimento artístico culminou na fundação da Universidade de Arte EdAN, cujo nome significa Excellens Doctrina Artis Nationum—'Excelência no Ensino das Artes das Nações'—um símbolo do compromisso da cidade com o incentivo à criatividade. A cidade é inegavelmente próspera, mas muitos sentem que o poder está excessivamente concentrado nas mãos da elite artística. Essa concentração de influência levou a um sentimento de isolamento entre a população em geral, alimentando movimentos e um crescente sentimento antiartístico. A divisão entre os artistas e o povo tornou-se uma fonte de tensão, com muitos cidadãos se sentindo excluídos das decisões e oportunidades que moldam o futuro da cidade. Embora seu cenário cultural seja vibrante, a economia de Rupestrina continua predominantemente agrícola, com vastas hectares dedicadas ao cultivo de feijão e café, sustentando o meio de vida de muitos na região."
+        },
+        "ducklagoon": {
+          "title": "Lagoa dos Patos",
+          "subtitle": "O mar de água doce e paixão",
+          "desc": "Cercada d'águas por todos os lados, Rupestrina é uma cidade-península isolada, com um acesso relativamente limitado. No coração desse refúgio costeiro encontra-se a Lagoa dos Patos, uma praia fantástica onde pessoas, barcos e navios estão sempre indo e vindo. Céus ensolarados, manhãs brilhantes e formações rochosas enchem a área de charme e beleza. Um destino perfeito para um fim de semana ou feriado, a Lagoa dos Patos é um dos muitos lugares que tornam Rupestrina excepcional e especial. Suas águas circundantes são extremamente doces, deixando uma impressão duradoura em todo estrangeiro. Um dos muitos mitos que cativam a mente dos habitantes da cidade é o de uma figura misteriosa—'a noiva'—que aparece em todas as noites de lua cheia. Alguns dizem que ela é uma noiva, outros afirmam que é um pato, e alguns até a descrevem como uma 'noiva-pato', seja lá o que isso signifique. Ninguém sabe ao certo o que ela é ou se realmente existe, mas aqueles que a encontraram garantem que sim. O nome da praia remonta à sua fundação, quando conquistadores espanhóis se abrigaram ali e acidentalmente deixaram alguns de seus patos escaparem. As aves se adaptaram bem à região e a povoaram, transformando-a na alegre e repleta de patos praia que conhecemos hoje."
+        }
+      }
     }
   },
 

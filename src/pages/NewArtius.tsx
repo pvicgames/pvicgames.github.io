@@ -5,6 +5,7 @@ import IconYoutube from "../assets/img/artius/social/youtube.png";
 import IconDiscord from "../assets/img/artius/social/discord.png";
 import IconInstagram from "../assets/img/artius/social/instagram.png";
 import IconPatreon from "../assets/img/artius/social/patreon.png";
+import steamIcon from "../assets/img/badges/steam_icon.png"
 
 import BrunnaTheo from "../assets/img/artius/brunnatheo.png";
 import Chars3D from "../assets/img/artius/chars_3d.png";
@@ -23,8 +24,6 @@ import pic7 from "../assets/img/artius/pic7.png";
 import pic8 from "../assets/img/artius/pic8.png";
 import pic9 from "../assets/img/artius/pic9.png";
 
-import steamIcon from "../assets/img/badges/steam_icon.png"
-
 // Components
 import SocialIcon from "../components/SocialIcon";
 import ActualPage from "../components/global/ActualPage";
@@ -35,6 +34,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Parallax } from "react-scroll-parallax";
 import { useTranslation } from "react-i18next";
+import ArtiusPedia from "../components/ArtiusPedia";
 
 const NewArtius = () => {
   useEffect(() => {
@@ -45,14 +45,11 @@ const NewArtius = () => {
   }, []);
 
   const { t , i18n } = useTranslation();
-
+  const currentLanguage = i18n.language;
   
   const slides2 = [pic4, pic6, pic7];
   const slides3 = [pic9, pic8, pic5];
   const slides  = [pic1, pic2, pic3];
-  
-
-  const currentLanguage = i18n.language;
 
   function createLinks() {
     if (currentLanguage === "pt" || currentLanguage === "pt-BR") {
@@ -234,6 +231,9 @@ const NewArtius = () => {
             <div data-aos="fade-up">
               <Gallery picSize="325px" slides={slides} />
             </div>
+
+            {/* ArtiusPedia */}
+            <ArtiusPedia />
 
             {/* Final */}
             <div className="mt-20 p-5 xl:p-0 flex flex-col items-center justify-center">

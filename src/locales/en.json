@@ -86,51 +86,69 @@
       "comparison2": "The evil art creatures offer interesting depictions of famous art pieces & day-to-day elements.",
       "tailored": "/img/tailored.png",
       "tailoredMobile": "/img/tailored_mobile.png",
-      "meet": "Meet the Cast!",
+      "artiuspedia": "The Artiuspedia!",
+      "artiuspedia2": "Read everything there is to know about the magical world of ARTIUS.",
+      "return": "Return!",
 
       "characters": {
+        "meet": "Meet the Cast!",
         "pivolo": {
           "title": "Pivolo",
           "subtitle": "Evil. Envious. Bitter!",
           "img": "/img/characters/pivolo.png",
-          "desc": "Pivolo was a student at the EdAN art school—a highly talented artist who felt increasingly neglected by his classmates due to his controversial opinions on art. He believed that some forms of art were objectively superior to others, putting him at odds with the other students. Over time, he grew jealous of the popularity of Pierre and his friends. Obsessed with power and success, he seized control of the mystical ARTIUS book—''the heart of EdAN''—and imposed an artistic dictatorship over the city of Rupestrina, reshaping it according to his rigid and oppressive vision. Under his rule, creativity is stifled, self-expression is outlawed, and once-vibrant landscapes become dull and lifeless. As Pivolo’s tyranny spreads, society begins to question the value of art itself, forgetting its power to inspire, heal, and bring people together. It falls upon four heroes—each wielding their own unique creative abilities—to challenge this bleak new reality."
-          
+          "desc": "Pivolo was a student at the EdAN art school—a highly talented artist who felt increasingly neglected by his classmates due to his controversial opinions on art. He believed that some forms of art were objectively superior to others, putting him at odds with the other students. Over time, he grew jealous of the popularity of Pierre and his friends. Obsessed with power and success, he seized control of the mystical ARTIUS book—’’the heart of EdAN’’—and imposed an artistic dictatorship over the city of Rupestrine, reshaping it according to his rigid and oppressive vision. Under his rule, creativity is stifled, self-expression is outlawed, and the role of art in society is reduced to fitting his own artistic vision. As Pivolo’s tyranny spreads, society begins to question the value of art itself, forgetting its power to inspire, heal, and bring people together. It falls upon four heroes—each wielding their own unique creative abilities—to challenge this bleak new reality."
         },
         "pierre": {
           "title": "Pierre",
           "subtitle": "Painter. Determined. Perseverant!",
-          "desc": "Often teased by his friends for being too serious, Pierre is a painter who has no time for “playing around.” Not a man of words but of actions, he believes in the fundamental goodness of humanity and nature. His art is a reflection of love, freedom, and optimism for the future. When he’s not painting or going on adventures with his friends, he enjoys making pasta for himself and, believe it or not, listening to electronic music. His favorite painters are Salvador Dalí and Van Gogh, but he has a special love for the optimism of Norman Rockwell. He joined the prestigious EdAN art school as a child, and thanks to his unwavering artistic professionalism and virtuosity, has gained both fans – and haters. Being Pierre’s friend may not be the easiest thing in the world, but it is certainly one of the best!",
+          "desc": "Often teased by his friends for being too serious, Pierre is a painter who has no time for ‘’playing around.’’ Not a man of words but of actions, he believes in the fundamental goodness of humanity and nature. His art is a reflection of love, freedom, and optimism for the future. When he’s not painting or going on adventures with his friends, he enjoys making pasta for himself and, believe it or not, listening to electronic music. His favorite painters are Salvador Dalí and Van Gogh, but he has a special love for the hopefulness of Norman Rockwell. He joined the prestigious EdAN art school as a child, and thanks to his unwavering artistic professionalism and virtuosity, has gained both fans – and haters. Being Pierre’s friend may not be the easiest thing in the world, but it is certainly one of the best!",
           "img": "/img/characters/pierre.png"
         },
         "walter": {
           "title": "Walter",
-          "subtitle": "Good",
-          "desc": "aaaaa",
+          "subtitle": "Adorable. Photogenic. Charming!",
+          "desc": "Finding someone who doesn’t love Walter, the lovable giant of EdAN, is harder than finding a needle in a haystack. Selfless to a fault, he is always ready to help anyone he can, regardless of whether they are a friend or a stranger. A passionate photography enthusiast, Walter has immersed himself in every place a camera can reach, capturing moments of his friends, landscapes and events. A cinephile at heart, he loves watching movies and if you let him, he'll go on and on about all the 'fun facts' you can imagine. Among his friends, he is the voice of reason, keeping their wilder ideas in check. He also enjoys watching tennis matches—preferably while indulging in a generously sized salad bowl!",
           "img": "/img/characters/walter.png"
         },
         "guga": {
           "title": "Guga",
-          "subtitle": "Good",
-          "desc": "aaaaa",
+          "subtitle": "Energetic. Playful. Adventurous!",
+          "desc": "Hyperactive and always up for a prank, Guga is the super-athletic ballet dancer from EdAN. A small ball of energy, he can’t stop moving and loves playing jokes on his friends, especially Pierre, who is constantly irritated by him. Despite this, Pierre tolerates him (or at least tries to). He loves talking—sometimes a bit too much—even though most of the time his words don't quite make sense. Always ready to help and lend a hand, Guga is a true friend. A child of the isolated northern regions of Rupestrine, he’s unafraid to explore the unpredictable and the strange, much to the amusement of his friends and colleagues. Whether it’s pushing boundaries or cracking jokes, he makes life more fun and unpredictable for everyone around him.",
           "img": "/img/characters/guga.png"
         },
         "rene": {
           "title": "René",
-          "subtitle": "Good",
-          "desc": "aaaaa",
+          "subtitle": "Elegant. Melodious. Sophisticated!",
+          "desc": "René is the youngest of four children from an aristocratic family. Introduced to music at an early age, he was already playing Mozart on the piano by the time he was five. Timid and sincere, he came to Rupestrine to study music and joined EdAN later than his friends, making him the newest member of the group. Still uncertain about his future and searching for his place in society, one thing remains clear: his life will always revolve around music. A lover of elegance, René has a deep appreciation for French perfumes, vintage cars, and fine dining, often taking it upon himself to teach his friends the finer points of etiquette and sophistication. However, his clumsiness and awkward demeanor often get in the way of making a good impression, leading him to fumble through words and actions, much to his own embarrassment. He is a devoted cat person, drawn to their grace and quiet companionship, seeing them as the perfect embodiment of refinement—much like a perfectly folded napkin at a five-star restaurant.",
           "img": "/img/characters/rene.png"
         },
         "brunna": {
           "title": "Brunna",
-          "subtitle": "Good",
-          "desc": "aaaaa",
+          "subtitle": "",
+          "desc": "Why are you reading this? It's top secret!",
           "img": "/img/characters/brunna.png"
         },
         "theo": {
           "title": "Theo",
-          "subtitle": "Good",
-          "desc": "aaaaa",
+          "subtitle": "",
+          "desc": "Why are you reading this? It's top secret!",
           "img": "/img/characters/theo.png"
+        }
+      },
+
+      "places": {
+        "meet": "Meet the Locations!",
+        "rupestrine": {
+          "title": "Rupestrine",
+          "subtitle": "The Little Princess of the Arts",
+          "img": "/img/locations/rupestrine.png",
+          "desc": "Rupestrine is a city renowned for its rich artistic history. Officially named Rupestrine Union, the city earned its title thanks to the discovery of some of the oldest archaeological sites in the region, filled with cave paintings, petroglyphs, and other forms of rock art. Over time, this deep artistic heritage transformed the city into a cultural hub, attracting musicians, painters, sculptors, dancers, and all those involved in the fine arts. This artistic flourishing culminated in the founding of the EdAN Art University, which stands for Excellens Doctrina Artis Nationum—meaning 'Excellence in the Teaching of the Arts of Nations'—a symbol of the city’s commitment to nurturing creativity. The city is undeniably rich, but many feel that the power is overly concentrated in the hands of the artistic elite. This concentration of influence has led to a sense of political isolation among the general population, fueling movements and growing anti-artist sentiment. The divide between the artists and the people has become a source of tension, with many citizens feeling excluded from the decisions and opportunities that shape their city’s future. While its cultural landscape is vibrant, Rupestrine's economy remains predominantly agricultural, with vast hectares dedicated to the cultivation of beans and coffee, supporting the livelihood of many in the region."
+        },
+        "ducklagoon": {
+          "title": "Duck Lagoon",
+          "subtitle": "The sea of sweet water and love",
+          "img": "/img/locations/ducklagoon.png",
+          "desc": "Nestled between water on all sides, Rupestrine is a secluded city-peninsula, with access that is both limited and elusive. At the heart of this coastal haven lies Duck Lagoon, a magical beachfront where people, boats, and ships constantly come and go. Sunny skies, bright mornings, and rocky structures fill the area with charm and beauty. A perfect destination for a weekend or holiday, Duck Lagoon is one of the many places that make Rupestrine exceptional and special. Its surrounding waters are as sweet as candy, leaving a lasting impression on every foreigner. One of the many myths that captivate the minds of the city’s inhabitants is that of a mysterious figure—the ''bride''—who appears every full moon night. Some say she’s a bride, others claim she’s a duck, and some even describe her as a ''duck bride,'' whatever that means. No one knows for sure what she is or if she even exists, but those who have encountered her can assure you that she does. The name of the beach dates back to its founding when Spanish conquistadors took shelter there and accidentally let some of their ducks escape. The birds adapted well to the region and populated it, turning it into the cheerful, duck-filled shore we know today."
         }
       }
     }
