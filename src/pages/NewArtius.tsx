@@ -56,7 +56,7 @@ const NewArtius = () => {
       return (<div className="mt-6 xl:ml-13 flex">
         <SocialIcon Link="https://www.patreon.com/PVicGames" Icon={IconPatreon} />
         <SocialIcon Link="https://x.com/ednaldo_game" Icon={IconTwitter} />
-        <SocialIcon Link="https://discord.gg/MKr3eyn" Icon={IconDiscord} />
+        <SocialIcon Link="https://discord.gg/3T8fbXq9Jf" Icon={IconDiscord} />
         <SocialIcon Link="https://www.youtube.com/channel/UCXrinAaMhfNehiK37hGrYtg" Icon={IconYoutube} />
         <SocialIcon Link="https://www.instagram.com/pvicgamesbr/" Icon={IconInstagram} />
       </div>)

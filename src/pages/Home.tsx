@@ -38,7 +38,7 @@ const Home = () => {
             &bull;{" "}
             <a
               className="hover:underline"
-              href="https://discord.gg/MKr3eyn"
+              href="https://discord.gg/3T8fbXq9Jf"
               target="_blank"
             >
               discord
