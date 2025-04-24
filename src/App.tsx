@@ -15,9 +15,11 @@ import OldArtius from "./pages/OldArtius";
 import { ParallaxProvider } from "react-scroll-parallax";
 import ScrollToTop from "./components/global/ScrollToTop";
 
+const savedLanguage = localStorage.getItem("language") || navigator.language
+
 function App() {
   useEffect(() => {
-    i18n.changeLanguage(navigator.language);
+    i18n.changeLanguage(savedLanguage);
   }, []);
 
   return (

@@ -8,14 +8,14 @@ const LanguageSelector = () => {
     <div className="ml-auto  opacity-60">
       <button
         className="cursor-pointer"
-        onClick={() => i18n.changeLanguage("en")}
+        onClick={() => { i18n.changeLanguage("en"); localStorage.setItem("language", "en"); }}
       >
         <b>{t("navbar.english")}</b>
       </button>
       /
       <button
         className="cursor-pointer"
-        onClick={() => i18n.changeLanguage("pt")}
+        onClick={() => { i18n.changeLanguage("pt"); localStorage.setItem("language", "pt"); }}
       >
         <b>{t("navbar.portuguese")}</b>
       </button>
