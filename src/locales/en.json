@@ -243,7 +243,7 @@
 
       "communication": {
         "title": "Social.",
-        "text": "Our connection with the community is shaped by the voices behind our social presence. Lucia, Vitor, and StarCaster handle public relations, community engagement, and social media interactions, ensuring that our message is clear, authentic, and engaging. Whether through announcements, updates, or direct conversations with players, they bring our vision to the world and keep the dialogue alive.",
+        "text": "Our connection with the community is shaped by the voices behind our social presence. Lucia and Vitor handle public relations, community engagement, and social media interactions, ensuring that our message is clear, authentic, and engaging. Whether through announcements, updates, or direct conversations with players, they bring our vision to the world and keep the dialogue alive.",
 
         "links": [
           {
@@ -254,11 +254,6 @@
           {
             "name": "Victor",
             "img": "/img/members/victor.png",
-            "url": ""
-          },
-          {
-            "name": "Starcaster",
-            "img": "/img/members/starcaster.png",
             "url": ""
           }
         ]
