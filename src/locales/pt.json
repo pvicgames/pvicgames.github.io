@@ -116,6 +116,18 @@
           "title": "René",
           "subtitle": "Elegante. Melodioso. Sofisticado!",
           "desc": "René é o mais jovem de quatro filhos de uma família aristocrática. Introduzido à música desde cedo, ele já tocava Mozart no piano quando tinha cinco anos. Tímido e sincero, René veio para Rupestrina para estudar música e entrou em EdAN mais tarde do que seus amigos, tornando-se o mais novo membro do grupo. Ainda incerto sobre seu futuro e procurando seu lugar na sociedade, uma coisa permanece clara: sua vida sempre girará em torno da música. Amante da elegância, René tem uma profunda apreciação por perfumes franceses, carros antigos e alta gastronomia, muitas vezes assumindo a responsabilidade de ensinar aos seus amigos os pontos mais finos de etiqueta e sofisticação. No entanto, sua desajeitada e desengonçada postura frequentemente atrapalham suas tentativas de causar uma boa impressão, levando-o a tropeçar nas palavras e ações, se constrangendo no processo. Ele ama gatos, atraído pela suas graças e pela companhias silenciosas, vendo-os como a perfeita personificação de refinamento—muito parecido com as toalhas de mesa perfeitamente dobradas dos restaurante cinco estrelas."
+        },
+        "brunna": {
+          "title": "Brunna",
+          "subtitle": "Impaciente. Durona. Arquiteta!",
+          "desc": "Brunna não é uma cidadã local de Rupestrina: ela se mudou para a cidade para estudar arquitetura e fez amizades duradouras ao longo desse caminho. Amante de tudo que é belo e concreto, ela possui o espírito de uma verdadeira urbanista. Seus amigos (ou ''carinhas'', como ela os chama carinhosamente) gostam de descreve-lá como impaciente. Brunna não tem tempo a perder: tempo é dinheiro, o relógio está correndo e sempre há algo a ser feito! Ela admite — só de vez em quando — que seu estilo de vida acelerado pode incomodar algumas pessoas, mas é muito querida por tudo e por todos. Sempre pronta para ajudar, Brunna te apoiará de coração aberto, mesmo que isso venha acompanhado de algumas “palavras duras” no processo. Apaixonada pelo lúdico, ela gosta de ler Roald Dahl e Dr. Seuss, isso quando não está ocupada projetando edifícios em jogos simuladores de cidade.",
+          "img": "/img/characters/brunna.png"
+        },
+        "theo": {
+          "title": "Theo",
+          "subtitle": "Words. Poetry. Magi!",
+          "desc": "Apelidado de “O Mago das Palavras”, Theo é um veterano da EdAN e possui doutorado em literatura. Apesar de ainda ser um jovem adulto, ele é uma grande inspiração para todo estudante que chega à universidade com o desejo de crescer no mundo artístico. Amplamente reconhecido como um dos artistas contemporâneos mais celebrados de Rupestrina, Theo escreve com tanta elegância e naturalidade que, para a maioria das pessoas, parece mágica! Naturalmente, ele incorpora essa imagem — frequentemente visto usando roupas de mago (embora alguns realmente acreditem que ele seja um feiticeiro!). Sua poesia está espalhada por toda a cidade; foi ele, inclusive, quem escreveu o seu hino. Orgulhoso descendente de gaúchos, ele valoriza tanto o sotaque quanto sua herança cultural. Seu passatempo favorito? Criar trocadilhos engenhosos e inventar histórias ambientadas em mundos fantásticos.",
+          "img": "/img/characters/theo.png"
         }
       },
 
