@@ -1,9 +1,9 @@
-import squeaky from "../assets/sound/squeaky.wav"
+//import squeaky from "../assets/sound/squeaky.wav"
 
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import ArtiusCharButton from "./ArtiusCharButton";
-import useSound from "use-sound";
+//import useSound from "use-sound";
 
 const ArtiusCharSelector = () => {
   const { t } = useTranslation();
@@ -13,7 +13,7 @@ const ArtiusCharSelector = () => {
   const [currentCharDesc, setCurrentCharDesc] = useState(t("games.newArtius.characters.pivolo.desc"))
   const [currentCharImg, setCurrentCharImg] = useState(t("games.newArtius.characters.pivolo.img"))
 
-  const [squakySound] = useSound(squeaky);
+  //const [squakySound] = useSound(squeaky);
 
   function setCharacter(characterName: string) {
     const path = `games.newArtius.characters.${characterName}`
