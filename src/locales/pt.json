@@ -1,10 +1,10 @@
 {
   "navbar": {
-    "home": "🏠 Home",
-    "artius": "🎨 ARTIUS",
-    "edmescdx": "💥 Ednaldo",
-    "about": "💭 Sobre",
-    "contact": "📧 Contato",
+    "home": "Home",
+    "artius": "ARTIUS",
+    "edmescdx": "Ednaldo",
+    "about": "Sobre",
+    "contact": "Contato",
 
     "english": "[inglês]",
     "portuguese": "[português]"
