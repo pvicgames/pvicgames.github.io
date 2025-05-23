@@ -4,9 +4,10 @@ import { Link, useLocation } from "react-router";
 interface Props {
   text: string;
   link: string;
+  img: string
 }
 
-const NavbarButton: React.FC<Props> = ({ text, link }) => {
+const NavbarButton: React.FC<Props> = ({ text, link, img }) => {
   const currentLocation = useLocation();
   const active = currentLocation.pathname === link;
 
@@ -21,6 +22,7 @@ const NavbarButton: React.FC<Props> = ({ text, link }) => {
                    } 
                    transform ease-linear duration-100 hover:scale-110`}
       >
+        <img className="m-[-10px] pl-[7px] pr-[15px] pb-[3px] pt-[3px]" src={img} />
         {text}
       </div>
     </Link>

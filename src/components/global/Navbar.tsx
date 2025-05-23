@@ -2,6 +2,11 @@
 import pierrebike from "../../assets/img/pierrebike.gif";
 import pierrejog from "../../assets/img/pierrejog.gif";
 import pierrewalk from "../../assets/img/pierrewalk.gif";
+import houseIcon from "../../assets/img/navicons/house.png";
+import ednaldoIcon from "../../assets/img/navicons/ednaldo.png";
+import artiusIcon from "../../assets/img/navicons/artius.png";
+import aboutIcon from "../../assets/img/navicons/about.png";
+import contactIcon from "../../assets/img/navicons/contact.png";
 
 import { useTranslation } from "react-i18next";
 import NavbarButton from "./NavbarButton";
@@ -34,11 +39,11 @@ const Navbar = () => {
         <div className="absolute w-screen bottom-0 bg-pvic-pink h-[40px]" />
 
         <div className="relative pointer-events-auto flex items-end ">
-          <NavbarButton text={t("navbar.home")} link="/" />
-          <NavbarButton text={t("navbar.artius")} link="/artius" />
-          <NavbarButton text={t("navbar.edmescdx")} link="/edmescdx" />
-          <NavbarButton text={t("navbar.about")} link="/about" />
-          <NavbarButton text={t("navbar.contact")} link="/contact" />
+          <NavbarButton img={houseIcon}   text={t("navbar.home")}     link="/" />
+          <NavbarButton img={artiusIcon}  text={t("navbar.artius")}   link="/artius" />
+          <NavbarButton img={ednaldoIcon} text={t("navbar.edmescdx")} link="/edmescdx" />
+          <NavbarButton img={aboutIcon}   text={t("navbar.about")}    link="/about" />
+          <NavbarButton img={contactIcon} text={t("navbar.contact")}  link="/contact" />
           
           <div className="ml-auto pr-30">
             <LanguageSelector />
