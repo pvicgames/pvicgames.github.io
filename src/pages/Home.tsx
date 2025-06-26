@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import pvicLogo from "../assets/img/pvic_logo_blue.png";
 import AnimatedHomeTitle from "../components/AnimatedHomeTitle";
 import ActualPage from "../components/global/ActualPage";
-import YouTube from "react-youtube";
+//import YouTube from "react-youtube";
 
 const Home = () => {
   const { t, i18n } = useTranslation();
@@ -180,7 +180,7 @@ const Home = () => {
 
           <hr className="w-full mt-8 mb-8 border-pvic-blue border-2 border-dashed opacity-100" />
           */}
-          
+
           <AnimatedHomeTitle />
 
           <p className="font-helvetica text-justify pt-3 pb-5">
