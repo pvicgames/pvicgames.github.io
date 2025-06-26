@@ -177,10 +177,10 @@ const Home = () => {
               />
             </div>
           </div>
-          */}
 
           <hr className="w-full mt-8 mb-8 border-pvic-blue border-2 border-dashed opacity-100" />
-
+          */}
+          
           <AnimatedHomeTitle />
 
           <p className="font-helvetica text-justify pt-3 pb-5">
