@@ -168,6 +168,7 @@ const Home = () => {
 
       <div className="xl:min-h-screen flex items-center">
         <div className="xl:ml-3 xl:mr-10 ">
+          {/* VIDEO
           <div className=" text-center">
             <div className="w-full flex justify-center mt-2">
               <YouTube
@@ -176,6 +177,7 @@ const Home = () => {
               />
             </div>
           </div>
+          */}
 
           <hr className="w-full mt-8 mb-8 border-pvic-blue border-2 border-dashed opacity-100" />
 
