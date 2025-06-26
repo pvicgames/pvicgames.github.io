@@ -5,7 +5,7 @@ const LanguageSelector = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="ml-auto  opacity-60">
+    <div className="ml-auto mb-3  opacity-60">
       <button
         className="cursor-pointer"
         onClick={() => { i18n.changeLanguage("en"); localStorage.setItem("language", "en"); }}
