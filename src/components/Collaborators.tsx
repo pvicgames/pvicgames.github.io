@@ -104,22 +104,6 @@ const Collaborators = () => {
         >
           {t("about.collabs.return")}
         </p>
-
-        {/* Create portifolio links */}
-        <div className="mt-5 flex">
-          {currentLinks.map((link, index) => (
-            <a href={link.url ? link.url : undefined} target="_blank" key={index}>
-              <img className="w-[130px] mr-3 rounded-2xl 
-                              hover:rounded-md transform ease-linear duration-100
-                              hover:drop-shadow-[5px_5px_0px_rgba(0,0,0,0.4)]
-                              cursor-pointer" 
-                  src={link.img} 
-                  alt={link.name}
-                  onClick={() => {if (link.url === "") { squakySound() }}}
-              />
-            </a>
-          ))}
-        </div>
       </div>
     </div>
   );
