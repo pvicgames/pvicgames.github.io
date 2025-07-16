@@ -164,9 +164,55 @@
     "collabs": {
       "pedro": {
         "name": "Pedro Victor Gonçalves",
-        "text": "Team Head, Game Designer, Lead Developer and Stage Designer"
+        "role": "Team Head, Game Designer, Lead Developer and Stage Designer",
+        "text": "Pedro Victor Gonçalves is a passionate game designer with broad expertise across multiple areas of game development, specializing in game design and programming. Raised in southern Brazil, Pedro has spent years honing his craft on 2D, action-driven platformers. In 2023, he joined SUMMITSPHERE as a Gameplay Programmer for the acclaimed indie title ANTONBLAST. Later, he founded his own studio, PVic Games, where he developed popular Brazilian indie hits such as Ednaldo Pereira Mescladasso and Ednaldo Pereira Mobile. His most ambitious project to date is ARTIUS, a bold and expansive game that represents the culmination of his creative vision and development experience.",
+        "link": "https://pedrovictorvg.notion.site/Resume-0336b91fd2b04903b2be65e8b339660f"
+        
+      },
+      "casanova": {
+        "name": "Gabriel Casanova",
+        "role": "Game Producer, Developer and Narrative Designer",
+        "text": "Gabriel Casanova is a game and web developer with an associate degree in Information Technology. He has collaborated with Pedro Victor Gonçalves since 2017 and joined PVic Games in 2024, where he developed the very website you're using now. In 2025, Gabriel took on the role of producer for ARTIUS, ensuring the project stays on schedule, within budget, and meets its quality goals. He manages team coordination and plays a vital role in translating the game designer’s vision into a tangible experience. Gabriel also serves as the narrative designer, crafting the game’s story and ensuring the lore remains cohesive, consistent, and immersive.",
+        "link": "https://linktr.ee/gbcasanova"
+      },
+      "kevin": {
+        "name": "Kevin Macedo",
+        "role": "Deputy Developer and Stage Designer",
+        "link": "https://www.linkedin.com/in/kevin-severgnini-macedo-212718296/",
+        "text": "Kevin is a game developer that got known for making horror-themed Sonic Fangames, with the incredibly popular ''Sonic.EXE PC Port''. With a pedigree in 2D platformer game development, he has collaborated with Pedro Victor Gonçalves for a long time, joining PVic Games in 2023 and being a programmer on Ednaldo Pereira Mescladasso DX. In 2024, he joined the ARTIUS project as a gameplay developer and in 2025 also took the role of stage designer."
+      },
+      "pablo": {
+        "name": "Pablo Tavares",
+        "role": "Concept Artist, Character/Marketing Artist and Animator",
+        "link": "https://www.instagram.com/pablo_sinistro",
+        "text": "Pablo is a concept artist, key/marketing artist, and animator who has been collaborating with PVic Games since 2025 on the development of ARTIUS. He is also the creator of his own comic book series and character, The Existence of Folião. His distinctive artistic style and experience have been essential in shaping the game's bold, cartoon-inspired look and feel."
+      },
+      "bredi": {
+        "name": "Bredi Amai",
+        "role": "Stage Artist, Sprite Artist, and Animator",
+        "link": "https://brediamai.carrd.co/",
+        "text": "Bredi is a multidisciplinary artist and game developer. He is the creator of the Pizza Tower fangame Toadlegette Revolution and also contributed to the widely popular Pizza Tower project Sugary Spire. In 2025, he joined PVic Games as a stage artist, sprite artist, and animator, working closely with Pedro Victor Gonçalves on the game’s art direction to help maintain a consistent and high-quality visual style."
+      },
+      "vivi": {
+        "name": "Viviane Piva",
+        "role": "Props/Assets Artist, Sprite Artist",
+        "link": "https://nekuushin.carrd.co/",
+        "text": "Viviane has been collaborating with PVic Games since 2023, beginning with her work as an artist on Ednaldo Pereira: Mescladasso DX. Throughout the development of ARTIUS, she has provided valuable sprite work, props, and visual assets, helping bring the game’s world to life."
+      },
+      "speed": {
+        "name": "SpeedVGM",
+        "role": "Music Composer and Music Arranger",
+        "link": "https://speedvgm.carrd.co/",
+        "text": "SpeedVGM is a musician, artist, animator, and indie game developer. With several albums and project contributions under his belt, he has been a long-time musical collaborator of Pedro Victor Gonçalves, working together across both indie games and fangame projects. In ARTIUS, he composed numerous themes and tracks, collaborating closely with SaGa! to define the game’s musical identity."
+      },
+      "saga": {
+        "name": "SaGa!",
+        "role": "Music Arranger and Music Perfomer",
+        "link": "https://www.youtube.com/channel/UC4CIe08V8CTjKIVc_O64q7A",
+        "text": "SaGa! is a music arranger, performer, and producer. Since 2025, he has been a frequent collaborator at PVic Games, working alongside SpeedVGM on the soundtrack for ARTIUS. Together, they help shape the game’s rich and dynamic musical identity."
       },
 
+      "moreinfo": "More information.",
       "return": "Return."
     }
   },

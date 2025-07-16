@@ -155,26 +155,56 @@
     "description2": "A jornada está apenas começando, e convidamos você a entrar em nosso mundo de silêncio criativo — onde a imaginação é o refúgio supremo da liberdade.",
 
     "collabs": {
-      "developers": {
-        "title": "Devs.",
-        "text": "Os desenvolvedores da PVic Games são responsáveis por construir a base técnica de nossos projetos. Seja em jogos, ferramentas ou qualquer forma de sistemas interativos, eles garantem que tudo funcione da melhor forma possível. Pedro Victor 'PVic' Gonçalves, além de ser programador, é também o diretor e produtor do estúdio, liderando a equipe e garantindo que cada projeto siga nossa visão criativa. Gabriel Casanova, nerdola de ciência da computação, é o responsável por esta página que você está lendo AGORA MESMO; e Kevin 'John-Kun' é nosso programador adicional de gameplay, que criou uma infinidade de fangames de Sonic ao longo de sua carreira."
+      "pedro": {
+        "name": "Pedro Victor Gonçalves",
+        "role": "Líder de Equipe, Game Designer, Programador e Designer de Fases",
+        "text": "Pedro Victor Gonçalves é um game designer, com experiência em várias áreas do desenvolvimento de jogos, especialmente em game design e programação. Gaúcho, ele passou anos desenvolvendo jogos de plataforma 2D. Em 2023, foi contratado como programador de gameplay no aclamado indie ANTONBLAST na SUMMITSPHERE. Depois, fundou seu próprio estúdio, a PVic Games, onde criou sucessos independentes brasileiros como Ednaldo Pereira Mescladasso e Ednaldo Pereira Mobile. Seu projeto mais ambicioso até agora é ARTIUS — um jogo ousado e expansivo que representa a soma de tudo que aprendeu até aqui.",
+        "link": "https://pedrovictorvg.notion.site/Resume-0336b91fd2b04903b2be65e8b339660f"
+      },
+      "casanova": {
+        "name": "Gabriel Casanova",
+        "role": "Produtor, Desenvolvedor e Roteirista",
+        "text": "Gabriel Casanova é desenvolvedor de jogos e web developer, com formação em Técnico em Informática. Colabora com Pedro Victor Gonçalves desde 2017 e entrou na PVic Games em 2024 — inclusive foi ele quem desenvolveu o site que você está navegando agora. Em 2025, assumiu a produção de ARTIUS, cuidando do cronograma do projeto, tarefas da equipe e garantindo que tudo mantenha a qualidade desejada. Também atua como roteirista do jogo, ajudando a construir o universo e manter a história coesa e envolvente.",
+        "link": "https://linktr.ee/gbcasanova"
+      },
+      "kevin": {
+        "name": "Kevin Macedo",
+        "role": "Programador de Gameplay e Designer de Fases",
+        "text": "Kevin é desenvolvedor de jogos e ficou conhecido por criar fangames de terror baseados em Sonic, como o popular 'Sonic.EXE PC Port'. Com bastante bagagem em jogos de plataforma 2D, ele colabora com Pedro Victor Gonçalves há bastante tempo. Entrou na PVic Games em 2023, programando em Ednaldo Pereira Mescladasso DX, e desde 2024 faz parte do time de ARTIUS, assumindo também o papel de designer de fases em 2025.",
+        "link": "https://www.linkedin.com/in/kevin-severgnini-macedo-212718296/"
+      },
+      "pablo": {
+        "name": "Pablo Tavares",
+        "role": "Concept Artist, Artista de Marketing e Animação",
+        "text": "Pablo é concept artist, ilustrador de marketing e animador. Trabalha com a PVic Games desde 2025 no desenvolvimento de ARTIUS. Ele também é criador da própria série em quadrinhos e personagem, 'The Existence of Folião'. Seu estilo marcante e experiência ajudaram a moldar o visual cartunesco e vibrante do jogo.",
+        "link": "https://www.instagram.com/pablo_sinistro"
+      },
+      "bredi": {
+        "name": "Bredi Amai",
+        "role": "Artista de Fase, Pixel Artist e Animador",
+        "text": "Bredi é um artista multidisciplinar e desenvolvedor de jogos. Criou o fangame de Pizza Tower 'Toadlegette Revolution' e também trabalhou no popular projeto 'Sugary Spire'. Em 2025, entrou para a PVic Games como artista de fase, pixel artist e animador, colaborando de perto com Pedro Victor Gonçalves na direção de arte para manter a consistência e o capricho visual do projeto.",
+        "link": "https://brediamai.carrd.co/"
+      },
+      "vivi": {
+        "name": "Viviane Piva",
+        "role": "Artista de Props, Assets e Sprites",
+        "text": "Viviane colabora com a PVic Games desde 2023, começando como artista em Ednaldo Pereira: Mescladasso DX. Durante o desenvolvimento de ARTIUS, vem contribuindo com sprites, objetos e elementos visuais que ajudam a dar vida ao mundo do jogo.",
+        "link": "https://nekuushin.carrd.co/"
+      },
+      "speed": {
+        "name": "SpeedVGM",
+        "role": "Compositor e Arranjador Musical",
+        "text": "SpeedVGM é músico, artista, animador e desenvolvedor indie. Já lançou vários álbuns e participou de diversos projetos. É colaborador musical de longa data de Pedro Victor Gonçalves, com quem já trabalhou em fangames e jogos independentes. No ARTIUS, compôs várias faixas e temas, trabalhando em parceria com SaGa! na construção da identidade sonora do jogo.",
+        "link": "https://speedvgm.carrd.co/"
+      },
+      "saga": {
+        "name": "SaGa!",
+        "role": "Arranjador, Compositor e Produtor Musical",
+        "text": "SaGa! é arranjador, compostiro e produtor musical. Desde 2025, colabora frequentemente com a PVic Games, compondo e produzindo ao lado de SpeedVGM a trilha sonora de ARTIUS. Juntos, dão forma à alma sonora do jogo.",
+        "link": "https://www.youtube.com/channel/UC4CIe08V8CTjKIVc_O64q7A"
       },
 
-      "artists": {
-        "title": "Artistas.",
-        "text": "A parte visual dos nossos jogos ganha vida graças ao talento dos nossos artistas, que são responsáveis por ilustrações, sprites, animações e todo o estilo gráfico que define nossa identidade. Shin, Bitto, Pablo e Brediamai contribuem com traços únicos e uma direção artística envolvente, garantindo que cada mundo tenha personalidade e profundidade visual."
-      },
-
-      "musics": {
-        "title": "Músicos.",
-        "text": "Jogos não são nada especiais sem boas trilhas sonoras. Cada projeto da PVic Games conta com músicas originais que são apropriadas para seus respectivos mundos, ao mesmo tempo em que se alinham com o que gostamos. Glace Sue, SpeedVGM e SaGa! trazem criatividade e impacto para nossas produções, enquanto Luan Maziero também desempenhou um papel importante em projetos anteriores."
-      },
-
-      "communication": {
-        "title": "Social.",
-        "text": "Nossa conexão com a comunidade é moldada pelas vozes por trás de nossa presença social. Lucia e Vitor são responsáveis por relações públicas, engajamento comunitário e interações nas redes sociais, garantindo que nossa mensagem seja clara, autêntica e envolvente. Seja por meio de anúncios, atualizações ou conversas diretas com os jogadores, eles levam nossa visão ao mundo e mantêm o diálogo vivo."
-      },
-
+      "moreinfo": "Mais informações.",
       "return": "Voltar."
     }
   },

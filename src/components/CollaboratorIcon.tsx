@@ -8,10 +8,11 @@ interface Props {
 const CollaboratorIcon = (props: Props) => {
   return (
     <div
-      className={`w-full max-w-[190px] h-[190px] cursor-pointer`}
+      className={`w-full max-w-[190px] h-[190px] cursor-pointer animate__animated animate__zoomIn animate__faster`}
       style={{
         backgroundImage: `url(${props.img})`,
-        backgroundSize: `cover`
+        backgroundSize: `cover`,
+        backgroundPosition: `center`      
       }}
       onClick={() => props.onClick()}
     >
