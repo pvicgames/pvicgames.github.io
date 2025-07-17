@@ -54,7 +54,6 @@ const NewArtius = () => {
   function createLinks() {
     if (currentLanguage === "pt" || currentLanguage === "pt-BR") {
       return (<div className="mt-6 xl:ml-13 flex">
-        <SocialIcon Link="https://www.patreon.com/PVicGames" Icon={IconPatreon} />
         <SocialIcon Link="https://x.com/ednaldo_game" Icon={IconTwitter} />
         <SocialIcon Link="https://discord.gg/3T8fbXq9Jf" Icon={IconDiscord} />
         <SocialIcon Link="https://www.youtube.com/channel/UCXrinAaMhfNehiK37hGrYtg" Icon={IconYoutube} />
@@ -62,7 +61,6 @@ const NewArtius = () => {
       </div>)
     } else {
       return (<div className="mt-6 xl:ml-13 flex">
-        <SocialIcon Link="https://www.patreon.com/PVicGames" Icon={IconPatreon} />
         <SocialIcon Link="https://x.com/PVicGames" Icon={IconTwitter} />
         <SocialIcon Link="https://discord.gg/3T8fbXq9Jf" Icon={IconDiscord} />
         <SocialIcon Link="https://www.youtube.com/@PVicVG" Icon={IconYoutube} />
