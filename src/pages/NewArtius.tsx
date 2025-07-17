@@ -4,7 +4,6 @@ import IconTwitter from "../assets/img/artius/social/x-twitter.png";
 import IconYoutube from "../assets/img/artius/social/youtube.png";
 import IconDiscord from "../assets/img/artius/social/discord.png";
 import IconInstagram from "../assets/img/artius/social/instagram.png";
-import IconPatreon from "../assets/img/artius/social/patreon.png";
 import steamIcon from "../assets/img/badges/steam_icon.png"
 
 import BrunnaTheo from "../assets/img/artius/brunnatheo.png";
@@ -53,14 +52,14 @@ const NewArtius = () => {
 
   function createLinks() {
     if (currentLanguage === "pt" || currentLanguage === "pt-BR") {
-      return (<div className="mt-6 xl:ml-13 flex">
+      return (<div className="xl:ml-13 flex">
         <SocialIcon Link="https://x.com/ednaldo_game" Icon={IconTwitter} />
         <SocialIcon Link="https://discord.gg/3T8fbXq9Jf" Icon={IconDiscord} />
         <SocialIcon Link="https://www.youtube.com/channel/UCXrinAaMhfNehiK37hGrYtg" Icon={IconYoutube} />
         <SocialIcon Link="https://www.instagram.com/pvicgamesbr/" Icon={IconInstagram} />
       </div>)
     } else {
-      return (<div className="mt-6 xl:ml-13 flex">
+      return (<div className="xl:ml-13 flex">
         <SocialIcon Link="https://x.com/PVicGames" Icon={IconTwitter} />
         <SocialIcon Link="https://discord.gg/3T8fbXq9Jf" Icon={IconDiscord} />
         <SocialIcon Link="https://www.youtube.com/@PVicVG" Icon={IconYoutube} />
@@ -78,16 +77,18 @@ const NewArtius = () => {
         {/* Links */}
         <div
           className="min-h-screen bg-cover bg-center bg-fixed
-                   grid xl:grid-cols-2 sm:grid-cols-1 p-5 xl:p-0
+                   grid xl:grid-cols-2 sm:grid-cols-1 p-5 mt-[-22px] xl:p-0
                    bg-[url(/img/ArtiusMain.png)] mb-[450px]"
         >
           <div className="flex flex-col flex-wrap items-center content-center justify-center">
             <img
-              className="animate__animated animate__bounceInDown w-full max-w-[870px] h-fit xl:pl-20"
+              className="animate__animated animate__bounceInDown w-full max-w-[870px] h-fit xl:pl-20
+                         drop-shadow-[0px_0px_10px_rgba(0,0,0,255)]"
               src={Logo}
             />
 
-            <a className="text-2xl xl:text-5xl text-center font-adlib xl:ml-10 mt-5 mb-2 
+            {/* Steam */}
+            <a className="text-2xl xl:text-4xl text-center font-adlib xl:ml-10 mt-5 mb-2 
                           bg-black text-white p-3 rounded-2xl
                           drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
                           hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
