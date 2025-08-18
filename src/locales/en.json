@@ -133,6 +133,18 @@
           "subtitle": "Words. Poetry. Magi!",
           "desc": "Nicknamed “The Word Magician”, Theo is a veteran of EdAN and holds a doctorate in literature. Though still a young adult, he serves as a great inspiration to every student who comes to the school hoping to grow in their chosen art. Widely regarded as one of Rupestrine’s most celebrated modern-day artists, Theo writes with such elegance and ease that to the average person, it might as well be magic. Naturally, he leans into this image - often seen wearing wizard robes (though some genuinely believe he is a magician!). His poetry is woven throughout the city; he even penned its anthem. A proud descendant of Scots, he cherishes both the language and his heritage. His favorite pastime? Dreaming up clever wordplay and crafting stories set in fantastical worlds.",
           "img": "/img/characters/theo.png"
+        },
+        "tyler": {
+          "title": "Tyler",
+          "subtitle": "Lights, Camera, Action!",
+          "desc": "Clumsy but incredibly stylish, Tyler is one of Rupestrina’s biggest film buffs. Although shy and awkward, he’s always around with his clapperboard, searching for everyday scenes that might inspire his next script. Tyler was born in a neighboring town but adopted Rupestrina as his home. Enchanted by the city, he quickly became involved in its cultural scene.",
+          "img": "/img/characters/tyler.png"
+        },
+        "dodo": {
+          "title": "Miss Dodo",
+          "subtitle": "Sculptor. Vivid. Fearless!",
+          "desc": "Lively and determined, Miss Dodo is one of the city’s sculptors. Popularly known as a nomad, she’s always wandering around Rupestrina in search of new inspirations. Her nephew Tyler is her creative partner and adventure companion. Her iconic works are scattered all over, eternalizing the history and events of the region!",
+          "img": "/img/characters/dodo.png"
         }
       },
 

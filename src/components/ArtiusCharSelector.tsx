@@ -42,8 +42,10 @@ const ArtiusCharSelector = () => {
           <ArtiusCharButton img="/img/characters/walter_icon.png"   func={() => {setCharacter("walter");}}/>
           <ArtiusCharButton img="/img/characters/guga_icon.png"     func={() => {setCharacter("guga");}}/>
           <ArtiusCharButton img="/img/characters/rene_icon.png"     func={() => {setCharacter("rene");}}/>
-          <ArtiusCharButton img="/img/characters/theo_icon.png" func={() => {setCharacter("theo");}}/>
-          <ArtiusCharButton img="/img/characters/brunna_icon.png" func={() => {setCharacter("brunna");}}/>
+          <ArtiusCharButton img="/img/characters/theo_icon.png"     func={() => {setCharacter("theo");}}/>
+          <ArtiusCharButton img="/img/characters/brunna_icon.png"   func={() => {setCharacter("brunna");}}/>
+          <ArtiusCharButton img="/img/characters/tyler_icon.png"    func={() => {setCharacter("tyler");}}/>
+          <ArtiusCharButton img="/img/characters/dodo_icon.png"     func={() => {setCharacter("dodo");}}/>
         </div>
 
         {/* Text Section */}

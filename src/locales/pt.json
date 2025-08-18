@@ -128,6 +128,18 @@
           "subtitle": "Palavras. Poesia. Mágica!",
           "desc": "Apelidado de “O Mago das Palavras”, Theo é um veterano da EdAN e possui doutorado em literatura. Apesar de ainda ser um jovem adulto, ele é uma grande inspiração para todo estudante que chega à universidade com o desejo de crescer no mundo artístico. Amplamente reconhecido como um dos artistas contemporâneos mais celebrados de Rupestrina, Theo escreve com tanta elegância e naturalidade que, para a maioria das pessoas, parece mágica! Naturalmente, ele incorpora essa imagem — frequentemente visto usando roupas de mago (embora alguns realmente acreditem que ele seja um feiticeiro!). Sua poesia está espalhada por toda a cidade; foi ele, inclusive, quem escreveu o seu hino. Orgulhoso descendente de gaúchos, ele valoriza tanto o sotaque quanto sua herança cultural. Seu passatempo favorito? Criar trocadilhos engenhosos e inventar histórias ambientadas em mundos fantásticos.",
           "img": "/img/characters/theo.png"
+        },
+        "tyler": {
+          "title": "Tyler",
+          "subtitle": "Luz, Câmera, Ação!",
+          "desc": "Atrapalhado, mas incrivelmente estiloso, Tyler é um dos maiores cinéfilos de Rupestrina. Embora seja tímido e desajeitado, está sempre pelas redondezas com seu claquete em busca de cenas do cotidiano que possam inspirar seu próximo roteiro. Tyler nasceu em uma cidade vizinha mas adotou Rupestrina como seu lar. Encantado pela cidade, ele rapidamente se envolveu com sua cena cultural.",
+          "img": "/img/characters/tyler.png"
+        },
+        "dodo": {
+          "title": "Srta. Dodo",
+          "subtitle": "Escultora. Vívida. Destemida!",
+          "desc": "Vivida e determinada, a Srta. Dodo é uma das escultoras da cidade cidade. Popularmente conhecida como uma nômade, ela está sempre circulando por Rupestrina em busca de novidades. Seu sobrinho Tyler é seu parceiro criativo e companheiro de aventuras. Suas obras icônicas estão espalhadas por toda parte, eternizando a história e os acontecimentos da região.",
+          "img": "/img/characters/dodo.png"
         }
       },
 
