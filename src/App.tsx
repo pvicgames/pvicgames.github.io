@@ -14,6 +14,7 @@ import NewArtius from "./pages/NewArtius";
 import OldArtius from "./pages/OldArtius";
 import { ParallaxProvider } from "react-scroll-parallax";
 import ScrollToTop from "./components/global/ScrollToTop";
+import ArtiusCredits from "./pages/ArtiusCredits";
 
 const savedLanguage = localStorage.getItem("language") || navigator.language
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/oldartius" element={<OldArtius />} />
           <Route path="/artius" element={<NewArtius />} />
+          <Route path="/artiuscredits" element={<ArtiusCredits />} />
           <Route path="/edmescdx" element={<EdMescDX />} />
         </Routes>
       </Router>
