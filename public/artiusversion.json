@@ -1,6 +1,5 @@
 {
-    "version": 0.7,
+    "version": "0.6.3",
     "release_notes": "Cool stuff",
-    "mandatory": true,
     "link": "https://google.com"
 }
