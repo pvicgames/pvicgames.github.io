@@ -25,7 +25,7 @@ const ArtiusCredits = () => {
             <strong>Pablo Tavares</strong></p>
 
           <p>Assets Artist, Sprite Artist, Tiling Artist<br />
-            <strong>Viviane Piva</strong></p>
+            <strong>ViviJackalope</strong></p>
         </div>
 
         <div className="mt-20">
