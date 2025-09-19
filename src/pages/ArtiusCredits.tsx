@@ -46,7 +46,7 @@ const ArtiusCredits = () => {
             <strong>Fishibi</strong>, <strong>BITTO_art</strong></p>
 
           <p>Additional Assets<br />
-            <strong>Retr0Scum</strong>, <strong>Dayv</strong></p>
+            <strong>Retr0Scum</strong>, <strong>Dayv</strong>, <strong>Espoir Souriant</strong></p>
 
           <p>Additional Programmer<br />
             <strong>Zazon</strong></p>
