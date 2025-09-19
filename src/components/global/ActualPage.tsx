@@ -6,6 +6,7 @@ import NavbarMobile from "./NavbarMobile";
 
 interface Props {
   singleColumn?: boolean;
+  noNavbar?: boolean;
 }
 
 const ActualPage = (props: Props & React.PropsWithChildren) => {
@@ -13,8 +14,14 @@ const ActualPage = (props: Props & React.PropsWithChildren) => {
     <div>
       <VideoBackground />
       <PvicDots />
-      <Navbar />
-      <NavbarMobile />
+
+      {!props.noNavbar ?  (
+          <>
+          <Navbar />
+          <NavbarMobile />
+          </>
+      ) : null}
+      
 
       <div
         className={`grid ${
