@@ -75,7 +75,7 @@ const ArtiusCredits = () => {
         <div className="mt-20">
           <h2 className="text-4xl font-bold">Testers<br /><span className="text-base italic">In Alphabetical Order</span></h2>
           <p><strong>Balibali</strong>, <strong>BriceTAS</strong>, <strong>Campers.arts</strong>, <strong>Defnotreal_</strong>, <strong>Ephed</strong>,<br />
-          <strong>Jackie!</strong>, <strong>JMan</strong>, <strong>Jordan</strong>, <strong>justWiz</strong>, <strong>Kast</strong>, <strong>Log</strong>, <strong>Mr. Freaks</strong>,<br />
+          <strong>Jackie!</strong>, <strong>JMan</strong>, <strong>Jordan</strong>, <strong>justWiz</strong>, <strong>SoniKast</strong>, <strong>Log</strong>, <strong>Mr. Freaks</strong>,<br />
           <strong>Noah Copeland</strong>, <strong>Ommelete Studios</strong>, <strong>Pedrinho</strong>,<br />
           <strong>Polar-Star</strong>, <strong>Retr0scum</strong>, <strong>Rosie</strong>, <strong>Seraphic_elf</strong>,<br />
           <strong>Skullduggery</strong>, <strong>TheToastedGuy</strong>, <strong>Trakinas</strong>, <strong>Troopsushi</strong>,<br />
