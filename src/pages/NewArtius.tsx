@@ -113,7 +113,7 @@ const NewArtius = () => {
             >
               <YouTube
                 className="mt-20 w-full h-screen max-h-[300px] xl:max-h-[550px] max-w-[1000px]"
-                videoId="UkiiOdgDdO8"
+                videoId="_e333y09FAE"
                 opts={{ height: "100%", width: "100%" }}
               />
             </div>
@@ -139,10 +139,10 @@ const NewArtius = () => {
 
               <div
                 data-aos="fade-up"
-                className="flex items-center justify-center"
+                className="flex items-center justify-center mt-10"
               >
                 <img
-                  className="w-full max-w-[600px] p-5 xl:p-0"
+                  className="w-full max-w-[470px] mt-10 p-5 xl:p-0"
                   src={BrunnaTheo}
                 />
               </div>
@@ -154,7 +154,7 @@ const NewArtius = () => {
                 data-aos="fade-right"
                 className="flex items-center justify-center"
               >
-                <img className="w-full max-w-[900px]" src={Chars3D} />
+                <img className="w-full max-w-[650px]" src={Chars3D} />
               </div>
               <div
                 data-aos="fade-up"

@@ -57,13 +57,13 @@
     "artius": {
       "title": "ARTIUS",
 
-      "string1": "ARTIUS é um jogo de plataforma 2D baseado em momentum, repleto de criatividade vibrante. Quando o invejoso Pivolo toma posse do místico livro ARTIUS e impõe uma ditadura artística opressiva, cabe a você restaurar a liberdade. Assuma o controle de quatro artistas únicos, cada um com poderes criativos distintos, e lute para salvar um mundo à beira de perder sua arte para sempre!",
+      "string1": "ARTIUS é um jogo de plataforma 2D baseado em momentum, repleto de criatividade vibrante. Quando o invejoso Pivolo toma posse do místico livro ARTIUS e impõe uma ditadura artística opressiva, cabe a você restaurar a liberdade. Assuma o controle de um grupo de artistas, cada um com poderes criativos distintos, e lute para salvar um mundo à beira de perder sua arte para sempre!",
 
       "string2": "O mundo de ARTIUS está cheio de personagens coloridos, cada um com sua própria história para contar e contribuir para o universo do jogo.",
 
       "string3": "Conheça Pivolo",
 
-      "string4": "Pivolo, invejoso do domínio artístico dos protagonistas, toma posse do místico livro ARTIUS e impõe uma ditadura artística, remodelando o mundo segundo sua visão rígida e opressiva. Sob seu governo, a criatividade é sufocada, a autoexpressão é proibida e paisagens antes vibrantes se tornam monótonas e sem vida. À medida que a influência da tirania de Pivolo se espalha, a sociedade começa a questionar o valor da arte, esquecendo seu poder de inspirar, curar e unir as pessoas. Cabe aos quatro heróis—cada um com habilidades criativas únicas—desafiar essa nova realidade sombria.",
+      "string4": "Pivolo, invejoso do domínio artístico dos protagonistas, toma posse do místico livro ARTIUS e impõe uma ditadura artística, remodelando o mundo segundo sua visão rígida e opressiva. Sob seu governo, a criatividade é sufocada, a autoexpressão é proibida e paisagens antes vibrantes se tornam monótonas e sem vida. À medida que a influência da tirania de Pivolo se espalha, a sociedade começa a questionar o valor da arte, esquecendo seu poder de inspirar, curar e unir as pessoas. Cabe aos artistas—cada um com habilidades criativas únicas—desafiar essa nova realidade sombria.",
 
       "string5": "Inspirado pelo Open Zone de Sonic Frontiers e pelo mundo de Bomb Rush Cyberfunk, o hub world de ARTIUS é mais interativo e imersivo do que nos jogos de plataforma tradicionais, permitindo que os jogadores explorem, personalizem estruturas e interajam criativamente com esse ambiente dinâmico. As fases são lineares e divididas em atos, com estágios exclusivos para cada personagem, ensinando mecânicas específicas. Essas mecânicas são depois combinadas nos 'atos finais', onde os jogadores encadeiam ações entre personagens para sequências de jogo eletrizantes.",
 
@@ -81,7 +81,7 @@
 
       "wishlist": "NOSSA STEAM!",
       "text1": "ARTIUS é um jogo de plataforma 2D baseado em momentum, repleto de expressão criativa.",
-      "text2": "Os jogadores assumem o controle de quatro artistas únicos, enquanto lutam para salvar o mundo da extinção da arte!",
+      "text2": "Os jogadores assumem o controle de um grupo de artistas artistas únicos, enquanto lutam para salvar o mundo da extinção da arte!",
       "comparison1": "ARTIUS se inspira em ambientes da vida real, reinterpretando-os em um mundo de jogo realista, porém fantástico.",
       "comparison2": "As criaturas malignas da arte oferecem representações interessantes de obras de arte famosas e elementos do cotidiano.",
       "tailored": "/img/tailored_pt.png",
