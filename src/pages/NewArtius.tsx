@@ -4,7 +4,8 @@ import IconTwitter from "../assets/img/artius/social/x-twitter.png";
 import IconYoutube from "../assets/img/artius/social/youtube.png";
 import IconDiscord from "../assets/img/artius/social/discord.png";
 import IconInstagram from "../assets/img/artius/social/instagram.png";
-import steamIcon from "../assets/img/badges/steam_icon.png"
+import steamIcon from "../assets/img/badges/steam_icon.png";
+import mediaKitIcon from "../assets/img/badges/mediakit.png";
 
 import BrunnaTheo from "../assets/img/artius/brunnatheo.png";
 import Chars3D from "../assets/img/artius/chars_3d.png";
@@ -233,9 +234,26 @@ const NewArtius = () => {
 
             {/* ArtiusPedia */}
             <ArtiusPedia />
+            
+            {/* Steam */}
+            <div className="flex flex-col mt-20 items-center justify-center content-center">
+              <p className="font-helvetica text-2xl font-bold">For press, partners & those ready to dive deeper...</p>
+              <p className="font-helvetica">...all the official info, screenshots, and videos you need.</p>
+              <a className="text-2xl xl:text-4xl text-center font-adlib max-w-[400px] mt-5 mb-2 
+                            bg-black text-white p-3 rounded-2xl
+                            drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
+                            hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
+                            cursor-pointer duration-100 transform hover:rounded-3xl
+                            flex items-center gap-2 hover:scale-105"
+                  href="https://drive.google.com/drive/folders/1mHoLF-FCIacgDN44qCOAlW7mFA_XKd-3?usp=sharing" target="_blank"
+              >
+                <img className="w-[70px]" src={mediaKitIcon}/> 
+                {t("games.newArtius.mediakit")}
+              </a>
+            </div>
 
             {/* Final */}
-            <div className="mt-20 p-5 xl:p-0 flex flex-col items-center justify-center">
+            <div className="mt-10 p-5 xl:p-0 flex flex-col items-center justify-center">
               <img
                 data-aos="fade-up"
                 className="w-full max-w-[1250px] h-fit"
