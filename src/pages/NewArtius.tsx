@@ -36,6 +36,7 @@ import "aos/dist/aos.css";
 import { Parallax } from "react-scroll-parallax";
 import { useTranslation } from "react-i18next";
 import ArtiusPedia from "../components/ArtiusPedia";
+import { Link } from "react-router";
 
 const NewArtius = () => {
   useEffect(() => {
@@ -103,18 +104,18 @@ const NewArtius = () => {
                 {t("games.newArtius.wishlist")}
               </a>
 
-              {/* WebArtius */}
-              <a className="text-2xl text-center font-adlib xl:ml-5 mt-5 mb-2 
+              {/* Play Artius */}
+              <Link className="text-2xl text-center font-adlib xl:ml-5 mt-5 mb-2 
                             bg-black text-white p-3 rounded-2xl
                             drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
                             hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
                             cursor-pointer duration-100 transform hover:rounded-3xl
                             flex items-center gap-2 hover:scale-105"
-                  href="https://pvicvg.com/webartius/" target="_blank"
+                  to="/playartius"
               >
                 <img className="w-[65px] mr-3" src={joyIcon}/> 
                 {t("games.newArtius.play")}
-              </a>
+              </Link>
             </div>
 
             {createLinks()}

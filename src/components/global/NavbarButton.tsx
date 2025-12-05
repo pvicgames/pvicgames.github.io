@@ -9,7 +9,10 @@ interface Props {
 
 const NavbarButton: React.FC<Props> = ({ text, link, img }) => {
   const currentLocation = useLocation();
-  const active = currentLocation.pathname === link;
+  let active = currentLocation.pathname === link;
+
+  // quick and dirty fix
+  if (currentLocation.pathname == "/playartius" && link == "/artius") { active = true; }
 
   return (
     <Link to={link}>
