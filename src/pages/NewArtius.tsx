@@ -5,6 +5,7 @@ import IconYoutube from "../assets/img/artius/social/youtube.png";
 import IconDiscord from "../assets/img/artius/social/discord.png";
 import IconInstagram from "../assets/img/artius/social/instagram.png";
 import steamIcon from "../assets/img/badges/steam_icon.png";
+import joyIcon from "../assets/img/badges/joy_icon.webp";
 import mediaKitIcon from "../assets/img/badges/mediakit.png";
 
 import BrunnaTheo from "../assets/img/artius/brunnatheo.png";
@@ -88,18 +89,33 @@ const NewArtius = () => {
               src={Logo}
             />
 
-            {/* Steam */}
-            <a className="text-2xl xl:text-4xl text-center font-adlib xl:ml-10 mt-5 mb-2 
-                          bg-black text-white p-3 rounded-2xl
-                          drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
-                          hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
-                          cursor-pointer duration-100 transform hover:rounded-3xl
-                          flex items-center gap-2 hover:scale-105"
-                href="https://store.steampowered.com/app/3599920/ARTIUS_Pure_Imagination/" target="_blank"
-            >
-              <img className="w-[50px] mr-3" src={steamIcon}/> 
-              {t("games.newArtius.wishlist")}
-            </a>
+            <div className="flex flex-row">
+              {/* Steam */}
+              <a className="text-2xl text-center font-adlib xl:ml-10 mt-5 mb-2 
+                            bg-black text-white p-3 rounded-2xl
+                            drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
+                            hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
+                            cursor-pointer duration-100 transform hover:rounded-3xl
+                            flex items-center gap-2 hover:scale-105"
+                  href="https://store.steampowered.com/app/3599920/ARTIUS_Pure_Imagination/" target="_blank"
+              >
+                <img className="w-[50px] mr-3" src={steamIcon}/> 
+                {t("games.newArtius.wishlist")}
+              </a>
+
+              {/* WebArtius */}
+              <a className="text-2xl text-center font-adlib xl:ml-5 mt-5 mb-2 
+                            bg-black text-white p-3 rounded-2xl
+                            drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
+                            hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
+                            cursor-pointer duration-100 transform hover:rounded-3xl
+                            flex items-center gap-2 hover:scale-105"
+                  href="https://pvicvg.com/webartius/" target="_blank"
+              >
+                <img className="w-[65px] mr-3" src={joyIcon}/> 
+                {t("games.newArtius.play")}
+              </a>
+            </div>
 
             {createLinks()}
           </div>
