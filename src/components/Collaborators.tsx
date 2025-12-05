@@ -55,7 +55,8 @@ const Collaborators = () => {
               setCurrentText(t("about.collabs.pedro.text"))
               setCurrentLink(t("about.collabs.pedro.link"))
             }}
-            />
+          />
+
           <CollaboratorIcon 
             img="/img/members/casanova.png" 
             onClick={() => {
@@ -66,7 +67,17 @@ const Collaborators = () => {
               setCurrentLink(t("about.collabs.casanova.link"))
             }}
           />
-          <div className="w-full max-w-[190px] h-[190px]"/>
+
+          <CollaboratorIcon 
+            img="/img/members/balibali_alt.png" 
+            onClick={() => {
+              setCollabTextVisible(true)
+              setCurrentTitle(t("about.collabs.balibali.name"))
+              setcurrentRole(t("about.collabs.balibali.role"))
+              setCurrentText(t("about.collabs.balibali.text"))
+              setCurrentLink(t("about.collabs.balibali.link"))
+            }}
+          />
         </div>
 
         {/* ROW 2 */}
