@@ -15,7 +15,7 @@ const PlayArtius = () => {
         <div className="min-h-screen flex flex-col items-center justify-center">
             <img src={Logo} className="max-w-[700px]" />
             
-            <p className="font-adlib text-2xl mt-10 mb-10">Select an option:</p>
+            <p className="font-adlib text-2xl mt-10 mb-10">{t("games.newArtius.selectPlay")}</p>
 
             <div className="max-w-[550px]">
                 <a className="text-4xl text-center font-adlib mt-5 mb-2
