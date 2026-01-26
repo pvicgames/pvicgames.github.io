@@ -17,7 +17,7 @@ const PlayArtius = () => {
             
             <p className="font-adlib text-center text-2xl mt-10 mb-10">{t("games.newArtius.selectPlay")}</p>
 
-            <div className="max-w-[550px] pb-20">
+            <div className="max-w-[550px] xl:pb-20">
                 <a className="m-2 text-2xl lg:text-4xl text-center font-adlib mt-5 mb-2
                                 bg-black text-white p-3 rounded-2xl
                                 drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
