@@ -38,7 +38,7 @@ import "aos/dist/aos.css";
 import { Parallax } from "react-scroll-parallax";
 import { useTranslation } from "react-i18next";
 import ArtiusPedia from "../components/ArtiusPedia";
-import { Link } from "react-router";
+//import { Link } from "react-router";
 
 const NewArtius = () => {
   useEffect(() => {
