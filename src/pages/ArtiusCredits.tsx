@@ -79,14 +79,15 @@ const ArtiusCredits = () => {
         <div className="mt-20">
           <h2 className="text-4xl font-bold">Testers<br /><span className="text-base italic">In Alphabetical Order</span></h2>
           <p>
-            <strong>Balibali</strong>, <strong>Berry</strong>, <strong>BriceTAS</strong>, <strong>Campers.arts</strong>, <strong>Defnotreal_</strong>, 
+            <strong>Balibali</strong>, <strong>BerryDiaboli</strong>, <strong>BriceTAS</strong>, <strong>Campers.arts</strong>, <strong>Defnotreal_</strong>, 
             <strong>DigitalPOP</strong>, <strong>Ephed</strong>, <strong>Groundpork</strong>, <strong>Jackie!</strong>, <strong>JMan</strong>, 
             <strong>Jordan</strong>, <strong>Jovis</strong>, <strong>justWiz</strong>, <strong>just_t0rii</strong>, <strong>Log</strong>, 
             <strong>LUA</strong>, <strong>Luan Maziero</strong>, <strong>Mors</strong>, <strong>Mr. Freaks</strong>, <strong>MykeLegin</strong>, 
-            <strong>Noah Copeland</strong>, <strong>Ommelete Studios</strong>, <strong>Pedrinho</strong>, <strong>Polar-Star</strong>, 
-            <strong>Retr0scum</strong>, <strong>Riegel25</strong>, <strong>Rosie</strong>, <strong>Samwow</strong>, <strong>Seraphic_elf</strong>, 
-            <strong>Skullduggery</strong>, <strong>SoniKast</strong>, <strong>Spectern</strong>, <strong>TheToastedGuy</strong>, 
-            <strong>Trakinas_web</strong>, <strong>Troopsushi</strong>, <strong>UsagiDood</strong>, <strong>VolcanoLotus</strong>, <strong>Yousucks001</strong>
+            <strong>Noah Copeland</strong>, <strong>Ommelete Studios</strong>, <strong>Paper Loogi</strong>, <strong>Pedrinho</strong>, 
+            <strong>Polar-Star</strong>, <strong>Retr0scum</strong>, <strong>Riegel25</strong>, <strong>Rosie</strong>, <strong>Samwow</strong>, 
+            <strong>Seraphic_elf</strong>, <strong>Skullduggery</strong>, <strong>SoniKast</strong>, <strong>Spectern</strong>, <strong>TheToastedGuy</strong>, 
+            <strong>Trakinas_web</strong>, <strong>Troopsushi</strong>, <strong>UsagiDood</strong>, <strong>VolcanoLotus</strong>, 
+            <strong>weirdmanguy</strong>, <strong>Yousucks001</strong>
           </p>
         </div>
 
@@ -107,7 +108,7 @@ const ArtiusCredits = () => {
             <li><strong>Retr0scum</strong>, for the character designs of Tyler and Mrs. Dodo</li>
             <li><strong>Adam Starcaster</strong>, with gratitude for his invaluable support</li>
             <li><strong>Marco Frisina</strong>, for opening doors along the way</li>
-            <li><strong>Berry</strong>, for the online server</li>
+            <li><strong>BerryDiaboli</strong>, for the online server</li>
             <li><strong>Lucia Ippolito</strong>, for her unwavering encouragement</li>
             <li><strong>Anabel & Fabi</strong>, the musketeers</li>
             <li><strong>Miller, Gregório, Renzo, Victor & Vitor</strong>, for the inspirations and the memories</li>

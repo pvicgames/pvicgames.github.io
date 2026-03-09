@@ -5,7 +5,9 @@ import IconYoutube from "../assets/img/artius/social/youtube.png";
 import IconDiscord from "../assets/img/artius/social/discord.png";
 import IconInstagram from "../assets/img/artius/social/instagram.png";
 import steamIcon from "../assets/img/badges/steam_icon.png";
-import joyIcon from "../assets/img/badges/joy_icon.webp";
+import spawndIcon from "../assets/img/badges/spawnd.png";
+import androidIcon from "../assets/img/badges/android.png";
+//import joyIcon from "../assets/img/badges/joy_icon.webp";
 import mediaKitIcon from "../assets/img/badges/mediakit.png";
 
 import BrunnaTheo from "../assets/img/artius/brunnatheo.png";
@@ -89,9 +91,8 @@ const NewArtius = () => {
                          drop-shadow-[0px_0px_10px_rgba(0,0,0,255)]"
               src={Logo}
             />
-
-            <div className="flex flex-row">
-              {/* Steam */}
+            {/* Steam */}
+            <div className="flex flex-row">  
               <a className="text-2xl text-center font-adlib xl:ml-10 mt-5 mb-2 
                             bg-black text-white p-3 rounded-2xl
                             drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
@@ -103,23 +104,42 @@ const NewArtius = () => {
                 <img className="w-[50px] mr-3" src={steamIcon}/> 
                 {t("games.newArtius.wishlist")}
               </a>
+            </div>
 
-              {/* Play Artius */}
-              <Link className="text-2xl text-center font-adlib xl:ml-5 mt-5 mb-2 
+            {/* ANDROID */}
+            <div className="flex flex-row">  
+              <a className="text-1xl text-center font-adlib xl:ml-10 mt-5 mb-2 
                             bg-black text-white p-3 rounded-2xl
                             drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
                             hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
                             cursor-pointer duration-100 transform hover:rounded-3xl
                             flex items-center gap-2 hover:scale-105"
-                  to="/playartius"
+                  href="https://gamejolt.com/games/artius/975794" target="_blank"
               >
-                <img className="w-[65px] mr-3" src={joyIcon}/> 
-                {t("games.newArtius.play")}
-              </Link>
+                <img className="w-[50px] mr-3" src={androidIcon}/> 
+                {t("games.newArtius.playAndroid")}
+              </a>
+            </div>
+
+            {/* WEB */}
+            <div className="flex flex-row">  
+              <a className="text-1xl text-center font-adlib xl:ml-10 mt-5 mb-2 
+                            bg-black text-white p-3 rounded-2xl
+                            drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
+                            hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
+                            cursor-pointer duration-100 transform hover:rounded-3xl
+                            flex items-center gap-2 hover:scale-105"
+                  href="https://www.spawnd.gg/-/games/artius" target="_blank"
+              >
+                <img className="w-[50px] mr-3" src={spawndIcon}/> 
+                {t("games.newArtius.playWeb")}
+              </a>
             </div>
 
             {createLinks()}
           </div>
+
+          
         </div>
 
         <Parallax speed={-50}>

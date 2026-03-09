@@ -79,9 +79,10 @@
     "newArtius": {
       "title": "ARTIUS",
 
-      "wishlist": "WISHLIST NOW!",
+      "wishlist": "PLAY DEMO ON STEAM",
       "play": "PLAY NOW!",
-      "playWeb": "PLAY ON YOUR WEB BROWSER",
+      "playWeb": "PLAY DEMO ON YOUR BROWSER",
+      "playAndroid": "DOWNLOAD DEMO FOR ANDROID",
       "playDesk": "DOWNLOAD ARTIUS",
       "selectPlay": "Select an option to play the 2025 ARTIUS DEMO:",
       "text1": "ARTIUS is a momentum-based 2D platformer brimming with creative expression.",
