@@ -79,9 +79,10 @@
     "newArtius": {
       "title": "ARTIUS",
 
-      "wishlist": "JOGAR DEMO!",
-      "play": "JOGUE AGORA!", 
-      "playWeb": "JOGAR NO NAVEGADOR",
+      "wishlist": "JOGAR DEMO NA STEAM!",
+      "play": "JOGAR AGORA!",
+      "playWeb": "JOGAR DEMO NO NAVEGADOR",
+      "playAndroid": "BAIXAR DEMO PARA ANDROID!",
       "playDesk": "BAIXAR ARTIUS",
       "selectPlay": "Selecione uma opção para jogar ARTIUS 2025 DEMO:",
       "text1": "ARTIUS é um jogo de plataforma 2D baseado em momentum, repleto de expressão criativa.",
