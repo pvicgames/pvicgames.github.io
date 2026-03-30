@@ -151,7 +151,7 @@ const NewArtius = () => {
             >
               <YouTube
                 className="mt-20 w-full h-screen max-h-[300px] xl:max-h-[550px] max-w-[1000px]"
-                videoId="_e333y09FAE"
+                videoId="Z53BcKiKn00"
                 opts={{ height: "100%", width: "100%" }}
               />
             </div>
