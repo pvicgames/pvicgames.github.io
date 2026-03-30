@@ -13,19 +13,19 @@ import mediaKitIcon from "../assets/img/badges/mediakit.png";
 import BrunnaTheo from "../assets/img/artius/brunnatheo.png";
 import Chars3D from "../assets/img/artius/chars_3d.png";
 import CharsCartoon from "../assets/img/artius/chars_cartoon.png";
-import Comparison1 from "../assets/img/artius/comparison1.png";
-import Comparison2 from "../assets/img/artius/comparison2.png";
+//import Comparison1 from "../assets/img/artius/comparison1.png";
+//import Comparison2 from "../assets/img/artius/comparison2.png";
 import PvicLogo from "../assets/img/pvic_logo_blue.png";
 
 import pic1 from "../assets/img/artius/pic1.png";
 import pic2 from "../assets/img/artius/pic2.png";
 import pic3 from "../assets/img/artius/pic3.png";
-import pic4 from "../assets/img/artius/pic4.png";
-import pic5 from "../assets/img/artius/pic5.png";
+import pic4 from "../assets/img/artius/pic10.jpg";
+import pic5 from "../assets/img/artius/pic19.jpg";
 import pic6 from "../assets/img/artius/pic6.png";
-import pic7 from "../assets/img/artius/pic7.png";
+import pic7 from "../assets/img/artius/pic12.jpg";
 import pic8 from "../assets/img/artius/pic8.png";
-import pic9 from "../assets/img/artius/pic9.png";
+import pic9 from "../assets/img/artius/pic20.jpg";
 
 // Components
 import SocialIcon from "../components/SocialIcon";
@@ -239,6 +239,7 @@ const NewArtius = () => {
             </div>
 
             {/* Comparisons */}
+            {/*
             <div className="flex items-center justify-center content-center mb-20 p-5 xl:p-0">
               <div className="w-full max-w-[1300px] flex flex-col justify-center content-center items-center">
                 <div className="max-w-[800px] mb-5">
@@ -262,7 +263,7 @@ const NewArtius = () => {
                   src={Comparison1}
                 />
               </div>
-            </div>
+            </div>*/}
 
             {/* Gallery 2 */}
             <div data-aos="fade-up">
@@ -274,8 +275,8 @@ const NewArtius = () => {
             
             {/* Steam */}
             <div className="flex flex-col mt-20 items-center justify-center content-center">
-              <p className="font-helvetica text-2xl font-bold">For press, partners & those ready to dive deeper...</p>
-              <p className="font-helvetica">...all the official info, screenshots, and videos you need.</p>
+              <p className="font-helvetica text-2xl font-bold">{t("games.newArtius.mediakit2")}</p>
+              <p className="font-helvetica">.{t("games.newArtius.mediakit3")}</p>
               <a className="text-2xl xl:text-4xl text-center font-adlib max-w-[400px] mt-5 mb-2 
                             bg-black text-white p-3 rounded-2xl
                             drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]

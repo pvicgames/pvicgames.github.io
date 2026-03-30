@@ -95,6 +95,8 @@
       "artiuspedia2": "Read everything there is to know about the magical world of ARTIUS.",
       "return": "Return!",
       "mediakit": "Check out our MEDIA KIT!",
+      "mediakit2": "For press, partners & those ready to dive deeper...",
+      "mediakit3": "...all the official info, screenshots, and videos you need.",
 
       "characters": {
         "meet": "Meet the Cast!",
@@ -159,13 +161,13 @@
         "rupestrine": {
           "title": "Rupestrine",
           "subtitle": "The Little Princess of the Arts",
-          "img": "/img/locations/rupestrine.png",
+          "img": "/img/locations/rupestrine.jpg",
           "desc": "Rupestrine is a city renowned for its rich artistic history. Officially named Rupestrine Union, the city earned its title thanks to the discovery of some of the oldest archaeological sites in the region, filled with cave paintings, petroglyphs, and other forms of rock art. Over time, this deep artistic heritage transformed the city into a cultural hub, attracting musicians, painters, sculptors, dancers, and all those involved in the fine arts. This artistic flourishing culminated in the founding of the EdAN Art University, which stands for Excellens Doctrina Artis Nationum—meaning 'Excellence in the Teaching of the Arts of Nations'—a symbol of the city’s commitment to nurturing creativity. The city is undeniably rich, but many feel that the power is overly concentrated in the hands of the artistic elite. This concentration of influence has led to a sense of political isolation among the general population, fueling movements and growing anti-artist sentiment. The divide between the artists and the people has become a source of tension, with many citizens feeling excluded from the decisions and opportunities that shape their city’s future. While its cultural landscape is vibrant, Rupestrine's economy remains predominantly agricultural, with vast hectares dedicated to the cultivation of beans and coffee, supporting the livelihood of many in the region."
         },
         "ducklagoon": {
           "title": "Duck Lagoon",
           "subtitle": "The sea of sweet water and love",
-          "img": "/img/locations/ducklagoon.png",
+          "img": "/img/locations/ducklagoon.jpg",
           "desc": "Nestled between water on all sides, Rupestrine is a secluded city-peninsula, with access that is both limited and elusive. At the heart of this coastal haven lies Duck Lagoon, a magical beachfront where people, boats, and ships constantly come and go. Sunny skies, bright mornings, and rocky structures fill the area with charm and beauty. A perfect destination for a weekend or holiday, Duck Lagoon is one of the many places that make Rupestrine exceptional and special. Its surrounding waters are as sweet as candy, leaving a lasting impression on every foreigner. One of the many myths that captivate the minds of the city’s inhabitants is that of a mysterious figure—the ''bride''—who appears every full moon night. Some say she’s a bride, others claim she’s a duck, and some even describe her as a ''duck bride,'' whatever that means. No one knows for sure what she is or if she even exists, but those who have encountered her can assure you that she does. The name of the beach dates back to its founding when Spanish conquistadors took shelter there and accidentally let some of their ducks escape. The birds adapted well to the region and populated it, turning it into the cheerful, duck-filled shore we know today."
         }
       }

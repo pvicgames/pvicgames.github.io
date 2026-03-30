@@ -51,14 +51,14 @@ const Home = () => {
             >
               youtube
             </a>{" "}
-            &bull;{" "}
+            {/*&bull;{" "}
             <a
               className="hover:underline text-pvic-blue"
               href="https://www.patreon.com/PVicGames"
               target="_blank"
             >
               nos apoie
-            </a>
+            </a>*/}
           </div>
 
           {/* ENGLISH */}
@@ -98,14 +98,14 @@ const Home = () => {
             >
               youtube
             </a>{" "}
-            &bull;{" "}
+            {/*&bull;{" "}
             <a
               className="hover:underline text-pvic-blue"
               href="https://www.patreon.com/PVicGames"
               target="_blank"
             >
               nos apoie
-            </a>
+            </a>*/}
           </div>
         </div>
       );
@@ -144,14 +144,14 @@ const Home = () => {
           >
             youtube
           </a>{" "}
-          &bull;{" "}
+          {/*&bull;{" "}
           <a
             className="hover:underline text-pvic-blue"
             href="https://www.patreon.com/PVicGames"
             target="_blank"
           >
             support us
-          </a>
+          </a>*/}
         </p>
       );
     }
