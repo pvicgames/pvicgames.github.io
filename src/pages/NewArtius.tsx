@@ -158,11 +158,11 @@ const NewArtius = () => {
 
             <div className="">
 
-              <p className="font-adlib text-pvic-blue drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] text-3xl xl:text-5xl p-5 xl:mr-20 xl:p-0 text-right max-w-[800px]">
-                {t("games.newArtius.text2")}
+              <p className="mt-30 font-adlib text-pvic-pink drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] text-3xl xl:text-5xl text-center">
+                {t("games.newArtius.onlineArtius")}
               </p>
 
-              <iframe className="ml-auto mr-auto mt-30 mb-30" src="https://www.spawnd.gg/-/games/embed/41?description=true" width="640" height="360" frameBorder="0" allow="autoplay; encrypted-media; clipboard-write; clipboard-read; web-share; cross-origin-isolated" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              <iframe className="ml-auto mr-auto mt-10 mb-30" src="https://www.spawnd.gg/-/games/embed/41?description=true" width="640" height="360" frameBorder="0" allow="autoplay; encrypted-media; clipboard-write; clipboard-read; web-share; cross-origin-isolated" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
 
             {/* Gallery 1 */}
