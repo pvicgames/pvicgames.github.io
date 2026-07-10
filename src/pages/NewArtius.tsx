@@ -162,7 +162,7 @@ const NewArtius = () => {
                 {t("games.newArtius.text2")}
               </p>
 
-              <iframe className="ml-auto mr-auto mt-30 mb-30" src="https://www.spawnd.gg/-/games/embed/41?description=true" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media; clipboard-write; clipboard-read; web-share; cross-origin-isolated" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe className="ml-auto mr-auto mt-30 mb-30" src="https://www.spawnd.gg/-/games/embed/41?description=true" width="640" height="360" frameBorder="0" allow="autoplay; encrypted-media; clipboard-write; clipboard-read; web-share; cross-origin-isolated" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
 
             {/* Gallery 1 */}
