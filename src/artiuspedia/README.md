@@ -24,7 +24,8 @@ title: Pivolo
 subtitle: Evil. Envious. Bitter!
 order: 1
 image: /img/characters/pivolo.png
-thumb: 5% 5% 320%
+thumb: 50% 0% 100%
+background: #f5cbc2
 ---
 
 Pivolo was a student at the EdAN art school...
@@ -39,6 +40,7 @@ A blank line starts a new paragraph.
 | `order`    | position in the list (1 = first)                             | en               |
 | `image`    | image of the entry, from `public/`                           | en               |
 | `thumb`    | optional, how the round thumbnail is cut out of the image    | en               |
+| `background` | color behind the round thumbnail, like `#ffd6e4`         | en               |
 
 Anything left out of the `.pt.md` file comes from the `.en.md` one, so the Portuguese files only need the title, subtitle and text (or an `image` if it should be different in Portuguese).
 
@@ -53,11 +55,13 @@ The round thumbnails are made from `image`, there are no separate thumbnail file
 
 For example `thumb: 50% 10% 250%` zooms in at the top middle. Change the numbers a little and look at the page with `npm run dev` until it looks right.
 
+The circle behind the thumbnail is filled with the `background:` color, a hex color like `background: #bfd5eb`. Light colors look best. If it's left out the circle is white.
+
 ## Adding a new character or place
 
 1. Put the image in `public/img/characters/` (or `public/img/locations/`).
 2. Create `name.en.md` and `name.pt.md` in `characters/` (or `places/`). The file name is also its link, so use lowercase without spaces, like `dodo` or `duck-lagoon`.
-3. Give it an `order` to put it in the right spot, and a `thumb` if the thumbnail needs fixing.
+3. Give it an `order` to put it in the right spot, a `background` color for its button, and a `thumb` if the thumbnail needs fixing.
 
 That's it.
 

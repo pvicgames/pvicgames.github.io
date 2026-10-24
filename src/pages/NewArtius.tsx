@@ -48,6 +48,12 @@ const NewArtius = () => {
       duration: 900,
       easing: "ease-out-cubic",
     });
+
+    // lazy images change the page height after aos measured it, so the last animations
+    // (like the pvic logo) could end up below the end of the page and never play, measure again when one loads
+    const refresh = (e: Event) => { if ((e.target as HTMLElement).tagName === "IMG") AOS.refresh(); };
+    document.addEventListener("load", refresh, true);
+    return () => document.removeEventListener("load", refresh, true);
   }, []);
 
   const { t , i18n } = useTranslation();
@@ -357,11 +363,11 @@ const NewArtius = () => {
 
             {/* Pvic Logo */}
             <div className="flex items-center justify-center content-center xl:mb-10">
+              {/* not lazy: flip-left starts it turned sideways, so a lazy image never counts as visible and never loads */}
               <img
                 data-aos="flip-left"
                 className="max-w-[300px] mb-25 mt-10"
                 src={PvicLogo}
-                loading="lazy"
               />
             </div>
           </div>

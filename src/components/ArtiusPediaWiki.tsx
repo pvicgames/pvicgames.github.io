@@ -22,11 +22,16 @@ const covers: Record<Group, string> = {
 };
 const groups: Group[] = ["characters", "places"];
 
-// thumbnail = round crop of the entry image, no separate files needed
+// thumbnail = round crop of the entry image on the "background:" color from its .md file
 const Thumb = (p: { entry: Entry; className: string }) => (
   <div
-    className={`${p.className} shrink-0 rounded-full bg-white bg-no-repeat`}
-    style={{ backgroundImage: `url(${p.entry.image})`, backgroundPosition: p.entry.thumbPosition, backgroundSize: p.entry.thumbSize }}
+    className={`${p.className} shrink-0 rounded-full bg-no-repeat`}
+    style={{
+      backgroundColor: p.entry.background,
+      backgroundImage: `url(${p.entry.image})`,
+      backgroundPosition: p.entry.thumbPosition,
+      backgroundSize: p.entry.thumbSize,
+    }}
   />
 );
 

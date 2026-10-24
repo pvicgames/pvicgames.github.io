@@ -11,6 +11,7 @@ export interface Entry {
   image: string;
   thumbPosition: string; // thumbnails are a crop of the image, see "thumb" in README.md
   thumbSize: string;
+  background: string; // solid color behind the round thumbnail, like #ffd6e4
   order: number;
   html: string;
 }
@@ -80,6 +81,7 @@ export function getEntries(group: Group, language: string): Entry[] {
       image: data.image || "",
       thumbPosition: thumb(data.thumb || thumbDefaults[group]).position,
       thumbSize: thumb(data.thumb || thumbDefaults[group]).size,
+      background: data.background || "#ffffff",
       order: Number(data.order) || 999,
       html: render(translated.body.trim() ? translated.body : en.body),
     });
