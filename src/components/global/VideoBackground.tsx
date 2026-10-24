@@ -8,6 +8,7 @@ const VideoBackground = () => {
       autoPlay
       loop
       muted
+      playsInline
     >
       <source className="" src="videos/artius.mp4" />
       Your browser does not support the video tag.

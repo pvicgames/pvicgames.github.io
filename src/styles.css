@@ -2,12 +2,14 @@
 
 @font-face {
   font-family: AdLib;
-  src: url(assets/fonts/artzy.ttf)
+  src: url(assets/fonts/artzy.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: Helvetica;
-  src: url(assets/fonts/helvetica.ttf)
+  src: url(assets/fonts/helvetica.ttf);
+  font-display: swap;
 }
 
 @theme {

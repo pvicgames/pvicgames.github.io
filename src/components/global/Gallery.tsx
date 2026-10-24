@@ -25,6 +25,8 @@ const Gallery = (props: Props) => {
             key={i}
             src={item}
             alt={`Slide ${i + 1}`}
+            loading="lazy"
+            decoding="async"
             className={`h-fit mt-3 ml-0 xl:mt-0 xl:ml-3 max-w-[250px] drop-shadow-[3px_3px_3px_rgba(0,0,0,0.5)] hover:drop-shadow-[6px_6px_3px_rgba(0,0,0,0.7)] duration-100 cursor-pointer`}
             onClick={() => setIndex(i)}
             style={{ maxWidth: props.picSize || "250px" }}

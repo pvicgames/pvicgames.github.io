@@ -40,7 +40,7 @@ const ArtiusPedia = () => {
           {/* Title */}
           <div className="flex flex-col items-center">
             {/* Title */}
-            <img className="w-[100%] max-w-[800px] drop-shadow-[0px_0px_10px_rgba(0,0,0,0.8)]" src={artiuspediaLogo}/>
+            <img className="w-[100%] max-w-[800px] drop-shadow-[0px_0px_10px_rgba(0,0,0,0.8)]" src={artiuspediaLogo} loading="lazy"/>
 
             {/* Subtitle */}            
             <p

@@ -29,7 +29,7 @@ const NavbarMobile: React.FC = () => {
   };
 
   return (
-    <div className="xl:hidden fixed top-0 left-0 w-full bg-pvic-pink z-30">
+    <div className="xl:hidden fixed top-0 left-0 w-full bg-pvic-pink/90 backdrop-blur-md z-30">
       {/* Mobile menu button */}
       <div className="flex justify-between items-center p-3">
         <button
@@ -44,7 +44,7 @@ const NavbarMobile: React.FC = () => {
       {/* Mobile menu */}
       {isMenuOpen && (
         <div className="animate__animated animate__fadeInDown animate__faster">
-        <div className="flex flex-wrap flex-col bg-pvic-pink p-4">
+        <div className="flex flex-wrap flex-col p-4">
           <NavbarButton text={t("navbar.home")} link="/" />
           <NavbarButton text={t("navbar.artius")} link="/artius" />
           <NavbarButton text={t("navbar.edmescdx")} link="/edmescdx" />

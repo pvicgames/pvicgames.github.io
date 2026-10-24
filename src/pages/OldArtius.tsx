@@ -40,7 +40,7 @@ const OldArtius = () => {
             <b>{t("games.artius.string2")}</b>
           </p>
 
-          <img className="mt-10 w-full max-w-[800px]" src={chars_cartoon} />
+          <img className="mt-10 w-full max-w-[800px]" src={chars_cartoon} loading="lazy" />
 
           <h1 className="text-6xl pt-10 font-adlib text-pvic-pink text-center">
             {t("games.artius.string3")}
@@ -49,6 +49,7 @@ const OldArtius = () => {
             <img
               className="mt-10 w-full max-w-[160px] mr-5 float-left"
               src={pivolo}
+              loading="lazy"
             />
 
             <p className="pt-10 font-helvetica">{t("games.artius.string4")}</p>
@@ -77,7 +78,7 @@ const OldArtius = () => {
             {t("games.artius.string9")}
           </p>
 
-          <img className="mt-10 w-full max-w-[600px]" src={chars_3d} />
+          <img className="mt-10 w-full max-w-[600px]" src={chars_3d} loading="lazy" />
         </div>
       </div>
     </ActualPage>

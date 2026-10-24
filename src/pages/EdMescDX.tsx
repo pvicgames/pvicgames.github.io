@@ -5,8 +5,8 @@ import pic3 from "../assets/img/edmescdx/pic3.jpg";
 import pic4 from "../assets/img/edmescdx/pic4.jpg";
 import pic5 from "../assets/img/edmescdx/pic5.jpg";
 import pic6 from "../assets/img/edmescdx/pic6.jpg";
-import needThisGame from "../assets/img/edmescdx/needThisGameEN_RTX.gif";
-import compilation from "../assets/img/edmescdx/compilationv2.gif";
+import needThisGame from "../assets/img/edmescdx/needThisGameEN_RTX.webp";
+import compilation from "../assets/img/edmescdx/compilationv2.webp";
 
 import logo from "../assets/img/edmescdx/logo.png";
 import logoMobile from "../assets/img/edmobile/logo.png";
@@ -40,12 +40,12 @@ const EdMescDX = () => {
 
           <p className="pt-10 font-helvetica">{t("games.ednaldo.string1")}</p>
 
-          <img className="mt-5 w-full max-w-[500px]" src={compilation}/>
+          <img className="mt-5 w-full max-w-[500px]" src={compilation} loading="lazy"/>
 
           <p className="pt-10 font-helvetica">{t("games.ednaldo.string2")}</p>
           <p className="pt-10 font-helvetica">{t("games.ednaldo.string3")}</p>
           
-          <img className="mt-5 w-full max-w-[400px]" src={needThisGame}/>
+          <img className="mt-5 w-full max-w-[400px]" src={needThisGame} loading="lazy"/>
 
           <p className="pt-5 font-helvetica">{t("games.ednaldo.string4")}</p>
 
@@ -55,7 +55,7 @@ const EdMescDX = () => {
                         drop-shadow-[0px_0px_6px_rgba(0,0,0,0.7)]
                         hover:drop-shadow-[0px_0px_10px_rgba(0,0,0,0.7)]" 
             target="_blank" href={t("games.ednaldo.steam")}>
-            <img src={badge_steam} />
+            <img src={badge_steam} loading="lazy" />
           </a>
 
           <hr className="w-full mt-20 mb-20 border-[rgba(0,0,0,0.3)] border-2"/>
@@ -63,6 +63,7 @@ const EdMescDX = () => {
           <img
             className="h-fit w-full max-w-[800px]"
             src={logoMobile}
+            loading="lazy"
             alt="Logo"
           />
 
@@ -76,14 +77,14 @@ const EdMescDX = () => {
                         drop-shadow-[0px_0px_6px_rgba(0,0,0,0.7)]
                         hover:drop-shadow-[0px_0px_10px_rgba(0,0,0,0.7)]" 
                         target="_blank" href={t("games.ednaldomobile.operagx")}>
-            <img src={badge_opera} />
+            <img src={badge_opera} loading="lazy" />
           </a>
 
           <a className="hover:scale-110 duration-100 mt-5 
                         drop-shadow-[0px_0px_6px_rgba(0,0,0,0.7)]
                         hover:drop-shadow-[0px_0px_10px_rgba(0,0,0,0.7)]" 
                         target="_blank" href={t("games.ednaldomobile.gplay")}>
-            <img src={badge_gplay} />
+            <img src={badge_gplay} loading="lazy" />
           </a>
 
           <p className="pt-15 font-helvetica">{t("games.ednaldomobile.string3")}</p>

@@ -57,14 +57,14 @@ const NewArtius = () => {
 
   function createLinks() {
     if (currentLanguage === "pt" || currentLanguage === "pt-BR") {
-      return (<div className="xl:ml-13 flex">
+      return (<div className="xl:ml-13 xl:mt-[min(1.5vh,16px)] flex">
         <SocialIcon Link="https://x.com/ednaldo_game" Icon={IconTwitter} />
         <SocialIcon Link="https://discord.gg/3T8fbXq9Jf" Icon={IconDiscord} />
         <SocialIcon Link="https://www.youtube.com/channel/UCXrinAaMhfNehiK37hGrYtg" Icon={IconYoutube} />
         <SocialIcon Link="https://www.instagram.com/pvicgamesbr/" Icon={IconInstagram} />
       </div>)
     } else {
-      return (<div className="xl:ml-13 flex">
+      return (<div className="xl:ml-13 xl:mt-[min(1.5vh,16px)] flex">
         <SocialIcon Link="https://x.com/PVicGames" Icon={IconTwitter} />
         <SocialIcon Link="https://discord.gg/3T8fbXq9Jf" Icon={IconDiscord} />
         <SocialIcon Link="https://www.youtube.com/@PVicVG" Icon={IconYoutube} />
@@ -76,8 +76,7 @@ const NewArtius = () => {
   return (
     <ActualPage singleColumn={true}>
       <div
-        className="bg-[url(/img/bg_type1.png)] bg-center bg-contain -mt-12 xl:mt-0"
-        style={{ backgroundSize: `100% auto;` }}
+        className="bg-[url(/img/bg_type1.png)] bg-center bg-[length:160%_auto] xl:bg-contain -mt-12 xl:mt-0"
       >
         {/* Links */}
         <div
@@ -85,53 +84,59 @@ const NewArtius = () => {
                    grid xl:grid-cols-2 sm:grid-cols-1 p-5 mt-[-22px] xl:p-0
                    bg-[url(/img/ArtiusMain.png)] mb-[450px]"
         >
-          <div className="flex flex-col flex-wrap items-center content-center justify-center">
+          {/* on desktop everything here is sized in vh so the section takes ~90% of the screen (capped at the 1080p size) */}
+          <div className="flex flex-col flex-wrap items-center content-center justify-center
+                          xl:h-[min(90vh,972px)] xl:self-center xl:flex-nowrap">
             <img
-              className="animate__animated animate__bounceInDown w-full max-w-[870px] h-fit xl:pl-20
+              className="animate__animated animate__bounceInDown w-full max-w-[620px] h-fit xl:pl-20
+                         xl:w-auto xl:max-w-none xl:h-[min(49vh,529px)]
                          drop-shadow-[0px_0px_10px_rgba(0,0,0,255)]"
               src={Logo}
             />
             {/* Steam */}
             <div className="flex flex-row">  
-              <a className="text-2xl text-center font-adlib xl:ml-10 mt-5 mb-2 
-                            bg-black text-white p-3 rounded-2xl
-                            drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
-                            hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
+              <a className="text-xl text-center font-adlib xl:ml-10 mt-4 mb-1 
+                            xl:text-[min(2.8vh,30px)] xl:p-[min(1.2vh,13px)] xl:mt-[min(2.2vh,24px)] xl:mb-0
+                            bg-white text-black p-2 rounded-2xl
+                            drop-shadow-[0px_0px_10px_rgba(0,0,0,0.6)]
+                            hover:drop-shadow-[0px_0px_20px_rgba(0,0,0,0.8)]
                             cursor-pointer duration-100 transform hover:rounded-3xl
                             flex items-center gap-2 hover:scale-105"
                   href="https://store.steampowered.com/app/3599920/ARTIUS_Pure_Imagination/" target="_blank"
               >
-                <img className="w-[50px] mr-3" src={steamIcon}/> 
+                <img className="w-[38px] xl:w-[min(5vh,54px)] mr-2 invert" src={steamIcon}/> 
                 {t("games.newArtius.wishlist")}
               </a>
             </div>
 
             {/* ANDROID */}
             <div className="flex flex-row">  
-              <a className="text-1xl text-center font-adlib xl:ml-10 mt-5 mb-2 
-                            bg-black text-white p-3 rounded-2xl
-                            drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
-                            hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
+              <a className="text-sm text-center font-adlib xl:ml-10 mt-4 mb-1 
+                            xl:text-[min(2vh,22px)] xl:p-[min(1.2vh,13px)] xl:mt-[min(2.2vh,24px)] xl:mb-0
+                            bg-white text-black p-2 rounded-2xl
+                            drop-shadow-[0px_0px_10px_rgba(0,0,0,0.6)]
+                            hover:drop-shadow-[0px_0px_20px_rgba(0,0,0,0.8)]
                             cursor-pointer duration-100 transform hover:rounded-3xl
                             flex items-center gap-2 hover:scale-105"
                   href="https://gamejolt.com/games/artius/975794" target="_blank"
               >
-                <img className="w-[50px] mr-3" src={androidIcon}/> 
+                <img className="w-[38px] xl:w-[min(5vh,54px)] mr-2 invert" src={androidIcon}/> 
                 {t("games.newArtius.playAndroid")}
               </a>
             </div>
 
             {/* WEB */}
             <div className="flex flex-row">  
-              <a className="text-1xl text-center font-adlib xl:ml-10 mt-5 mb-2 
-                            bg-black text-white p-3 rounded-2xl
-                            drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
-                            hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
+              <a className="text-sm text-center font-adlib xl:ml-10 mt-4 mb-1 
+                            xl:text-[min(2vh,22px)] xl:p-[min(1.2vh,13px)] xl:mt-[min(2.2vh,24px)] xl:mb-0
+                            bg-white text-black p-2 rounded-2xl
+                            drop-shadow-[0px_0px_10px_rgba(0,0,0,0.6)]
+                            hover:drop-shadow-[0px_0px_20px_rgba(0,0,0,0.8)]
                             cursor-pointer duration-100 transform hover:rounded-3xl
                             flex items-center gap-2 hover:scale-105"
                   href="https://www.spawnd.gg/-/games/artius" target="_blank"
               >
-                <img className="w-[50px] mr-3" src={spawndIcon}/> 
+                <img className="w-[38px] xl:w-[min(5vh,54px)] mr-2 invert" src={spawndIcon}/> 
                 {t("games.newArtius.playWeb")}
               </a>
             </div>
@@ -151,7 +156,7 @@ const NewArtius = () => {
             >
               <YouTube
                 className="mt-20 w-full h-screen max-h-[300px] xl:max-h-[550px] max-w-[1000px]"
-                videoId="Z53BcKiKn00"
+                videoId="_vphOBuDWjQ"
                 opts={{ height: "100%", width: "100%" }}
               />
             </div>
@@ -162,7 +167,7 @@ const NewArtius = () => {
                 {t("games.newArtius.onlineArtius")}
               </p>
 
-              <iframe className="ml-auto mr-auto mt-10 mb-30" src="https://www.spawnd.gg/-/games/embed/41?description=true" width="640" height="360" frameBorder="0" allow="autoplay; encrypted-media; clipboard-write; clipboard-read; web-share; cross-origin-isolated" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              <iframe className="ml-auto mr-auto mt-10 mb-30 w-full max-w-[640px] h-auto aspect-video" loading="lazy" src="https://www.spawnd.gg/-/games/embed/41?description=true" width="640" height="360" frameBorder="0" allow="autoplay; encrypted-media; clipboard-write; clipboard-read; web-share; cross-origin-isolated" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
 
             {/* Gallery 1 */}
@@ -191,6 +196,7 @@ const NewArtius = () => {
                 <img
                   className="w-full max-w-[470px] mt-10 p-5 xl:p-0"
                   src={BrunnaTheo}
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -201,7 +207,7 @@ const NewArtius = () => {
                 data-aos="fade-right"
                 className="flex items-center justify-center"
               >
-                <img className="w-full max-w-[650px]" src={Chars3D} />
+                <img className="w-full max-w-[650px]" src={Chars3D} loading="lazy" />
               </div>
               <div
                 data-aos="fade-up"
@@ -287,14 +293,14 @@ const NewArtius = () => {
               <p className="font-helvetica text-2xl font-bold">{t("games.newArtius.mediakit2")}</p>
               <p className="font-helvetica">.{t("games.newArtius.mediakit3")}</p>
               <a className="text-2xl xl:text-4xl text-center font-adlib max-w-[400px] mt-5 mb-2 
-                            bg-black text-white p-3 rounded-2xl
-                            drop-shadow-[0px_0px_10px_rgba(255,255,255,1)]
-                            hover:drop-shadow-[0px_0px_20px_rgba(255,255,255,255)]
+                            bg-white text-black p-3 rounded-2xl
+                            drop-shadow-[0px_0px_10px_rgba(0,0,0,0.6)]
+                            hover:drop-shadow-[0px_0px_20px_rgba(0,0,0,0.8)]
                             cursor-pointer duration-100 transform hover:rounded-3xl
                             flex items-center gap-2 hover:scale-105"
                   href="https://drive.google.com/drive/folders/1mHoLF-FCIacgDN44qCOAlW7mFA_XKd-3?usp=sharing" target="_blank"
               >
-                <img className="w-[70px]" src={mediaKitIcon}/> 
+                <img className="w-[70px] invert" src={mediaKitIcon}/> 
                 {t("games.newArtius.mediakit")}
               </a>
             </div>
@@ -305,6 +311,7 @@ const NewArtius = () => {
                 data-aos="fade-up"
                 className="w-full max-w-[1250px] h-fit"
                 src={CharsCartoon}
+                loading="lazy"
               />
             </div>
 
@@ -314,6 +321,7 @@ const NewArtius = () => {
                 data-aos="flip-left"
                 className="max-w-[300px] mb-25 mt-10"
                 src={PvicLogo}
+                loading="lazy"
               />
             </div>
           </div>

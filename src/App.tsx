@@ -4,18 +4,20 @@ import "animate.css";
 import i18n from "./i18n";
 
 import { HashRouter as Router, Routes, Route } from "react-router";
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
 
 import Home from "./pages/Home";
-import Contact from "./pages/Contact";
-import About from "./pages/About";
-import EdMescDX from "./pages/EdMescDX";
-import NewArtius from "./pages/NewArtius";
-import OldArtius from "./pages/OldArtius";
 import { ParallaxProvider } from "react-scroll-parallax";
 import ScrollToTop from "./components/global/ScrollToTop";
-import ArtiusCredits from "./pages/ArtiusCredits";
-import PlayArtius from "./pages/PlayArtius";
+
+// pages other than home are only downloaded when visited (about pulls in three.js)
+const Contact = lazy(() => import("./pages/Contact"));
+const About = lazy(() => import("./pages/About"));
+const EdMescDX = lazy(() => import("./pages/EdMescDX"));
+const NewArtius = lazy(() => import("./pages/NewArtius"));
+const OldArtius = lazy(() => import("./pages/OldArtius"));
+const ArtiusCredits = lazy(() => import("./pages/ArtiusCredits"));
+const PlayArtius = lazy(() => import("./pages/PlayArtius"));
 
 const savedLanguage = localStorage.getItem("language") || navigator.language
 
@@ -28,16 +30,18 @@ function App() {
     <ParallaxProvider>
       <Router>
         <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/oldartius" element={<OldArtius />} />
-          <Route path="/artius" element={<NewArtius />} />
-          <Route path="/playartius" element={<PlayArtius />} />
-          <Route path="/artiuscredits" element={<ArtiusCredits />} />
-          <Route path="/edmescdx" element={<EdMescDX />} />
-        </Routes>
+        <Suspense>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/oldartius" element={<OldArtius />} />
+            <Route path="/artius" element={<NewArtius />} />
+            <Route path="/playartius" element={<PlayArtius />} />
+            <Route path="/artiuscredits" element={<ArtiusCredits />} />
+            <Route path="/edmescdx" element={<EdMescDX />} />
+          </Routes>
+        </Suspense>
       </Router>
     </ParallaxProvider>
   );

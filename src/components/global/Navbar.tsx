@@ -22,7 +22,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="fixed h-screen z-20 flex items-end pointer-events-none">
+    <div className="fixed h-screen z-20 hidden xl:flex items-end pointer-events-none">
       <img
         className="absolute z-20 right-5 bottom-2"
         src={
@@ -36,7 +36,7 @@ const Navbar = () => {
         }
       />
       <div className="sticky h-[50px] w-screen">
-        <div className="absolute w-screen bottom-0 bg-pvic-pink h-[40px]" />
+        <div className="absolute w-screen bottom-0 bg-pvic-pink/90 backdrop-blur-md h-[40px]" />
 
         <div className="relative pointer-events-auto flex items-end ">
           <NavbarButton img={houseIcon}   text={t("navbar.home")}     link="/" />

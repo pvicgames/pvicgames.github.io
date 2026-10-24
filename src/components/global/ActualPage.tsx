@@ -11,7 +11,8 @@ interface Props {
 
 const ActualPage = (props: Props & React.PropsWithChildren) => {
   return (
-    <div>
+    // clip so the aos slide-in animations don't make the page scroll sideways on mobile
+    <div className="overflow-x-clip">
       <VideoBackground />
       <PvicDots />
 
