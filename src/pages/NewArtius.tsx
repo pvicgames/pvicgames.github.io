@@ -225,8 +225,40 @@ const NewArtius = () => {
             </div>
 
             {/* Tailored */}
+            <div className="xl:min-h-screen flex items-center justify-center p-5 xl:p-0">
+              <div className="w-full max-w-[1250px] mt-10 mb-10 xl:mt-20 xl:mb-20 flex flex-col gap-8 xl:gap-4
+                              font-helvetica text-xl xl:text-4xl tracking-wide">
+                <p data-aos="fade-up" className="text-center text-base xl:text-2xl text-neutral-600 font-bold mb-2 xl:mb-6">
+                  {t("games.newArtius.tailoredTitle")}
+                </p>
+
+                <p data-aos="fade-right" className="max-w-[900px] -rotate-2">
+                  <span className="bg-pvic-yellow text-black px-[0.6em] py-[0.3em] leading-[1.75] box-decoration-clone
+                                   drop-shadow-[0px_0px_4px_rgba(0,0,0,0.15)]">
+                    {t("games.newArtius.tailored1")}
+                  </span>
+                </p>
+
+                <p data-aos="fade-left" className="max-w-[900px] self-end text-right rotate-1">
+                  <span className="bg-pvic-green text-black px-[0.6em] py-[0.3em] leading-[1.75] box-decoration-clone
+                                   drop-shadow-[0px_0px_4px_rgba(0,0,0,0.15)]">
+                    {t("games.newArtius.tailored2")}
+                  </span>
+                </p>
+
+                <p data-aos="fade-right" className="max-w-[900px] xl:ml-5">
+                  <span className="bg-pvic-pink text-white px-[0.6em] py-[0.3em] leading-[1.75] box-decoration-clone
+                                   drop-shadow-[0px_0px_4px_rgba(0,0,0,0.15)]">
+                    {t("games.newArtius.tailored3")}
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            {/* old image version of the tailored section */}
+            {/*
             <div className="xl:min-h-screen flex items-center justify-center">
-              {/* Desktop */}
+              Desktop
               <div
                 data-aos="fade-up"
                 className={`mt-20 mb-20 w-full max-w-[1250px] h-screen hidden xl:inline`}
@@ -238,7 +270,7 @@ const NewArtius = () => {
                 }}
               />
 
-              {/* Mobile */}
+              Mobile
               <div
                 data-aos="fade-up"
                 className={`mt-10 mb-10 w-full max-w-[600px] h-screen xl:hidden`}
@@ -252,6 +284,7 @@ const NewArtius = () => {
                 }}
               />
             </div>
+            */}
 
             {/* Comparisons */}
             {/*
