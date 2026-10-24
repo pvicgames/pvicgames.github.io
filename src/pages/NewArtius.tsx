@@ -1,4 +1,4 @@
-import Logo from "../assets/img/artius/logo.png";
+//import Logo from "../assets/img/artius/logo.png";
 
 import IconTwitter from "../assets/img/artius/social/x-twitter.png";
 import IconYoutube from "../assets/img/artius/social/youtube.png";
@@ -12,7 +12,7 @@ import mediaKitIcon from "../assets/img/badges/mediakit.png";
 
 import BrunnaTheo from "../assets/img/artius/brunnatheo.png";
 import Chars3D from "../assets/img/artius/chars_3d.png";
-import CharsCartoon from "../assets/img/artius/chars_cartoon.png";
+//import CharsCartoon from "../assets/img/artius/chars_cartoon.png";
 //import Comparison1 from "../assets/img/artius/comparison1.png";
 //import Comparison2 from "../assets/img/artius/comparison2.png";
 import PvicLogo from "../assets/img/pvic_logo_blue.png";
@@ -32,13 +32,15 @@ import SocialIcon from "../components/SocialIcon";
 import ActualPage from "../components/global/ActualPage";
 import YouTube from "react-youtube";
 import Gallery from "../components/global/Gallery";
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Parallax } from "react-scroll-parallax";
 import { useTranslation } from "react-i18next";
 import ArtiusPedia from "../components/ArtiusPedia";
-//import { Link } from "react-router";
+import ArtiusLogo from "../components/ArtiusLogo";
+import ArtiusCharactersTilt from "../components/ArtiusCharactersTilt";
+import { Outlet } from "react-router";
 
 const NewArtius = () => {
   useEffect(() => {
@@ -76,7 +78,7 @@ const NewArtius = () => {
   return (
     <ActualPage singleColumn={true}>
       <div
-        className="bg-[url(/img/bg_type1.png)] bg-center bg-[length:160%_auto] xl:bg-contain -mt-12 xl:mt-0"
+        className="bg-[url(/img/bg_type2.png)] bg-top bg-repeat-y bg-[length:160%_auto] xl:bg-[length:100%_auto] -mt-12 xl:mt-0"
       >
         {/* Links */}
         <div
@@ -87,12 +89,11 @@ const NewArtius = () => {
           {/* on desktop everything here is sized in vh so the section takes ~90% of the screen (capped at the 1080p size) */}
           <div className="flex flex-col flex-wrap items-center content-center justify-center
                           xl:h-[min(90vh,972px)] xl:self-center xl:flex-nowrap">
-            <img
-              className="animate__animated animate__bounceInDown w-full max-w-[620px] h-fit xl:pl-20
-                         xl:w-auto xl:max-w-none xl:h-[min(49vh,529px)]
-                         drop-shadow-[0px_0px_10px_rgba(0,0,0,255)]"
-              src={Logo}
-            />
+            {/* animated logo, built from the logo parts */}
+            <div className="w-full max-w-[620px] xl:w-auto xl:max-w-none xl:pl-20">
+              <ArtiusLogo className="w-full xl:w-auto xl:h-[min(49vh,529px)]
+                                     drop-shadow-[0px_0px_10px_rgba(0,0,0,255)]" />
+            </div>
             {/* Steam */}
             <div className="flex flex-row">  
               <a className="text-xl text-center font-adlib xl:ml-10 mt-4 mb-1 
@@ -318,8 +319,11 @@ const NewArtius = () => {
               <Gallery picSize="325px" slides={slides} />
             </div>
 
-            {/* ArtiusPedia */}
+            {/* ArtiusPedia, the cards open it as a popup (see the route in App.tsx) */}
             <ArtiusPedia />
+            <Suspense>
+              <Outlet />
+            </Suspense>
             
             {/* Steam */}
             <div className="flex flex-col mt-20 items-center justify-center content-center">
@@ -340,12 +344,15 @@ const NewArtius = () => {
 
             {/* Final */}
             <div className="mt-10 p-5 xl:p-0 flex flex-col items-center justify-center">
-              <img
+              {/*<img
                 data-aos="fade-up"
                 className="w-full max-w-[1250px] h-fit"
                 src={CharsCartoon}
                 loading="lazy"
-              />
+              />*/}
+              <div data-aos="fade-up" className="w-full max-w-[min(850px,85vh)]">
+                <ArtiusCharactersTilt />
+              </div>
             </div>
 
             {/* Pvic Logo */}

@@ -12,7 +12,7 @@ const NavbarButton: React.FC<Props> = ({ text, link, img }) => {
   let active = currentLocation.pathname === link;
 
   // quick and dirty fix
-  if (currentLocation.pathname == "/playartius" && link == "/artius") { active = true; }
+  if ((currentLocation.pathname == "/playartius" || currentLocation.pathname.startsWith("/artius/")) && link == "/artius") { active = true; }
 
   return (
     <Link to={link}>

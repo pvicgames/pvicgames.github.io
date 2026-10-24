@@ -15,9 +15,65 @@
 @theme {
   --font-adlib: "AdLib", "sans-serif";
   --font-helvetica: "Helvetica", "sans-serif";
+  --font-times: "Times New Roman", "Times", "serif";
 
   --color-pvic-pink: #e44c78;
   --color-pvic-yellow: #ffd343;
   --color-pvic-green: #94dc52;
   --color-pvic-blue: #3c89d7;
+}
+
+/* animated artius logo (components/ArtiusLogo.tsx) */
+.artius-logo-pop    { animation: artius-pop 0.7s cubic-bezier(.3,1.4,.5,1) both; }
+.artius-logo-drop   { animation: artius-drop 0.9s ease-out both; }
+.artius-logo-open   { animation: artius-open 0.7s cubic-bezier(.3,1.5,.5,1) both; }
+.artius-logo-fall   { animation: artius-fall 0.9s ease-out both; }
+.artius-logo-paint  { animation: artius-paint 0.8s cubic-bezier(.6,0,.3,1) both; }
+.artius-logo-rise   { animation: artius-rise 0.6s ease-out both; }
+.artius-logo-float  { animation: artius-float 5s ease-in-out infinite; }
+.artius-logo-wobble { animation: artius-wobble 1.8s ease-in-out infinite alternate; }
+
+@keyframes artius-pop {
+  0%   { transform: scale(0) rotate(-25deg); opacity: 0; }
+  60%  { transform: scale(1.15) rotate(6deg); opacity: 1; }
+  100% { transform: none; }
+}
+@keyframes artius-drop {
+  0%   { transform: translateY(-70%); opacity: 0; }
+  50%  { transform: translateY(0); opacity: 1; }
+  62%  { transform: scale(1.06, 0.88); }
+  80%  { transform: translateY(-3%) scale(0.98, 1.03); }
+  100% { transform: none; }
+}
+@keyframes artius-open {
+  0%   { transform: scale(0.6, 0); opacity: 0; }
+  60%  { transform: scale(1.02, 1.12); opacity: 1; }
+  100% { transform: none; }
+}
+@keyframes artius-fall {
+  0%   { transform: translateY(-90%) rotate(-14deg); opacity: 0; }
+  50%  { transform: translateY(0) rotate(4deg); opacity: 1; }
+  65%  { transform: scale(1.05, 0.9); }
+  82%  { transform: translateY(-2%) rotate(-2deg); }
+  100% { transform: none; }
+}
+@keyframes artius-paint {
+  0%   { clip-path: inset(0 100% 0 0); }
+  100% { clip-path: inset(0 0 0 0); }
+}
+@keyframes artius-rise {
+  0%   { transform: translateY(15%); opacity: 0; }
+  100% { transform: none; opacity: 1; }
+}
+@keyframes artius-float {
+  0%, 100% { transform: none; }
+  50%      { transform: translateY(-1.2%) rotate(3deg); }
+}
+@keyframes artius-wobble {
+  0%   { transform: rotate(-2deg); }
+  100% { transform: rotate(2deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="artius-logo-"] { animation: none !important; }
 }

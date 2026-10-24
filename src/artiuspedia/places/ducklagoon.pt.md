@@ -1,0 +1,6 @@
+---
+title: Lagoa dos Patos
+subtitle: O mar de água doce e paixão
+---
+
+Cercada d'águas por todos os lados, Rupestrina é uma cidade-península isolada, com um acesso relativamente limitado. No coração desse refúgio costeiro encontra-se a Lagoa dos Patos, uma praia fantástica onde pessoas, barcos e navios estão sempre indo e vindo. Céus ensolarados, manhãs brilhantes e formações rochosas enchem a área de charme e beleza. Um destino perfeito para um fim de semana ou feriado, a Lagoa dos Patos é um dos muitos lugares que tornam Rupestrina excepcional e especial. Suas águas circundantes são extremamente doces, deixando uma impressão duradoura em todo estrangeiro. Um dos muitos mitos que cativam a mente dos habitantes da cidade é o de uma figura misteriosa—'a noiva'—que aparece em todas as noites de lua cheia. Alguns dizem que ela é uma noiva, outros afirmam que é um pato, e alguns até a descrevem como uma 'noiva-pato', seja lá o que isso signifique. Ninguém sabe ao certo o que ela é ou se realmente existe, mas aqueles que a encontraram garantem que sim. O nome da praia remonta à sua fundação, quando conquistadores espanhóis se abrigaram ali e acidentalmente deixaram alguns de seus patos escaparem. As aves se adaptaram bem à região e a povoaram, transformando-a na alegre e repleta de patos praia que conhecemos hoje.

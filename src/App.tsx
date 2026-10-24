@@ -18,6 +18,7 @@ const NewArtius = lazy(() => import("./pages/NewArtius"));
 const OldArtius = lazy(() => import("./pages/OldArtius"));
 const ArtiusCredits = lazy(() => import("./pages/ArtiusCredits"));
 const PlayArtius = lazy(() => import("./pages/PlayArtius"));
+const ArtiusPediaPopup = lazy(() => import("./components/ArtiusPediaPopup"));
 
 const savedLanguage = localStorage.getItem("language") || navigator.language
 
@@ -36,7 +37,10 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/oldartius" element={<OldArtius />} />
-            <Route path="/artius" element={<NewArtius />} />
+            <Route path="/artius" element={<NewArtius />}>
+              {/* artiuspedia opens as a popup over the artius page, every view has its own url */}
+              <Route path="artiuspedia/:section?/:entry?" element={<ArtiusPediaPopup />} />
+            </Route>
             <Route path="/playartius" element={<PlayArtius />} />
             <Route path="/artiuscredits" element={<ArtiusCredits />} />
             <Route path="/edmescdx" element={<EdMescDX />} />
